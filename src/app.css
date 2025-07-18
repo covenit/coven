@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'sf-regular';
+  src: url('/fonts/SF-UI-Display-Regular.otf') format('opentype');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'sf-ui-display-medium';
+  src: url('/src/assets/fonts/sf-ui-display/sf-ui-display-medium-58646be638f96.otf') format('opentype');
+  font-weight: normal;
+}
+
+:root {
+  font-family: 'sf-ui-display', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.padding-lr {
+  padding-left: 15vh;
+  padding-right: 15vh;
+}
+
+.padding-bt {
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+
+.container-grey {
+  background: linear-gradient(0deg, #FFFFFF, #FFFFFF),
+linear-gradient(0deg, #EEEEEE, #EEEEEE);
+}
