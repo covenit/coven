@@ -1,37 +1,30 @@
 <script>
   export let ifSubitutle = '';
   export let ifTitle = '';
+  export let text = '';
 </script>
 
 <section class="container-grey padding-lr padding-bt">
     <h6>{ifSubitutle}</h6>
     <h2>{ifTitle}</h2>
     <br>
-    <slot></slot>
+    <p>{text}</p>
 </section>
 
 <style> 
-    section {
+    .container-grey {
         text-align: center;
         background-color: #EEEEEE;
     }
 
-    h6{
-        font-weight: 800;
+    p {
+        font-family: 'sf-ui-display-regular';
+        font-weight: 400;
         font-size: 18px;
-        line-height: 52px;
-        letter-spacing: -2%;
-        text-align: center;
-        color: #E20C18;
-    }
-
-    h2 {
-        font-family: 'sf-ui-display-medium';
-        font-weight: 800;
-        font-size: 32px;
-        line-height: 52px;
-        letter-spacing: -2%;
-        text-align: center;
-        color: #2F2F2F;
+        line-height: 38px;
+        letter-spacing: 0%;
+        color: #5B5B5B;
+        width: 70%;
+        margin: 0 auto;
     }
 </style>
