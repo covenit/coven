@@ -1,17 +1,21 @@
 @font-face {
-  font-family: 'sf-regular';
-  src: url('/fonts/SF-UI-Display-Regular.otf') format('opentype');
-  font-weight: 300;
+  font-family: 'sf-ui-display-regular';
+  src: url('/src/assets/fonts/sf-ui-display/sf-ui-display-light-58646b33e0551.otf') format('opentype');
+  font-weight: 400;
 }
 
 @font-face {
   font-family: 'sf-ui-display-medium';
   src: url('/src/assets/fonts/sf-ui-display/sf-ui-display-medium-58646be638f96.otf') format('opentype');
-  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'sf-ui-display-bold';
+  src: url('/src/assets/fonts/sf-ui-display/sf-ui-display-bold-58646a511e3d9.otf') format('opentype');
 }
 
 :root {
-  font-family: 'sf-ui-display', sans-serif;
+  font-family: 'sf-ui-display-regular';
 }
 
 * {
@@ -30,7 +34,39 @@
   padding-bottom: 10vh;
 }
 
-.container-grey {
-  background: linear-gradient(0deg, #FFFFFF, #FFFFFF),
-linear-gradient(0deg, #EEEEEE, #EEEEEE);
+#btnPrimary-black {
+  padding-top: 14px;
+  padding-right: 25px;
+  padding-bottom: 14px;
+  padding-left: 25px;
+  border-radius: 8px;
+  background: #1D1D1D;
+  font-family: 'sf-ui-display-bold';
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: white;
+  border: 1px solid #1D1D1D;
+  cursor: pointer;
+}
+
+h2 {
+  font-family: 'sf-ui-display-bold';
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 52px;
+  letter-spacing: -2%;
+  text-align: center;
+  color: #2F2F2F;
+}
+
+h6{
+  font-family: 'sf-ui-display-bold';
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 52px;
+  letter-spacing: -2%;
+  text-align: center;
+  color: #E20C18;
 }
