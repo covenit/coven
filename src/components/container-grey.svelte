@@ -9,6 +9,7 @@
     <h2>{ifTitle}</h2>
     <br>
     <p>{text}</p>
+    <slot></slot>
 </section>
 
 <style> 

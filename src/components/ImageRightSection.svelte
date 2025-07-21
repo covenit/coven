@@ -22,7 +22,7 @@
     }
 
     .container div {
-        max-width: 40%;
+        max-width: 45%;
     }
 
     h2 {
@@ -35,7 +35,7 @@
     }
 
     p{
-        font-size: 16px;    
+        font-size: 16px !important;    
         line-height: 38px;
         letter-spacing: 0%;
         color: #5B5B5B;
