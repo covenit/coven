@@ -28,4 +28,13 @@
         width: 70%;
         margin: 0 auto;
     }
+
+    @media (max-width: 767px) {
+        .container-grey {
+            text-align: start;
+        }
+        p {
+            width: 100%;
+        }
+    }
 </style>

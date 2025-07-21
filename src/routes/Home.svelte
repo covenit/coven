@@ -4,6 +4,7 @@
     import ImageRightSection from '../components/ImageRightSection.svelte';
     import ImageCardWithLabel from '../components/ImageCardWithLabel.svelte';
     import CardProductMain from '../components/CardProductMain.svelte';
+    import Statistics from '../components/Statistics.svelte';
     const backgroundImage = '/hero1.webp';
     const imageRightSection1 = '/home1.png';
 
@@ -49,9 +50,6 @@
     <main>
         <ImageCardWithLabel image={imageCard1} title={'restaurant - hotel'} />
         <ImageCardWithLabel image={imageCard2} title={'bakery - patisserie'} />
-    </main>
-    <br><br><br><br>
-    <main>
         <ImageCardWithLabel image={imageCard3} title={'bar - bistro'} />
         <ImageCardWithLabel image={imageCard4} title={'catering - rent'} />
     </main>
@@ -88,13 +86,28 @@
     <main>
         <ImageCardWithLabel image={why1} title={'Assistenza 24/7, perché'} titleaux={'la tua cucina non dorme mai.'}/>
         <ImageCardWithLabel image={why2} title={'Affidabilità garantita,'} titleaux={'garanzia di 2 anni.'} />
-    </main>
-    <br><br><br><br>
-    <main>
         <ImageCardWithLabel image={why3} title={'Il tuo partner di'} titleaux={'fiducia in cucina.'}/>
         <ImageCardWithLabel image={why4} title={'Tecnologia intelligente,'} titleaux={'esecuzione impeccabile.'} />
     </main>
 </ContainerGrey>
+
+<section class="padding-lr padding-bt">
+    <h2 class="text-start">Il nostro impatto</h2>
+        <main>
+            <div></div>
+            <div class="stadistics">
+                <Statistics n={40} text={'Anni di esperienza'} />
+                <Statistics n={2300} text={'Clienti in tutto il mondo'} />
+            </div>
+        </main>
+        <main>
+            <div></div>
+            <div class="stadistics">
+                <Statistics n={20} text={'Presenza nei paesi'} />
+                <Statistics n={60000} text={'Vendite di forni'} />
+            </div>
+        </main>
+</section>
 
 
 <style>
@@ -125,24 +138,6 @@
         vertical-align: middle;
     }
 
-    div {
-       display: flex;
-       justify-content: center;
-       align-items: center;
-    }
-    
-    div p {
-        width: 70%;
-        font-family: 'sf-ui-display-medium';
-        font-weight: 300;
-        font-size: 18px;
-        line-height: 38px;
-        letter-spacing: 0%;
-        text-align: center;
-        color: #5B5B5B;
-
-    }
-
     main {
         display: flex;
         justify-content: space-between;
@@ -158,6 +153,34 @@
         letter-spacing: 0%;
         text-align: center;
         color: #2F2F2F;
+    }
+
+    .stadistics {
+        width: 50%;
+        text-align: start !important;
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        gap: 32px;
+    }
+
+    @media (max-width: 767px) {
+        h1{
+            font-size: 40px;
+            line-height: 44px;
+        }
+        main {
+            display: block;
+        }
+
+         .p-sub {
+            line-height: 34px;
+            text-align: start;
+        }
+        .stadistics {
+            width: 100%;
+        }
+
     }
 </style>
 

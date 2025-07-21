@@ -33,4 +33,11 @@
         letter-spacing: 0px;
         color: white;
     }
+
+    @media (max-width: 767px) {
+        article {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+    }
 </style>

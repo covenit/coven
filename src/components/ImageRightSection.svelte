@@ -40,4 +40,18 @@
         letter-spacing: 0%;
         color: #5B5B5B;
     }
+
+    @media (max-width: 767px) {
+        .container {
+            display: block;
+        }
+        .container div {
+            max-width: 100%;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 3vh;
+        }
+    }
 </style>

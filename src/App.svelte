@@ -67,4 +67,10 @@
   nav .links a.selected {
     color: red;
   }
+
+  @media (max-width: 767px) {
+    nav .links{
+      display: none;
+    }
+  }
 </style>

@@ -17,6 +17,7 @@
 <style>
     img {
         margin-bottom: 1vh;
+        width: 90%;
     }
     .p-title{
         font-family: 'sf-ui-display-medium';
@@ -31,5 +32,8 @@
         line-height: 20px;
         letter-spacing: 0%;
         color: rgba(91, 91, 91, 1);
+    }
+    article {
+        margin-bottom: 2vh;
     }
 </style>
