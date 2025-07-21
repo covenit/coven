@@ -5,6 +5,7 @@
     import ImageCardWithLabel from '../components/ImageCardWithLabel.svelte';
     import CardProductMain from '../components/CardProductMain.svelte';
     import Statistics from '../components/Statistics.svelte';
+    import Form from '../components/Form.svelte';
     const backgroundImage = '/hero1.webp';
     const imageRightSection1 = '/home1.png';
 
@@ -30,11 +31,12 @@
 </script>
 
 <Hero backgroundImage={backgroundImage}>
-    <h1>Innovando forni <br> professionali <span>dal 1980</span></h1>
+    <h1>Innovando forni <br> professionali <p>dal 1980</p></h1>
 </Hero>
 
 <ContainerGrey ifSubitutle={'Made in italy'} ifTitle={'Qualità, prestazioni ed efficienza'} text={"Fondata negli anni '80 a Cremona, siamo stati pionieri nel mondo dei forni combinati a vapore. Nel 2019, il nostro viaggio si è evoluto con un nuovo capitolo a Torino, guidato dalla nostra passione per l'eccellenza tecnologica e la ricerca delle condizioni di cottura perfette. Ogni forno che costruiamo viene attentamente testato dai nostri tecnici esperti durante il processo di assemblaggio, garantendo affidabilità e precisione. Il nostro impegno è creare forni che siano intuitivi, durevoli e che offrano prestazioni eccezionali."}>
 </ContainerGrey>
+
 
 <section class="padding-lr padding-bt">
     <ImageRightSection image={imageRightSection1} title={'Tradizione che ispira innovazione'} text={'Da oltre 40 anni perfezioniamo l’eccellenza culinaria. Con passione tutta italiana, uniamo tradizione e innovazione per offrire soluzioni uniche ai professionisti della cucina.'}>
@@ -42,6 +44,8 @@
         <button id="btnPrimary-black">Scopri di più</button>
     </ImageRightSection>
 </section>
+
+<hr>
 
 <section class="padding-lr padding-bt">
     <h2>Forni di alta qualità su misura per le esigenze del tuo business</h2>
@@ -110,6 +114,47 @@
 </section>
 
 
+<ContainerGrey ifTitle={'Clienti che si fidano di noi'}>
+    <br>
+    <div class="elements-clients">
+        <div>
+            <p>PizzaHut</p>
+        </div>
+        <div>
+            <p>Dominos</p>
+        </div>
+        <div>
+            <p>PapaJohns</p>
+        </div>
+        <div>
+            <p>LittleCaesars</p>
+        </div>
+        <div>
+            <p>Sbarro</p>
+        </div>
+        <div>
+            <p>CaliforniaPizzaKitchen</p>
+        </div>
+        <div>
+            <p>PizzaExpress</p>
+        </div>
+        <div>
+            <p>BlazePizza</p>
+        </div>
+        <div>
+            <svg width="25" height="26" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M2.66666 3.1665L5.33332 5.83317M29.3333 3.1665L26.6667 5.83317M29.3333 29.8332L26.6667 27.1665M2.66666 29.8332L5.33332 27.1665M2.66666 21.8332H4.66666M10.6667 3.1665V5.1665M29.3333 11.1665H27.3333M21.3333 29.8332V27.8332M24 21.8332H28.6667M21.3333 3.1665V8.49984M2.66666 11.1665H7.99999M10.6667 29.8332V24.4998M15.2457 10.5874L10.0876 15.7456C9.82356 16.0096 9.69155 16.1416 9.64209 16.2938C9.59859 16.4277 9.59859 16.572 9.64209 16.7058C9.69155 16.8581 9.82356 16.9901 10.0876 17.2541L15.2457 22.4123C15.5097 22.6763 15.6418 22.8083 15.794 22.8577C15.9279 22.9012 16.0721 22.9012 16.206 22.8577C16.3582 22.8083 16.4902 22.6763 16.7542 22.4123L21.9124 17.2541C22.1764 16.9901 22.3084 16.8581 22.3579 16.7058C22.4014 16.572 22.4014 16.4277 22.3579 16.2938C22.3084 16.1416 22.1764 16.0096 21.9124 15.7456L16.7542 10.5874C16.4902 10.3234 16.3582 10.1914 16.206 10.1419C16.0721 10.0984 15.9279 10.0984 15.794 10.1419C15.6418 10.1914 15.5098 10.3234 15.2457 10.5874Z" stroke="#2F2F2F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <p>
+                Marco's
+            </p>
+        </div>
+    </div>
+</ContainerGrey>
+
+<Form></Form>
+
+
 <style>
 
     h1 {
@@ -128,7 +173,7 @@
         text-align: start;
     }
 
-    h1 span{
+    h1 p{
         color: #E20C18;
         font-weight: 500;
         font-style: Medium;
@@ -162,6 +207,32 @@
         justify-content: start;
         align-items: start;
         gap: 32px;
+    }
+
+    .elements-clients {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .elements-clients div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2px;
+        padding: 8px 56px;
+    }
+
+    .elements-clients p {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 100%;
+        letter-spacing: -2%;
+        text-transform: lowercase;
+        text-align: center;
+        vertical-align: middle;
     }
 
     @media (max-width: 767px) {
