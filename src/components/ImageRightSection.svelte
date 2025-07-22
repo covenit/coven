@@ -1,17 +1,25 @@
 <script>
-  export let image = '';
-  export let title = '';
-  export let text = '';
+    export let aling = true;
+    export let image = '';
+    export let title = '';
+    export let text = '';
 </script>
 
 <div class="container">
+    {#if !aling}
+        <!-- svelte-ignore a11y_img_redundant_alt -->
+        <img src={image} alt="Image Right Section"> <!-- content here -->
+    {/if}
     <div>
         <h2>{title}</h2>
         <br>
         <p>{text}</p>
         <slot></slot>
     </div>
-    <img src={image} alt="Image Right Section">
+    {#if aling}
+        <!-- svelte-ignore a11y_img_redundant_alt -->
+        <img src={image} alt="Image Right Section"> <!-- content here -->
+    {/if}
 </div>
 
 <style>
@@ -30,8 +38,9 @@
     }
 
     img {
-        max-width: 40%;
+        max-width: 45%;
         height: auto;
+        border-radius: 16px;
     }
 
     p{

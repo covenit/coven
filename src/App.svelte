@@ -5,13 +5,16 @@
   import Home from './routes/Home.svelte';
   import WhoWeAre from './routes/WhoWeAre.svelte';
   import About from './routes/About.svelte';
+  import Form from './components/Form.svelte';
   import Footer from './components/Footer.svelte';
+  import Products from './routes/Products.svelte';
 
   const logo = '/logo.png';
 
   const routes = {
     '/': Home,
     '/who-we-are': WhoWeAre,
+    '/products': Products,
     '/about': About,
   };
 
@@ -30,13 +33,14 @@
   <div class="links">
     <a href="#/" class:selected={$currentPath === '/'}>Home</a>
     <a href="#/who-we-are" class:selected={$currentPath === '/who-we-are'}>Chi siamo</a>
+    <a href="#/products" class:selected={$currentPath === '/products'}>I nostri prodotti</a>
     <a href="#/about" class:selected={$currentPath === '/about'}>Contatto</a>
     <!-- agrega más links y rutas como necesites -->
   </div>
 </nav>
 
 <Router {routes} />
-
+<Form></Form>
 <Footer/>
 
 <style>

@@ -5,7 +5,6 @@
     import ImageCardWithLabel from '../components/ImageCardWithLabel.svelte';
     import CardProductMain from '../components/CardProductMain.svelte';
     import Statistics from '../components/Statistics.svelte';
-    import Form from '../components/Form.svelte';
     const backgroundImage = '/hero1.webp';
     const imageRightSection1 = '/home1.png';
 
@@ -151,8 +150,6 @@
         </div>
     </div>
 </ContainerGrey>
-
-<Form></Form>
 
 
 <style>

@@ -73,7 +73,7 @@
         letter-spacing: -2%;
     }
     .form-container > div {
-        width: 40%;
+        width: 45%;
     }
     p{
         font-size: 16px !important;    

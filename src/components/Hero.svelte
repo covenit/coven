@@ -19,8 +19,8 @@
   }
 </style>
 
-<div class="hero" style="background-image: url({backgroundImage})">
+<header class="hero" style="background-image: url({backgroundImage})">
   <div class="content">
     <slot></slot>
   </div>
-</div>
+</header>
