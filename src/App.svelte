@@ -5,6 +5,7 @@
   import Home from './routes/Home.svelte';
   import WhoWeAre from './routes/WhoWeAre.svelte';
   import About from './routes/About.svelte';
+  import Footer from './components/Footer.svelte';
 
   const logo = '/logo.png';
 
@@ -35,6 +36,8 @@
 </nav>
 
 <Router {routes} />
+
+<Footer/>
 
 <style>
   nav {
