@@ -53,7 +53,7 @@
             <div>
                 <textarea rows="10" name="message" bind:value={message} placeholder="Message" required></textarea>
             </div>
-            <button type="submit" id="btnPrimary-black">Enviar</button>
+            <button type="submit" id="btnPrimary-black">Invia</button>
         </form>
         {/if}
     </div>
