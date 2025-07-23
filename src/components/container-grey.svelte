@@ -20,12 +20,11 @@
 
     p {
         font-family: 'sf-ui-display-regular';
-        font-weight: 400;
         font-size: 18px;
         line-height: 38px;
         letter-spacing: 0%;
         color: #5B5B5B;
-        width: 70%;
+        width: 60%;
         margin: 0 auto;
     }
 

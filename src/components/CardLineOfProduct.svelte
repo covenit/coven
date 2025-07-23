@@ -1,7 +1,6 @@
 <script>
   export let src = '';
   export let title = '';
-  export let text = '';
 </script>
 
 <article>
@@ -10,7 +9,7 @@
     </header>
     <main>
         <p class="p-title">{title}</p>
-        <p class="p-text">{text}</p>
+        <slot><!-- optional fallback --></slot>
         <div>
             <p>Scopri di più</p>
             <div class="arrow">
@@ -28,14 +27,6 @@
         font-size: 20px;
         line-height: 34px;
         letter-spacing: 0%;
-        margin-bottom: 1vh;
-    }
-    .p-text {
-        font-family: 'sf-ui-display-regular';
-        font-size: 14px;
-        line-height: 20px;
-        letter-spacing: 0%;
-        color: rgba(91, 91, 91, 1);
         margin-bottom: 1vh;
     }
     article {

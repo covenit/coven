@@ -43,6 +43,7 @@
 
     header {
         height: 200px;  
+        background-size: cover;
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;
     }

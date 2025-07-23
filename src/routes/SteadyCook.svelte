@@ -2,6 +2,7 @@
     import HeroProducts from "../components/HeroProducts.svelte";
     import ContainerGrey from "../components/container-grey.svelte";
     import CardLineOfProduct from "../components/CardLineOfProduct.svelte";
+    import Carrousel from "../components/Carrousel.svelte";
     const backgroundImage = '/SteadyCook.jpg';
 
 
@@ -9,6 +10,18 @@
     const  merch = '/cards-lines/merch.webp';
     const  visual = '/cards-lines/visual.webp';
     const  touch = '/cards-lines/touch.webp';
+
+    /*Image for carrousel*/
+    const images = [
+        { src: '/carrousel-steady-cook/1.jpg'},
+        { src: '/carrousel-steady-cook/2.jpg'},
+        { src: '/carrousel-steady-cook/3.jpg'},
+        { src: '/carrousel-steady-cook/4.jpg'},
+        { src: '/carrousel-steady-cook/1.jpg'},
+        { src: '/carrousel-steady-cook/2.jpg'},
+        { src: '/carrousel-steady-cook/3.jpg'},
+        { src: '/carrousel-steady-cook/4.jpg'},
+    ];
 </script>
 
 <HeroProducts backgroundImage={backgroundImage} category="Gastonomia" title="Steady Cook">
@@ -19,20 +32,31 @@
 
 <section class="padding-lr padding-bt section-lines">
     <div>
-        <CardLineOfProduct src={merch} title="MERCH" text={'La serie con termostato digitale con encoder e controllo manuale.'}>
+        <CardLineOfProduct src={merch} title="MERCH">
+            <p class="p-text">La serie con termostato digitale con encoder e controllo manuale.</p>
         </CardLineOfProduct>
     </div>
     <div>
-        <CardLineOfProduct src={visual} title="VISUAL" text={'Una serie dotata di una tastiera capacitiva intuitiva e affidabile con un design sofisticato.'}>
+        <CardLineOfProduct src={visual} title="VISUAL">
+            <p class="p-text">Una serie dotata di una tastiera capacitiva intuitiva e affidabile con un design sofisticato.</p>
         </CardLineOfProduct>
     </div>
     <div>
-        <CardLineOfProduct src={touch} title="TOUCH" text={'La serie programmabile di alta gamma con display touch-screen grafico a colori da 7".'}>
+        <CardLineOfProduct src={touch} title="TOUCH">
+            <p class="p-text">La serie programmabile di alta gamma con display touch-screen grafico a colori da 7".</p>
         </CardLineOfProduct>
     </div>
 </section>
 
+<section class="padding-bt carrousel-container">
+    <Carrousel images={images}></Carrousel>
+</section>
+
 <style>
+    .carrousel-container {
+        background-color: #EEEEEE;
+    }
+
     .section-lines {
         display: flex;
         justify-content: space-between;
@@ -42,5 +66,15 @@
 
     .section-lines > * {
         flex: 1;
+    }
+
+    .p-text {
+        font-family: 'sf-ui-display-regular';
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0%;
+        color: rgba(91, 91, 91, 1);
+        margin-bottom: 1vh;
+        width: 80%;
     }
 </style>

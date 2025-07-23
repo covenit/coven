@@ -7,14 +7,16 @@
   import About from './routes/About.svelte';
   import Form from './components/Form.svelte';
   import Footer from './components/Footer.svelte';
-  import Products from './routes/Products.svelte';
+  import SteadyCook from './routes/SteadyCook.svelte';
+  import MasterDelight from './routes/MasterDelight.svelte';
 
   const logo = '/logo.png';
 
   const routes = {
     '/': Home,
     '/who-we-are': WhoWeAre,
-    '/products': Products,
+    '/steady-cook': SteadyCook,
+    '/master-delight': MasterDelight,
     '/about': About,
   };
 
@@ -33,7 +35,8 @@
   <div class="links">
     <a href="#/" class:selected={$currentPath === '/'}>Home</a>
     <a href="#/who-we-are" class:selected={$currentPath === '/who-we-are'}>Chi siamo</a>
-    <a href="#/products" class:selected={$currentPath === '/products'}>I nostri prodotti</a>
+    <a href="#/steady-cook" class:selected={$currentPath === '/steady-cook'}>Steady Cook</a>
+    <a href="#/master-delight" class:selected={$currentPath === '/master-delight'}>Master Delight</a>
     <a href="#/about" class:selected={$currentPath === '/about'}>Contatto</a>
     <!-- agrega más links y rutas como necesites -->
   </div>
