@@ -3,7 +3,7 @@
     import ContainerGrey from "../components/container-grey.svelte";
     import CardLineOfProduct from "../components/CardLineOfProduct.svelte";
     import Carrousel from "../components/Carrousel.svelte";
-    const backgroundImage = '/SteadyCook.jpg';
+    const backgroundImage = '/SteadyCook.webp';
 
 
     /*Image of product by line*/
@@ -13,14 +13,14 @@
 
     /*Image for carrousel*/
     const images = [
-        { src: '/carrousel-steady-cook/1.jpg'},
-        { src: '/carrousel-steady-cook/2.jpg'},
-        { src: '/carrousel-steady-cook/3.jpg'},
-        { src: '/carrousel-steady-cook/4.jpg'},
-        { src: '/carrousel-steady-cook/1.jpg'},
-        { src: '/carrousel-steady-cook/2.jpg'},
-        { src: '/carrousel-steady-cook/3.jpg'},
-        { src: '/carrousel-steady-cook/4.jpg'},
+        { src: '/carrousel-steady-cook/1.webp'},
+        { src: '/carrousel-steady-cook/2.webp'},
+        { src: '/carrousel-steady-cook/3.webp'},
+        { src: '/carrousel-steady-cook/4.webp'},
+        { src: '/carrousel-steady-cook/1.webp'},
+        { src: '/carrousel-steady-cook/2.webp'},
+        { src: '/carrousel-steady-cook/3.webp'},
+        { src: '/carrousel-steady-cook/4.webp'},
     ];
 </script>
 

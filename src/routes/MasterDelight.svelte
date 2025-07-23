@@ -2,11 +2,26 @@
     import HeroProducts from "../components/HeroProducts.svelte";
     import ContainerGrey from "../components/container-grey.svelte";
     import CardLineOfProduct from "../components/CardLineOfProduct.svelte";
-    const backgroundImage = '/SteadyCook.jpg';
+    import Carrousel from "../components/Carrousel.svelte";
+    const backgroundImage = '/MasterDelight.webp';
 
     /*Image of product by line*/
     const  merch = '/cards-lines/merch.webp';
     const  visual = '/cards-lines/visual.webp';
+
+    /**Images for carrousel carrousel-master-delight*/
+
+    /*Image for carrousel*/
+    const images = [
+        { src: '/carrousel-master-delight/1.webp'},
+        { src: '/carrousel-master-delight/2.webp'},
+        { src: '/carrousel-master-delight/3.webp'},
+        { src: '/carrousel-master-delight/4.webp'},
+        { src: '/carrousel-master-delight/1.webp'},
+        { src: '/carrousel-master-delight/2.webp'},
+        { src: '/carrousel-master-delight/3.webp'},
+        { src: '/carrousel-master-delight/4.webp'},
+    ];
 </script>
 
 <HeroProducts backgroundImage={backgroundImage} category="Pasticceria e Panificazione" title="Master Delight">
@@ -30,6 +45,10 @@
             </p>
         </CardLineOfProduct>
     </div>
+</section>
+
+<section class="padding-bt carrousel-container">
+    <Carrousel images={images}></Carrousel>
 </section>
 
 <style>
