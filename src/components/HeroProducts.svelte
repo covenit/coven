@@ -32,7 +32,7 @@
   }
   
   h1 {
-    font-family: 'sf-ui-display-medium';
+    font-family: 'sf-ui-display-bold';
     font-size: 70px;
     line-height: 80px;
     letter-spacing: -2%;
@@ -47,5 +47,15 @@
         letter-spacing: -2%;
         text-align: center;
         color: #E20C18;
+    }
+
+    h3{
+      font-family: 'sf-ui-display-medium';
+      font-style: Semibold;
+      font-size: 68px;
+      line-height: 74.2px;
+      letter-spacing: -2%;
+      text-align: center;
+       color: #F8F8F8;
     }
 </style>

@@ -108,4 +108,16 @@
         font-family: "sf-ui-displat-regular", sans-serif;
     }
 
+    @media (max-width: 767px) { 
+        .form-container {
+            display: block;
+        }
+        .form-container > div {
+            width: 100%;
+        }
+        p{
+            margin-bottom: 4vh;
+        }
+    }
+
 </style>

@@ -47,4 +47,12 @@
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;
     }
+
+    @media (max-width: 767px) {
+        article {
+            margin-bottom: 3vh;
+            height: auto;
+        }
+    }
+
 </style>

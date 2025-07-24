@@ -10,6 +10,10 @@
         <!-- svelte-ignore a11y_img_redundant_alt -->
         <img src={image} alt="Image Right Section"> <!-- content here -->
     {/if}
+    {#if aling}
+        <!-- svelte-ignore a11y_img_redundant_alt -->
+        <img class="if-mobile-block" src={image} alt="Image Right Section"> <!-- content here -->
+    {/if}
     <div>
         <h2>{title}</h2>
         <br>
@@ -18,7 +22,7 @@
     </div>
     {#if aling}
         <!-- svelte-ignore a11y_img_redundant_alt -->
-        <img src={image} alt="Image Right Section"> <!-- content here -->
+        <img class="if-mobile-none" src={image} alt="Image Right Section"> <!-- content here -->
     {/if}
 </div>
 
@@ -49,6 +53,9 @@
         letter-spacing: 0%;
         color: #5B5B5B;
     }
+     .if-mobile-block {
+            display: none;
+        }
 
     @media (max-width: 767px) {
         .container {
@@ -60,7 +67,13 @@
         img {
             max-width: 100%;
             height: auto;
-            margin-top: 3vh;
+            margin-bottom: 3vh;
+        }
+        .if-mobile-none {
+            display: none;
+        }
+        .if-mobile-block {
+            display: block;
         }
     }
 </style>

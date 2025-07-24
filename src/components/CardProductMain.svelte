@@ -40,4 +40,11 @@
         line-height: 20px;
         letter-spacing: 2%;
     }
+
+    @media (max-width: 767px) {
+        article {
+            width: 100%;
+            margin-bottom: 2vh;
+        }
+    }
 </style>

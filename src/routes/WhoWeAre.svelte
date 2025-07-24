@@ -86,4 +86,10 @@
         align-items: start;
         gap: 12px;
     }
+
+    @media (max-width: 767px) {
+        .cards-container {
+            display: block;
+        }
+    }
 </style>

@@ -248,6 +248,19 @@
         .stadistics {
             width: 100%;
         }
+        .elements-clients {
+            justify-content: start;
+        }
+
+        .elements-clients div {
+            display: flex;
+            justify-content: start;
+            gap: 2px;
+            padding: 8px;
+        }
+        .elements-clients p {
+            text-align: start;
+        }
 
     }
 </style>

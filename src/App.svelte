@@ -9,11 +9,17 @@
   import Footer from './components/Footer.svelte';
   import SteadyCook from './routes/SteadyCook.svelte';
   import MasterDelight from './routes/MasterDelight.svelte';
+  import Merch_SteadyCook from './routes/SteadyCook/Merch.svelte';
+  import Visual_SteadyCook from './routes/SteadyCook/Visual.svelte';
+  import Touch_SteadyCook from './routes/SteadyCook/Touch.svelte';
 
   const routes = {
     '/': Home,
     '/who-we-are': WhoWeAre,
     '/steady-cook': SteadyCook,
+    '/steady-cook-merch': Merch_SteadyCook,
+    '/steady-cook-visual': Visual_SteadyCook,
+    '/steady-cook-touch': Touch_SteadyCook,
     '/master-delight': MasterDelight,
     '/about': About,
   };

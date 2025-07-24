@@ -32,17 +32,17 @@
 
 <section class="padding-lr padding-bt section-lines">
     <div>
-        <CardLineOfProduct src={merch} title="MERCH">
+        <CardLineOfProduct src={merch} title="MERCH" link={"/#/steady-cook-merch"}>
             <p class="p-text">La serie con termostato digitale con encoder e controllo manuale.</p>
         </CardLineOfProduct>
     </div>
     <div>
-        <CardLineOfProduct src={visual} title="VISUAL">
+        <CardLineOfProduct src={visual} title="VISUAL" link={"/#/steady-cook-visual"}>
             <p class="p-text">Una serie dotata di una tastiera capacitiva intuitiva e affidabile con un design sofisticato.</p>
         </CardLineOfProduct>
     </div>
     <div>
-        <CardLineOfProduct src={touch} title="TOUCH">
+        <CardLineOfProduct src={touch} title="TOUCH" link={"/#/steady-cook-touch"}>
             <p class="p-text">La serie programmabile di alta gamma con display touch-screen grafico a colori da 7".</p>
         </CardLineOfProduct>
     </div>
@@ -77,4 +77,14 @@
         margin-bottom: 1vh;
         width: 80%;
     }
+
+    @media (max-width: 767px){
+        .section-lines {
+            display: block;
+        }
+         .section-lines > * {
+            margin-bottom: 2vh;
+        }
+    }
+
 </style>

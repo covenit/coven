@@ -60,6 +60,16 @@
     align-items: center;
     gap: 12px;
   }
+
+  @media (max-width: 767px) {
+    .carousel-item {
+      width: 252px;
+      height: 186px;
+    }
+    .carousel-wrapper {
+      margin-left: -320px; /* Empuja el carrusel hacia la izquierda */
+  }
+  }
 </style>
 
 <div class="carousel-wrapper">
