@@ -6,6 +6,7 @@
     import Gallery from "../../components/Gallery.svelte";
     import CustomizedTools from "../../components/CustomizedTools.svelte";
     import CookingTechnologySection from "../../components/CookingTechnologySection.svelte";
+    import Carrousel from "../../components/Carrousel.svelte";
 
     const image = "../public/line/visual.webp";
 
@@ -26,6 +27,13 @@
         { tag: 'Gas'}
     ];
 
+    const images = [
+        {src : "../public/carrousel-steady-cook-visual/1.webp"},
+        {src : "../public/carrousel-steady-cook-visual/2.webp"},
+        {src : "../public/carrousel-steady-cook-visual/3.webp"},
+        {src : "../public/carrousel-steady-cook-visual/4.webp"}
+    ]
+
 </script>
 
 <HeroProducts backgroundImage={backgroundImage} category="Gastonomia" title="Steady Cook" line={"visual"}>
@@ -39,6 +47,10 @@
 <ContainerGrey ifTitle={"Precisione e innovazione in ogni piatto"} text={"Con un design sofisticato e una tecnologia avanzata, Steady Cook Visual offre un controllo intuitivo e risultati costanti in ogni piatto. Ideale per chef e ristoranti che desiderano ottimizzare i tempi senza compromettere la qualità. Progettato per valorizzare la tua creatività ed efficienza. Una tecnologia che fa la differenza, perché in cucina ogni dettaglio conta.\nScopri come Steady Cook Visual può trasformare la tua cucina"}>
     <button id="btnPrimary-black">Scopri di più</button>
 </ContainerGrey>
+
+<section class="padding-bt carrousel-container">
+    <Carrousel images={images}></Carrousel>
+</section>
 
 <CookingTechnologySection></CookingTechnologySection>
 
