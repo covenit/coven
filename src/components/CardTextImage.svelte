@@ -15,15 +15,17 @@
 
 <style>
     article {
+        width: auto;
         background-color: white;
         text-align: start;  
         border-radius: 20px;
         box-shadow: 0px 8px 16px 0px #0000001A;
-        height: 400px;
+        height: auto;
+        min-height: 400px;
     }
     article h3 {
         font-family: 'sf-ui-display-medium';
-        font-size: 20px;
+        font-size: 18px;
         line-height: 24px;
         letter-spacing: 0%;
         vertical-align: middle;

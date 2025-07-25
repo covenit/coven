@@ -7,6 +7,7 @@
     import CustomizedTools from "../../components/CustomizedTools.svelte";
     import CookingTechnologySection from "../../components/CookingTechnologySection.svelte";
     import Carrousel from "../../components/Carrousel.svelte";
+    import SectionComponent from "../../components/SectionComponent.svelte";
     const image = "../public/line/master-visual.webp";
 
     const texts = [
@@ -34,6 +35,50 @@
             {src : "../public/carrousel-master-line/4.webp"}
     ];
 
+    
+    const spec_items = [
+        {
+            title: "acciaio inox",
+            text: "tutta la struttura è realizzata con acciaio inox.", 
+            src : "../public/spec-images/acciaioinox.png"
+        },
+        {
+            title: "doppia vasca raccolta liquidi",
+            text: "La porta del forno è dotata di un serbatoio di raccolta con un sistema automatico di raccolta dei liquidi che drena direttamente.", 
+            src : "../public/spec-images/doppiavascaraccoltaliquidi.png"
+        },
+        {
+            title: "porta a libro",
+            text: "doppio vetro ispezionabile di grande spessore per abbattere in modo efficace la trasmissione del calore all’esterno.", 
+            src : "../public/spec-images/portaalibro.png"
+        },
+        {
+            title: "sistema master delight visual",
+            text: "Elettronica capacitiva, software personalizzabile. 99 ricette programmabili e 6 fasi di cottura. Vapore regolabile 0-100% e 9 livelli di velocità.", 
+            src : "../public/spec-images/sistemamasterdelightvisual.png"
+        },
+        {
+            title: "evacuazione rapida umidità",
+            text: "sistema automatico per valvola di sfiato.", 
+            src : "../public/spec-images/evacuazionerapidaumidita.png"
+        },
+        {
+            title: "porta usb",
+            text: "per memorizzare dati e aggiornare il software.", 
+            src : "../public/spec-images/portausb.png"
+        },
+        {
+            title: "maniglia bistadio",
+            text: "massima sicurezza e chiusura ermetica a tenuta perfetta. I forni di grande dimensione sono dotati di maniglie con sistema di chiusura in 2 punti", 
+            src : "../public/spec-images/manigliabistadio.png"
+        },
+        {
+            title: "umidificatore",
+            text: "automatico e manuale.", 
+            src : "../public/spec-images/umidificatore.png"
+        }
+    ]
+
 </script>
 
 <HeroProducts backgroundImage={backgroundImage} category="Pasticceria e Panificazione" title="Master Delight" line={"visual"}>
@@ -51,6 +96,8 @@
 <section class="padding-bt carrousel-container">
     <Carrousel images={images}></Carrousel>
 </section>
+
+<SectionComponent spec_items={spec_items}></SectionComponent>
 
 <CookingTechnologySection></CookingTechnologySection>
 

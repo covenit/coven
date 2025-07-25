@@ -7,6 +7,7 @@
     import CustomizedTools from "../../components/CustomizedTools.svelte";
     import CookingTechnologySection from "../../components/CookingTechnologySection.svelte";
     import Carrousel from "../../components/Carrousel.svelte";
+    import SectionComponent from "../../components/SectionComponent.svelte";
     const backgroundImage = '/hero-line-steady.cook.webp';
 
     const image = "../public/line/touch.webp";
@@ -40,6 +41,64 @@
             {src : "../public/carrousel-steady-cook-line/7.webp"}
     ];
 
+    const spec_items = [
+        {
+            title: "acciaio inox",
+            text: "tutta la struttura è realizzata con acciaio inox.", 
+            src : "../public/spec-images/acciaioinox.png"
+        },
+        {
+            title: "duo steam system",
+            text: "innovativo sistema di gestione del vapore sia in forma diretta che con generatore esterno.", 
+            src : "../public/spec-images/duosteamsystem.png"
+        },
+        {
+            title: "porta a libro",
+            text: "doppio vetro ispezionabile di grande spessore per abbattere in modo efficace la trasmissione del calore all’esterno.", 
+            src : "../public/spec-images/portaalibro.png"
+        },
+        {
+            title: "sistema steady cook touch screen",
+            text: "Touch screen grafico, software personalizzabile, 120 ricette programmabili, 6 fasi di cottura, vapore regolabile 0-100%, 9 velocità delle ventole.", 
+            src : "../public/spec-images/sistemasteadycookvisual.png"
+        },
+        {
+            title: "doppia vasca raccolta liquidi",
+            text: "La porta del forno è dotata di un serbatoio di raccolta con un sistema automatico di raccolta dei liquidi che drena direttamente.", 
+            src : "../public/spec-images/doppiavascaraccoltaliquidi.png"
+        },
+        {
+            title: "porta usb",
+            text: "per memorizzare dati e aggiornare il software.", 
+            src : "../public/spec-images/portausb.png"
+        },
+        {
+            title: "self washing mode",
+            text: "tre cicli di lavaggio per ogni esigenza completamente automatizzati.", 
+            src : "../public/spec-images/selfwashingmode.png"
+        },
+        {
+            title: "delta T combo",
+            text: "sonda al cuore esterna o interna per una perfetta cottura ΔT.", 
+            src : "../public/spec-images/deltatcombo.png"
+        },
+        {
+            title: "evacuazione rapida umidità",
+            text: "sistema automatico per valvola di sfiato.", 
+            src : "../public/spec-images/evacuazionerapidaumidita.png"
+        },
+        {
+            title: "multicook",
+            text: "Sistema di cottura multilivello per preparare alimenti con tempi diversi. Include 72 ricette precaricate e 48 personalizzabili.", 
+            src : "../public/spec-images/multicook.png"
+        },
+        {
+            title: "maniglia bistadio",
+            text: "massima sicurezza e chiusura ermetica a tenuta perfetta. I forni di grande dimensione sono dotati di maniglie con sistema di chiusura in 2 punti", 
+            src : "../public/spec-images/manigliabistadio.png"
+        },
+    ]
+
 </script>
 
 <HeroProducts backgroundImage={backgroundImage} category="Gastonomia" title="Steady Cook" line={"touch"}>
@@ -57,6 +116,8 @@
 <section class="padding-bt carrousel-container">
     <Carrousel images={images}></Carrousel>
 </section>
+
+<SectionComponent spec_items={spec_items}></SectionComponent>
 
 <CookingTechnologySection></CookingTechnologySection>
 

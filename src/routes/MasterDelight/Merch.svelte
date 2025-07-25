@@ -7,6 +7,7 @@
     import CustomizedTools from "../../components/CustomizedTools.svelte";
     import CookingTechnologySection from "../../components/CookingTechnologySection.svelte";
     import Carrousel from "../../components/Carrousel.svelte";
+    import SectionComponent from "../../components/SectionComponent.svelte";
     
     const image = "../public/line/master-merch.webp";
 
@@ -38,6 +39,44 @@
             {src : "../public/carrousel-master-line/8.webp"}
     ];
 
+        const spec_items = [
+        {
+            title: "acciaio inox",
+            text: "tutta la struttura è realizzata con acciaio inox.", 
+            src : "../public/spec-images/acciaioinox.png"
+        },
+        {
+            title: "umidificatore",
+            text: "automatico e manuale.", 
+            src : "../public/spec-images/umidificatore.png"
+        },
+        {
+            title: "porta a libro",
+            text: "doppio vetro ispezionabile di grande spessore per abbattere in modo efficace la trasmissione del calore all’esterno.", 
+            src : "../public/spec-images/portaalibro.png"
+        },
+        {
+            title: "termoregolatore",
+            text: "digitale con encoder.", 
+            src : "../public/spec-images/termoregolatore.png"
+        },
+        {
+            title: "dual tank for cliq collection",
+            text: "The oven door features a drip tank with an automatic liquid collection system that drains directly.", 
+            src : "../public/spec-images/doppiavascaraccoltaliquidi.png"
+        },
+        {
+            title: "evacuazione rapida umidità",
+            text: "sistema automatico per valvola di sfiato.", 
+            src : "../public/spec-images/evacuazionerapidaumidita.png"
+        },
+        {
+            title: "maniglia bistadio",
+            text: "massima sicurezza e chiusura ermetica a tenuta perfetta. I forni di grande dimensione sono dotati di maniglie con sistema di chiusura in 2 punti", 
+            src : "../public/spec-images/manigliabistadio.png"
+        }
+    ]
+
 </script>
 
 <HeroProducts backgroundImage={backgroundImage} category="Pasticceria e Panificazione" title="Master Delight" line={"merch"}>
@@ -55,6 +94,8 @@
 <section class="padding-bt carrousel-container">
     <Carrousel images={images}></Carrousel>
 </section>
+
+<SectionComponent spec_items={spec_items}></SectionComponent>
 
 <CookingTechnologySection></CookingTechnologySection>
 

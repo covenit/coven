@@ -1,0 +1,28 @@
+<script>
+    import CardTextImage from "./CardTextImage.svelte";
+    export let spec_items;
+    
+</script>
+
+<section class="padding-bt padding-lr container-cards-text-image">
+        {#each spec_items as item}
+            <div>
+                <CardTextImage src={item.src} title={item.title} text={item.text}>
+                </CardTextImage>
+            </div>
+        {/each}
+</section>
+
+<style>
+    .container-cards-text-image {
+        display: flex;
+        justify-content: start;
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+    .container-cards-text-image > * {
+        width: 24%;
+        margin-bottom: 2vh;
+    }
+
+</style>
