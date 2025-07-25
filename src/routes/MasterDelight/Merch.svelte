@@ -6,6 +6,7 @@
     import Gallery from "../../components/Gallery.svelte";
     import CustomizedTools from "../../components/CustomizedTools.svelte";
     import CookingTechnologySection from "../../components/CookingTechnologySection.svelte";
+    import Carrousel from "../../components/Carrousel.svelte";
     
     const image = "../public/line/master-merch.webp";
 
@@ -25,6 +26,18 @@
         { tag: 'Gas'}
     ];
 
+
+    const images = [
+            {src : "../public/carrousel-master-line/5.webp"},
+            {src : "../public/carrousel-master-line/7.webp"},
+            {src : "../public/carrousel-master-line/6.webp"},
+            {src : "../public/carrousel-master-line/8.webp"},
+            {src : "../public/carrousel-master-line/5.webp"},
+            {src : "../public/carrousel-master-line/7.webp"},
+            {src : "../public/carrousel-master-line/6.webp"},
+            {src : "../public/carrousel-master-line/8.webp"}
+    ];
+
 </script>
 
 <HeroProducts backgroundImage={backgroundImage} category="Pasticceria e Panificazione" title="Master Delight" line={"merch"}>
@@ -38,6 +51,10 @@
 <ContainerGrey ifTitle={"Semplicità in ogni cottura"} text={"Master Delight Mech offre una soluzione semplice ma affidabile per panetterie e pasticcerie. Perfetto per chi ha bisogno di funzionalità diretta, Master Delight Mech garantisce prestazioni affidabili senza la complessità delle funzionalità avanzate. Ideale per i professionisti che danno priorità alla praticità e alla qualità, è lo strumento perfetto per ottenere risultati eccellenti nella panificazione e nella pasticceria ogni volta. Scopri come Master Delight Mech può trasformare la tua panetteria."}>
     <button id="btnPrimary-black">Scopri di più</button>
 </ContainerGrey>
+
+<section class="padding-bt carrousel-container">
+    <Carrousel images={images}></Carrousel>
+</section>
 
 <CookingTechnologySection></CookingTechnologySection>
 

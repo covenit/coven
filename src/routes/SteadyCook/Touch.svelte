@@ -6,6 +6,7 @@
     import Gallery from "../../components/Gallery.svelte";
     import CustomizedTools from "../../components/CustomizedTools.svelte";
     import CookingTechnologySection from "../../components/CookingTechnologySection.svelte";
+    import Carrousel from "../../components/Carrousel.svelte";
     const backgroundImage = '/hero-line-steady.cook.webp';
 
     const image = "../public/line/touch.webp";
@@ -28,6 +29,17 @@
         { tag: 'Gas'}
     ];
 
+    const images = [
+            {src : "../public/carrousel-steady-cook-line/8.webp"},
+            {src : "../public/carrousel-steady-cook-line/1.webp"},
+            {src : "../public/carrousel-steady-cook-line/4.webp"},
+            {src : "../public/carrousel-steady-cook-line/7.webp"},
+            {src : "../public/carrousel-steady-cook-line/1.webp"},
+            {src : "../public/carrousel-steady-cook-line/5.webp"},
+            {src : "../public/carrousel-steady-cook-line/6.webp"},
+            {src : "../public/carrousel-steady-cook-line/7.webp"}
+    ];
+
 </script>
 
 <HeroProducts backgroundImage={backgroundImage} category="Gastonomia" title="Steady Cook" line={"touch"}>
@@ -41,6 +53,10 @@
 <ContainerGrey ifTitle={"Perfezione senza sforzo con tecnologia avanzata"} text={"Nella gastronomia di alta classe, la precisione è tutto. Steady Cook Touch porta ogni piatto a un livello superiore, garantendo texture perfette, sapori definiti e una cottura uniforme ogni volta. Progettato per chef e ristoranti esigenti, offre automazione intelligente e controllo totale, ottimizzando il tempo senza compromettere la qualità. Quando la creatività incontra la tecnologia, i risultati sono straordinari. Scopri come Steady Cook Touch può trasformare la tua cucina."}>
     <button id="btnPrimary-black">Scopri di più</button>
 </ContainerGrey>
+
+<section class="padding-bt carrousel-container">
+    <Carrousel images={images}></Carrousel>
+</section>
 
 <CookingTechnologySection></CookingTechnologySection>
 

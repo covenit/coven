@@ -31,6 +31,10 @@
         {src : "../public/carrousel-steady-cook-visual/1.webp"},
         {src : "../public/carrousel-steady-cook-visual/2.webp"},
         {src : "../public/carrousel-steady-cook-visual/3.webp"},
+        {src : "../public/carrousel-steady-cook-visual/4.webp"},
+        {src : "../public/carrousel-steady-cook-visual/1.webp"},
+        {src : "../public/carrousel-steady-cook-visual/2.webp"},
+        {src : "../public/carrousel-steady-cook-visual/3.webp"},
         {src : "../public/carrousel-steady-cook-visual/4.webp"}
     ]
 

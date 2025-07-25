@@ -6,6 +6,7 @@
     import Gallery from "../../components/Gallery.svelte";
     import CustomizedTools from "../../components/CustomizedTools.svelte";
     import CookingTechnologySection from "../../components/CookingTechnologySection.svelte";
+    import Carrousel from "../../components/Carrousel.svelte";
     const image = "../public/line/master-visual.webp";
 
     const texts = [
@@ -22,6 +23,17 @@
         { tag: 'Gas'}
     ];
 
+    const images = [
+            {src : "../public/carrousel-master-line/1.webp"},
+            {src : "../public/carrousel-master-line/2.webp"},
+            {src : "../public/carrousel-master-line/3.webp"},
+            {src : "../public/carrousel-master-line/4.webp"},
+            {src : "../public/carrousel-master-line/1.webp"},
+            {src : "../public/carrousel-master-line/2.webp"},
+            {src : "../public/carrousel-master-line/3.webp"},
+            {src : "../public/carrousel-master-line/4.webp"}
+    ];
+
 </script>
 
 <HeroProducts backgroundImage={backgroundImage} category="Pasticceria e Panificazione" title="Master Delight" line={"visual"}>
@@ -35,6 +47,10 @@
 <ContainerGrey ifTitle={"L'arte della panificazione, perfezionata"} text={"Nella panificazione e nella pasticceria, la consistenza è la chiave della perfezione. Master Delight Visual è progettato per elevare ogni creazione, garantendo una cottura uniforme, texture precise e risultati ottimali ogni volta. Quando la tecnologia incontra l'artigianato, l'arte della panificazione raggiunge nuove vette. Scopri come Master Delight Visual può trasformare la tua panetteria."}>
     <button id="btnPrimary-black">Scopri di più</button>
 </ContainerGrey>
+
+<section class="padding-bt carrousel-container">
+    <Carrousel images={images}></Carrousel>
+</section>
 
 <CookingTechnologySection></CookingTechnologySection>
 
