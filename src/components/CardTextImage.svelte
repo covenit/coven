@@ -54,6 +54,7 @@
         article {
             margin-bottom: 3vh;
             height: auto;
+            min-height: 200px;
         }
     }
 

@@ -25,4 +25,15 @@
         margin-bottom: 2vh;
     }
 
+    @media (max-width: 767px) {
+        .container-cards-text-image {
+            display: flex;
+            justify-content: center;
+        }
+
+        .container-cards-text-image > * {
+            width: 90%;
+            margin-bottom: 2vh;
+        }
+    }
 </style>
