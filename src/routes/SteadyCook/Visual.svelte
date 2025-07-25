@@ -5,6 +5,7 @@
     const backgroundImage = '/hero-line-steady.cook.webp';
     import Gallery from "../../components/Gallery.svelte";
     import CustomizedTools from "../../components/CustomizedTools.svelte";
+    import CookingTechnologySection from "../../components/CookingTechnologySection.svelte";
 
     const image = "../public/line/visual.webp";
 
@@ -38,6 +39,8 @@
 <ContainerGrey ifTitle={"Precisione e innovazione in ogni piatto"} text={"Con un design sofisticato e una tecnologia avanzata, Steady Cook Visual offre un controllo intuitivo e risultati costanti in ogni piatto. Ideale per chef e ristoranti che desiderano ottimizzare i tempi senza compromettere la qualità. Progettato per valorizzare la tua creatività ed efficienza. Una tecnologia che fa la differenza, perché in cucina ogni dettaglio conta.\nScopri come Steady Cook Visual può trasformare la tua cucina"}>
     <button id="btnPrimary-black">Scopri di più</button>
 </ContainerGrey>
+
+<CookingTechnologySection></CookingTechnologySection>
 
 <CustomizedTools></CustomizedTools>
 

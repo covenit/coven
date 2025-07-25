@@ -5,6 +5,7 @@
     const backgroundImage = '/hero-line-steady.cook.webp';
     import Gallery from "../../components/Gallery.svelte";
     import CustomizedTools from "../../components/CustomizedTools.svelte";
+    import CookingTechnologySection from "../../components/CookingTechnologySection.svelte";
     const image = "../public/line/master-visual.webp";
 
     const texts = [
@@ -34,6 +35,8 @@
 <ContainerGrey ifTitle={"L'arte della panificazione, perfezionata"} text={"Nella panificazione e nella pasticceria, la consistenza è la chiave della perfezione. Master Delight Visual è progettato per elevare ogni creazione, garantendo una cottura uniforme, texture precise e risultati ottimali ogni volta. Quando la tecnologia incontra l'artigianato, l'arte della panificazione raggiunge nuove vette. Scopri come Master Delight Visual può trasformare la tua panetteria."}>
     <button id="btnPrimary-black">Scopri di più</button>
 </ContainerGrey>
+
+<CookingTechnologySection></CookingTechnologySection>
 
 <CustomizedTools></CustomizedTools>
 

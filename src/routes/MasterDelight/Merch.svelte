@@ -5,7 +5,8 @@
     const backgroundImage = '/hero-line-steady.cook.webp';
     import Gallery from "../../components/Gallery.svelte";
     import CustomizedTools from "../../components/CustomizedTools.svelte";
-
+    import CookingTechnologySection from "../../components/CookingTechnologySection.svelte";
+    
     const image = "../public/line/master-merch.webp";
 
     const texts = [
@@ -37,6 +38,8 @@
 <ContainerGrey ifTitle={"Semplicità in ogni cottura"} text={"Master Delight Mech offre una soluzione semplice ma affidabile per panetterie e pasticcerie. Perfetto per chi ha bisogno di funzionalità diretta, Master Delight Mech garantisce prestazioni affidabili senza la complessità delle funzionalità avanzate. Ideale per i professionisti che danno priorità alla praticità e alla qualità, è lo strumento perfetto per ottenere risultati eccellenti nella panificazione e nella pasticceria ogni volta. Scopri come Master Delight Mech può trasformare la tua panetteria."}>
     <button id="btnPrimary-black">Scopri di più</button>
 </ContainerGrey>
+
+<CookingTechnologySection></CookingTechnologySection>
 
 <CustomizedTools></CustomizedTools>
 
