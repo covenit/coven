@@ -32,14 +32,14 @@
 
 <section class="padding-lr padding-bt section-lines">
     <div>
-        <CardLineOfProduct src={merch} title="MERCH">
+        <CardLineOfProduct src={merch} title="MERCH" link={"/#/master-delight-merch"}>
             <p class="p-text">
                 La serie con termostato digitale con encoder e controllo manuale.
             </p>
         </CardLineOfProduct>
     </div>
     <div>
-        <CardLineOfProduct src={visual} title="VISUAL">
+        <CardLineOfProduct src={visual} title="VISUAL" link={"/#/master-delight-visual"}>
             <p class="p-text">
                 Una serie dotata di una tastiera capacitiva intuitiva e affidabile con un design sofisticato.
             </p>

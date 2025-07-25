@@ -7,7 +7,6 @@
 <section class="container-grey padding-lr padding-bt">
     <h6>{ifSubitutle}</h6>
     <h2>{ifTitle}</h2>
-    <br>
     <p>{text}</p>
     <slot></slot>
 </section>
@@ -26,6 +25,7 @@
         color: #5B5B5B;
         width: 60%;
         margin: 0 auto;
+        padding: 5vh 0vh;
     }
 
     @media (max-width: 767px) {

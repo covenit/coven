@@ -7,11 +7,16 @@
   import About from './routes/About.svelte';
   import Form from './components/Form.svelte';
   import Footer from './components/Footer.svelte';
+
   import SteadyCook from './routes/SteadyCook.svelte';
-  import MasterDelight from './routes/MasterDelight.svelte';
+
   import Merch_SteadyCook from './routes/SteadyCook/Merch.svelte';
   import Visual_SteadyCook from './routes/SteadyCook/Visual.svelte';
   import Touch_SteadyCook from './routes/SteadyCook/Touch.svelte';
+  
+  import MasterDelight from './routes/MasterDelight.svelte';
+  import VisualMasterDelight from './routes/MasterDelight/Visual.svelte';
+  import MerchMasterDelight from './routes/MasterDelight/Merch.svelte';
 
   const routes = {
     '/': Home,
@@ -21,6 +26,8 @@
     '/steady-cook-visual': Visual_SteadyCook,
     '/steady-cook-touch': Touch_SteadyCook,
     '/master-delight': MasterDelight,
+    '/master-delight-visual': VisualMasterDelight,
+    '/master-delight-merch': MerchMasterDelight,
     '/about': About,
   };
 
