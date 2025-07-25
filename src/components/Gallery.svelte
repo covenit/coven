@@ -34,4 +34,13 @@
         gap: 50px;
     }
 
+    @media (max-width: 767px) {
+        .container-gallery {
+            gap: 20px;
+        }
+        img {
+            width: 200px;
+        }
+    }
+
 </style>

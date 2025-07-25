@@ -83,5 +83,21 @@
         letter-spacing: 0%;
         vertical-align: middle;
     }
+
+    @media (max-width: 767px) {
+        article {
+            display: block;
+        }
+        article img, article .main-info{
+            width: 100%;
+        }
+        article .text {
+           margin-top: 4vh;
+        }
+        article .main-info span {
+            font-size: 14px;
+            line-height: 20px;
+        }
+    }
 </style>
 

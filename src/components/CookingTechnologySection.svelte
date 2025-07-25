@@ -41,4 +41,14 @@
 
     }
 
+    @media (max-width: 767px) {
+        section {
+            display: block;
+        }
+        section > * {
+            width: 100%;
+            margin-bottom: 6vh;
+        }
+    }
+
 </style>
