@@ -3,6 +3,7 @@
     import ContainerGrey from "../components/container-grey.svelte";
     import CardLineOfProduct from "../components/CardLineOfProduct.svelte";
     import Carrousel from "../components/Carrousel.svelte";
+    import Gallery from "../components/Gallery.svelte";
     const backgroundImage = '/MasterDelight.webp';
 
     /*Image of product by line*/
@@ -50,6 +51,8 @@
 <section class="padding-bt carrousel-container">
     <Carrousel images={images}></Carrousel>
 </section>
+
+<Gallery></Gallery>
 
 <style>
     .section-lines {

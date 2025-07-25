@@ -3,6 +3,7 @@
     import ContainerGrey from "../../components/container-grey.svelte";
     import ContainerCharacteristics from "../../components/Container-characteristics.svelte";
     const backgroundImage = '/hero-line-steady.cook.webp';
+    import Gallery from "../../components/Gallery.svelte";
 
     const image = "../public/line/visual.webp";
 
@@ -37,3 +38,4 @@
     <button id="btnPrimary-black">Scopri di più</button>
 </ContainerGrey>
 
+<Gallery></Gallery>

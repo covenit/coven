@@ -1,7 +1,9 @@
 <script>
+
     import HeroProducts from "../../components/HeroProducts.svelte";
     import ContainerGrey from "../../components/container-grey.svelte";
     import ContainerCharacteristics from "../../components/Container-characteristics.svelte";
+    import Gallery from "../../components/Gallery.svelte";
     const backgroundImage = '/hero-line-steady.cook.webp';
 
     const image = "../public/line/touch.webp";
@@ -37,3 +39,5 @@
 <ContainerGrey ifTitle={"Perfezione senza sforzo con tecnologia avanzata"} text={"Nella gastronomia di alta classe, la precisione è tutto. Steady Cook Touch porta ogni piatto a un livello superiore, garantendo texture perfette, sapori definiti e una cottura uniforme ogni volta. Progettato per chef e ristoranti esigenti, offre automazione intelligente e controllo totale, ottimizzando il tempo senza compromettere la qualità. Quando la creatività incontra la tecnologia, i risultati sono straordinari. Scopri come Steady Cook Touch può trasformare la tua cucina."}>
     <button id="btnPrimary-black">Scopri di più</button>
 </ContainerGrey>
+
+<Gallery></Gallery>
