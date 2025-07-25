@@ -5,6 +5,9 @@
     import ImageCardWithLabel from '../components/ImageCardWithLabel.svelte';
     import CardProductMain from '../components/CardProductMain.svelte';
     import Statistics from '../components/Statistics.svelte';
+    import { fade } from 'svelte/transition';
+
+
     const backgroundImage = '/hero1.webp';
     const imageRightSection1 = '/home1.png';
 
@@ -27,6 +30,39 @@
     const why2 = '/cards-why-choose-us/2.webp';
     const why3 = '/cards-why-choose-us/3.webp';
     const why4 = '/cards-why-choose-us/4.webp';
+
+    /*Animation*/
+
+    let visible = false; // Variable que indica si el componente ya entró en pantalla
+
+    // Esta función se ejecuta cuando el IntersectionObserver detecta cambios
+    function handleIntersection(entries) {
+        const [entry] = entries;
+        if (entry.isIntersecting) {
+        visible = true; // Si el componente entra al viewport, lo mostramos
+        }
+    }
+
+    let observer;
+
+    // Esta función es un "action" de Svelte. Se usa como use:observe en el HTML
+    function observe(node) {
+        // Creamos un nuevo IntersectionObserver y le pasamos la función callback
+        observer = new IntersectionObserver(handleIntersection, {
+        threshold: 0.3 // Solo se activa cuando el 30% del componente es visible
+        });
+
+        observer.observe(node); // Empezamos a observar el nodo (elemento HTML)
+
+        return {
+        destroy() {
+            // Esta función se ejecuta cuando el componente se elimina
+            observer.unobserve(node); // Dejamos de observarlo
+        }
+        };
+    }
+
+
 </script>
 
 <Hero backgroundImage={backgroundImage}>
@@ -94,8 +130,9 @@
     </main>
 </ContainerGrey>
 
-<section class="padding-lr padding-bt">
+<section class="padding-lr padding-bt" use:observe>
     <h2 class="text-start">Il nostro impatto</h2>
+        {#if visible}
         <main>
             <div></div>
             <div class="stadistics">
@@ -110,6 +147,7 @@
                 <Statistics n={60000} text={'Vendite di forni'} />
             </div>
         </main>
+        {/if}
 </section>
 
 
