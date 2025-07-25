@@ -87,6 +87,14 @@
         gap: 12px;
     }
 
+    .cards-container > :global(.card-text-image) {
+        transition: transform 0.3s ease;
+    }
+    
+    .cards-container > :global(.card-text-image):hover {
+        transform: scale(1.02);
+    }
+
     @media (max-width: 767px) {
         .cards-container {
             display: block;

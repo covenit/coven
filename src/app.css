@@ -35,20 +35,26 @@
 }
 
 #btnPrimary-black {
-  padding-top: 14px;
-  padding-right: 25px;
-  padding-bottom: 14px;
-  padding-left: 25px;
-  border-radius: 8px;
-  background: #1D1D1D;
-  font-family: 'sf-ui-display-bold';
-  font-size: 14px;
-  line-height: 100%;
-  letter-spacing: 0%;
-  vertical-align: middle;
-  color: white;
-  border: 1px solid #1D1D1D;
-  cursor: pointer;
+    padding-top: 14px;
+    padding-right: 25px;
+    padding-bottom: 14px;
+    padding-left: 25px;
+    border-radius: 8px;
+    background: #1D1D1D;
+    font-family: 'sf-ui-display-bold';
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: white;
+    border: 2px solid #1D1D1D;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+#btnPrimary-black:hover {
+    background: transparent;
+    color: #1D1D1D;
 }
 
 #btnPrimary-outline {
@@ -64,6 +70,12 @@
     font-size: 14px;
     line-height: 20px;
     letter-spacing: 0%;
+    transition: background 0.3s ease;
+}
+
+#btnPrimary-outline:hover {
+  background: #1D1D1D;
+  color: white;
 }
 
 h2 {
