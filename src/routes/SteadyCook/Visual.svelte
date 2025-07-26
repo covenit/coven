@@ -9,6 +9,7 @@
     import Carrousel from "../../components/Carrousel.svelte";
     import CardTextImage from "../../components/CardTextImage.svelte";
     import SectionComponent from "../../components/SectionComponent.svelte";
+    import SectionModels from "../../components/SectionModels.svelte";
 
     const image = "../public/line/visual.webp";
 
@@ -93,6 +94,45 @@
         },
     ]
 
+    const models = [
+        {
+            model: "N06ESCVD - 6 TEGLIE",
+            text: "Forno Combi-Vapore ad alta efficienza",
+            line: "Steady Cook Visual",
+            isElec: true,
+            typeElec: "Elettrico",
+            isGas: false,
+            typeGas: "Gas",
+            urlImg: "../public/line/visual.webp",
+            dimesterne: "862x716x728 mm",
+            diminterne: "584x355x436 mm",
+            numeroteglie: "6 - 1/1 GN",
+            distanzateglie: "60 mm",
+            numeropasti: "max 70",
+            peso: "91 Kg",
+            tensione: "400 ~ 3N",
+            potenza: "7,8 kW"
+        },
+        {
+            model: "N06ESCVD - 6 TEGLIE",
+            text: "Forno Combi-Vapore ad alta efficienza",
+            line: "Steady Cook Visual",
+            isElec: false,
+            typeElec: "Elettrico",
+            isGas: true,
+            typeGas: "Gas",
+            urlImg: "",
+            dimesterne: "862x716x728 mm",
+            diminterne: "584x355x436 mm",
+            numeroteglie: "6 - 1/1 GN",
+            distanzateglie: "60 mm",
+            numeropasti: "max 70",
+            peso: "91 Kg",
+            tensione: "400 ~ 3N",
+            potenza: "7,8 kW"
+        }
+    ]
+
 </script>
 
 <HeroProducts backgroundImage={backgroundImage} category="Gastonomia" title="Steady Cook" line={"visual"}>
@@ -112,6 +152,8 @@
 </section>
 
 <SectionComponent spec_items={spec_items}></SectionComponent>
+
+<SectionModels models={models}></SectionModels>
 
 <CookingTechnologySection></CookingTechnologySection>
 
