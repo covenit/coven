@@ -13,7 +13,7 @@
   import Merch_SteadyCook from './routes/SteadyCook/Merch.svelte';
   import Visual_SteadyCook from './routes/SteadyCook/Visual.svelte';
   import Touch_SteadyCook from './routes/SteadyCook/Touch.svelte';
-  
+  import Accessories from './routes/Accessories.svelte';
   import MasterDelight from './routes/MasterDelight.svelte';
   import VisualMasterDelight from './routes/MasterDelight/Visual.svelte';
   import MerchMasterDelight from './routes/MasterDelight/Merch.svelte';
@@ -28,6 +28,7 @@
     '/master-delight': MasterDelight,
     '/master-delight-visual': VisualMasterDelight,
     '/master-delight-merch': MerchMasterDelight,
+    '/accessories': Accessories,
     '/about': About,
   };
 

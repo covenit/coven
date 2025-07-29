@@ -45,7 +45,7 @@
                 </ul>
             </div>
         </div>
-
+        <a href="#/accessories" class:selected={$currentPath === '/accessories'}>Accessori</a>
         <a href="#/about" class:selected={$currentPath === '/about'}>Contatto</a>
         <!-- agrega más links y rutas como necesites -->
     </div>
@@ -110,6 +110,7 @@
 
         nav .links a.selected {
             color: red;
+            font-family: 'sf-ui-display-bold';
         }
 
         @media (max-width: 767px) {
