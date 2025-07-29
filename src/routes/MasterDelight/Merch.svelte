@@ -8,6 +8,7 @@
     import CookingTechnologySection from "../../components/CookingTechnologySection.svelte";
     import Carrousel from "../../components/Carrousel.svelte";
     import SectionComponent from "../../components/SectionComponent.svelte";
+    import Form from "../../components/Form.svelte";
     
     const image = "../public/line/master-merch.webp";
 
@@ -102,3 +103,5 @@
 <CustomizedTools></CustomizedTools>
 
 <Gallery></Gallery>
+
+<Form complete={false}></Form>

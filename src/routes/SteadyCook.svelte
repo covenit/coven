@@ -4,6 +4,7 @@
     import CardLineOfProduct from "../components/CardLineOfProduct.svelte";
     import Carrousel from "../components/Carrousel.svelte";
     import Gallery from "../components/Gallery.svelte";
+    import Form from "../components/Form.svelte";
     const backgroundImage = '/SteadyCook.webp';
 
 
@@ -55,6 +56,7 @@
 
 <Gallery></Gallery>
 
+<Form complete={false}></Form>
 
 <style>
     .carrousel-container {

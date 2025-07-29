@@ -8,6 +8,7 @@
     import CookingTechnologySection from "../../components/CookingTechnologySection.svelte";
     import Carrousel from "../../components/Carrousel.svelte";
     import SectionComponent from "../../components/SectionComponent.svelte";
+    import Form from "../../components/Form.svelte";
     const backgroundImage = '/hero-line-steady.cook.webp';
 
     const image = "../public/line/touch.webp";
@@ -124,3 +125,5 @@
 <CustomizedTools></CustomizedTools>
 
 <Gallery></Gallery>
+
+<Form complete={false}></Form>

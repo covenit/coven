@@ -13,6 +13,9 @@
     h2 {
         padding-bottom: 5vh;
     }
+    section {
+        background: #F8F8F8;
+    }
     section div {
         background-size: cover;
         background-repeat: no-repeat;

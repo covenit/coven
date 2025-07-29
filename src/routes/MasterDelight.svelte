@@ -4,6 +4,7 @@
     import CardLineOfProduct from "../components/CardLineOfProduct.svelte";
     import Carrousel from "../components/Carrousel.svelte";
     import Gallery from "../components/Gallery.svelte";
+    import Form from "../components/Form.svelte";
     const backgroundImage = '/MasterDelight.webp';
 
     /*Image of product by line*/
@@ -53,6 +54,8 @@
 </section>
 
 <Gallery></Gallery>
+
+<Form complete={false}></Form>
 
 <style>
     .section-lines {

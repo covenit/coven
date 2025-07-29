@@ -4,6 +4,7 @@
     import ContainerGrey from '../components/container-grey.svelte';
     import CardTextImage from '../components/CardTextImage.svelte';
     import ImageRightSection from '../components/ImageRightSection.svelte';
+    import Form from '../components/Form.svelte';
 
     /*Cards Image*/
     const image1 = '/cards-our-mision/1.webp';
@@ -49,6 +50,8 @@
     <ImageRightSection image={consegnaVeloceImage} title={'Consegna veloce'} text={'Il sistema di produzione di Coven soddisfa rapidamente le richieste dei clienti per una consegna veloce. I nostri forni a convezione sono assemblati con cura, garantendo durata grazie al nostro avanzato sistema di controllo interno e ai componenti di alta qualità.'}>
     </ImageRightSection>
 </section>
+
+<Form complete={false}></Form>
 
 <style>
 

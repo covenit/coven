@@ -37,6 +37,4 @@
 
 <Router {routes} />
 
-<Form></Form>
-
 <Footer/>

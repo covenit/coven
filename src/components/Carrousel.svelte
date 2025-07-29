@@ -70,6 +70,7 @@
     justify-content: center;
     align-items: center;
     gap: 12px;
+    margin-top: 4vh;
   }
 
   @media (max-width: 767px) {

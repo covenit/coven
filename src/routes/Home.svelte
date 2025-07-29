@@ -6,6 +6,7 @@
     import CardProductMain from '../components/CardProductMain.svelte';
     import Statistics from '../components/Statistics.svelte';
     import { fade } from 'svelte/transition';
+    import Form from '../components/Form.svelte';
 
 
     const backgroundImage = '/hero1.webp';
@@ -188,6 +189,9 @@
         </div>
     </div>
 </ContainerGrey>
+
+
+<Form complete={false}></Form>
 
 
 <style>

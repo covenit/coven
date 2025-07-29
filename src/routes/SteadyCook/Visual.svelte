@@ -10,6 +10,7 @@
     import CardTextImage from "../../components/CardTextImage.svelte";
     import SectionComponent from "../../components/SectionComponent.svelte";
     import SectionModels from "../../components/SectionModels.svelte";
+    import Form from "../../components/Form.svelte";
 
     const image = "../public/line/visual.webp";
 
@@ -160,3 +161,5 @@
 <CustomizedTools></CustomizedTools>
 
 <Gallery></Gallery>
+
+<Form complete={false}></Form>

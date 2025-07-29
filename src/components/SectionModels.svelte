@@ -34,16 +34,16 @@
                 <br>
                 <main>
                     <ul>
-                        <li><p>dim esterne: {model.dimesterne}</p></li>
-                        <li><p>dim interne: {model.diminterne}</p></li>
-                        <li><p>numero teglie: {model.diminterne}</p></li>
-                        <li><p>distanza teglie: {model.distanzateglie}</p></li>
+                        <li><p>dim esterne: <span>{model.dimesterne}</span></p></li>
+                        <li><p>dim interne: <span>{model.diminterne}</span></p></li>
+                        <li><p>numero teglie: <span>{model.numeroteglie}</span></p></li>
+                        <li><p>distanza teglie: <span>{model.distanzateglie}</span></p></li>
                     </ul>
                     <ul>
-                        <li><p>dim esterne: {model.dimesterne}</p></li>
-                        <li><p>dim interne: {model.diminterne}</p></li>
-                        <li><p>numero teglie: {model.diminterne}</p></li>
-                        <li><p>distanza teglie: {model.distanzateglie}</p></li>
+                        <li><p>numero pasti: <span>{model.numeropasti}</span></p></li>
+                        <li><p>peso: <span>{model.peso}</span></p></li>
+                        <li><p>tensione: <span>{model.tensione}</span></p></li>
+                        <li><p>potenza: <span>{model.potenza}</span></p></li>
                     </ul>
                 </main>
             </article>
@@ -124,5 +124,29 @@
         background: #0C49E21A;
         border: 1px solid #0C49E2;
         color: #0C49E2;
+    }
+
+    main ul li p, main ul li p span{
+        font-size: 14px;
+        line-height: 196%;
+        letter-spacing: 0%;
+        font-family: 'sf-ui-display-medium';
+    }
+
+    main ul li p span {
+        color: #8C8C8C
+    }
+
+    @media (max-width: 767px) {
+        .cards {
+            display: block;
+        }
+        article {
+            width: 100%;
+            margin-bottom: 2vh;
+        }
+        article header img {
+            width: 60%;
+        }
     }
 </style>
