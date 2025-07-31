@@ -21,7 +21,7 @@
     height: 90vh;
     background-size: cover;
     background-position: center center;
-    background-color: rgba(0, 0, 0, 0.6); /* negro semitransparente arriba */
+    background-color: rgba(0, 0, 0, 0.4); /* negro semitransparente arriba */
     background-blend-mode: darken; /* o multiply, overlay, etc. */
     display: flex;
     justify-content: center;
@@ -50,7 +50,7 @@
     }
 
     h3{
-      font-family: 'sf-ui-display-medium';
+      font-family: 'sf-ui-display-regular';
       font-style: Semibold;
       font-size: 68px;
       line-height: 74.2px;

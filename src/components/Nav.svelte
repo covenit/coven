@@ -46,6 +46,7 @@
                     </div>
                 </div>
                 <a href="#/accessories" class:selected={$currentPath === '/accessories'}>Accessori</a>
+                <a href="#/styleme" class:selected={$currentPath === '/styleme'}>Stilema</a>
                 <a href="#/about" class:selected={$currentPath === '/about'}>Contatto</a>
                 <!-- agrega más links y rutas como necesites -->
             </div>

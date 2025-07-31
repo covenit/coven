@@ -17,6 +17,7 @@
   import MasterDelight from './routes/MasterDelight.svelte';
   import VisualMasterDelight from './routes/MasterDelight/Visual.svelte';
   import MerchMasterDelight from './routes/MasterDelight/Merch.svelte';
+  import Styleme from './routes/Styleme.svelte';
 
   const routes = {
     '/': Home,
@@ -29,6 +30,7 @@
     '/master-delight-visual': VisualMasterDelight,
     '/master-delight-merch': MerchMasterDelight,
     '/accessories': Accessories,
+    '/styleme': Styleme,
     '/about': About,
   };
 

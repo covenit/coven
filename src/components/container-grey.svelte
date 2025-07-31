@@ -25,7 +25,7 @@
         color: #5B5B5B;
         width: 60%;
         margin: 0 auto;
-        padding: 2vh 0vh;
+        padding: 7vh 0vh;
     }
 
     @media (max-width: 767px) {
