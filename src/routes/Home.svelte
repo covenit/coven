@@ -153,7 +153,6 @@
 
 
 <ContainerGrey ifTitle={'Clienti che si fidano di noi'}>
-    <br>
     <div class="elements-clients">
         <div>
             <p>PizzaHut</p>
@@ -205,17 +204,15 @@
         line-height: 74px;
         letter-spacing: -2%;
         text-align: center;
-
     }
 
     section .text-start {
         text-align: start;
+        margin-bottom: 2vh;
     }
 
     h1 p{
         color: #E20C18;
-        font-weight: 500;
-        font-style: Medium;
         font-size: 54px;
         line-height: 65px;
         letter-spacing: -2%;
@@ -276,8 +273,13 @@
 
     @media (max-width: 767px) {
         h1{
-            font-size: 40px;
-            line-height: 44px;
+            font-size: 32px;
+            line-height: 31px;
+            text-align: start;
+        }
+        h1 p{
+            font-size: 26px;
+            line-height: 26px;
         }
         main {
             display: block;
@@ -289,9 +291,10 @@
         }
         .stadistics {
             width: 100%;
+            display: block;
         }
         .elements-clients {
-            justify-content: start;
+            display: block;
         }
 
         .elements-clients div {

@@ -8,8 +8,9 @@
     import Carrousel from "../../components/Carrousel.svelte";
     import SectionComponent from "../../components/SectionComponent.svelte";
     import Form from "../../components/Form.svelte";
-    const backgroundImage = '/hero-line-steady.cook.webp';
+    import SectionImageDetails from "../../components/SectionImageDetails.svelte";
 
+    const backgroundImage = '/hero-line-steady.cook.webp';
     const image = "../public/line/merch.webp";
 
     const texts = [
@@ -78,6 +79,8 @@
         },
     ];
 
+    /*Images of details*/
+    const imageDetails = "../public/details/steadycook/merch.png";
 
 </script>
 
@@ -96,6 +99,8 @@
 <section class="padding-bt carrousel-container">
     <Carrousel images={images}></Carrousel>
 </section>
+
+<SectionImageDetails imageDetails={imageDetails}></SectionImageDetails>
 
 <SectionComponent spec_items={spec_items}></SectionComponent>
 

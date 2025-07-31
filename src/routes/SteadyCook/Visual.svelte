@@ -11,7 +11,7 @@
     import SectionComponent from "../../components/SectionComponent.svelte";
     import SectionModels from "../../components/SectionModels.svelte";
     import Form from "../../components/Form.svelte";
-
+    import { models } from "../../data/models-visual-steadycook";
     const image = "../public/line/visual.webp";
 
     const texts = [
@@ -93,45 +93,6 @@
             text: "massima sicurezza e chiusura ermetica a tenuta perfetta. I forni di grande dimensione sono dotati di maniglie con sistema di chiusura in 2 punti", 
             src : "../public/spec-images/manigliabistadio.png"
         },
-    ]
-
-    const models = [
-        {
-            model: "N06ESCVD - 6 TEGLIE",
-            text: "Forno Combi-Vapore ad alta efficienza",
-            line: "Steady Cook Visual",
-            isElec: true,
-            typeElec: "Elettrico",
-            isGas: false,
-            typeGas: "Gas",
-            urlImg: "../public/line/visual.webp",
-            dimesterne: "862x716x728 mm",
-            diminterne: "584x355x436 mm",
-            numeroteglie: "6 - 1/1 GN",
-            distanzateglie: "60 mm",
-            numeropasti: "max 70",
-            peso: "91 Kg",
-            tensione: "400 ~ 3N",
-            potenza: "7,8 kW"
-        },
-        {
-            model: "N06ESCVD - 6 TEGLIE",
-            text: "Forno Combi-Vapore ad alta efficienza",
-            line: "Steady Cook Visual",
-            isElec: false,
-            typeElec: "Elettrico",
-            isGas: true,
-            typeGas: "Gas",
-            urlImg: "",
-            dimesterne: "862x716x728 mm",
-            diminterne: "584x355x436 mm",
-            numeroteglie: "6 - 1/1 GN",
-            distanzateglie: "60 mm",
-            numeropasti: "max 70",
-            peso: "91 Kg",
-            tensione: "400 ~ 3N",
-            potenza: "7,8 kW"
-        }
     ]
 
 </script>

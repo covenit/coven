@@ -17,9 +17,21 @@
   .hero .content {
     text-align: center;
   }
+
+  @media (max-width: 767px) {
+    .hero {
+      height: 40vh;
+      display: flex;
+      justify-content: start;
+      align-items: end;
+    }
+    .hero .content {
+      text-align: start;
+    }
+  }
 </style>
 
-<header class="hero" style="background-image: url({backgroundImage})">
+<header class="hero padding-lr padding-bt" style="background-image: url({backgroundImage})">
   <div class="content">
     <slot></slot>
   </div>

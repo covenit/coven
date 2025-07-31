@@ -6,7 +6,7 @@
 </script>
 
 
-<header class="hero" style="background-image: url({backgroundImage})">
+<header class="hero padding-lr padding-bt" style="background-image: url({backgroundImage})">
   <div class="content">
         <h2>{category}</h2>
         <h1>{title}</h1>
@@ -21,7 +21,7 @@
     height: 90vh;
     background-size: cover;
     background-position: center center;
-    background-color: rgba(0, 0, 0, 0.4); /* negro semitransparente arriba */
+    background-color: rgba(0, 0, 0, 0.6); /* negro semitransparente arriba */
     background-blend-mode: darken; /* o multiply, overlay, etc. */
     display: flex;
     justify-content: center;
@@ -56,6 +56,31 @@
       line-height: 74.2px;
       letter-spacing: -2%;
       text-align: center;
-       color: #F8F8F8;
+      color: #F8F8F8;
+    }
+
+    @media (max-width: 767px) {
+      .hero {
+        height: 40vh;
+        display: flex;
+        justify-content: start;
+        align-items: end;
+        background-position: start center;
+      }
+      .hero .content {
+        text-align: start;
+      }
+      h1, h2, h3 {
+        text-align: start;
+      }
+      h1{
+        font-size: 32px;
+        line-height: 31px;
+      }
+      h2, h3 {
+        font-size: 26px;
+        line-height: 32px;
+        margin-bottom: 2vh;
+      }
     }
 </style>

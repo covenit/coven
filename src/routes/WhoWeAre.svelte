@@ -99,6 +99,19 @@
     }
 
     @media (max-width: 767px) {
+        h1 {
+            font-size: 32px;
+            line-height: 31px;
+            text-align: start;
+        }
+        .hero-text {
+            justify-content: start;
+            align-items: end;
+        }
+        .hero-text p {
+            text-align: start;
+            width: 100%;
+        }
         .cards-container {
             display: block;
         }

@@ -19,17 +19,16 @@
     section div {
         background-size: cover;
         background-repeat: no-repeat;
-        background-position: center center;
+        background-position-y: bottom;
         text-align: center;
         height: 150vh;
     }
     @media (max-width: 767px) {
         section div {
             text-align: start;
-            height: 90vh;
             background-size: contain;
             background-repeat: no-repeat;
-            background-position: end;
+            height: 60vh;
         }
     }
 </style>

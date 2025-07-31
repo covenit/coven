@@ -35,12 +35,14 @@
         margin-bottom: 5vh;
     }
     .element p {
+        font-size: 16px;
         margin-top: 2vh;
+        color: #2F2F2F;
     }
 
     @media (max-width: 767px) {
         h4 {
-            font-size: 25px;
+            font-size: 36px;
         }
         .element {
         width: 100%;

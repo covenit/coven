@@ -96,7 +96,7 @@
     }
 
     article header div, article main ul {
-        width: 45%;
+        width: 49%;
     }
 
     article header img {
@@ -146,7 +146,17 @@
             margin-bottom: 2vh;
         }
         article header img {
-            width: 60%;
+            width: 100%;
+            margin-top: 3vh;
+        }
+        article header, article main {
+            display: block;
+        }
+        article header div, article main ul {
+            width: 100%;
+        }
+        article header h5, article header p {
+            margin-bottom: 2vh;
         }
     }
 </style>
