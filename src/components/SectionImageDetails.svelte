@@ -71,10 +71,15 @@
         section {
             display: block;
         }
+        section > div {
+            width: 100%;
+        }
+        ul {
+            margin-top: 2vh;
+        }
         img {
             height: auto;
             width: 100%;
-            margin-bottom: 5vh;
         }
     }
 </style>

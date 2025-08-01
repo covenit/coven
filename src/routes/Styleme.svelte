@@ -5,7 +5,7 @@
     import Carrousel from "../components/Carrousel.svelte";
 
     const backgroundImage = '/hero-stilema.webp';
-    const image = "../public/line/stilema.png";
+    const image = "../public/line/stilema.webp";
 
     const texts = [
         {t: "La Serie Programmabile con tastiera a comandi capacitivi. L’innovativo sistema consente di memorizzare fino a 99 ricette, ciascuna con 6 fasi di cottura. L’ingresso USB permette di salvare i dati e aggiornare il software con nuove funzioni e ricette."},
@@ -70,7 +70,7 @@
     <br>
     <div>
         <p>
-           Stilema utilizza un bruciatore brevettato con tecnologia SWIRLING GAS SYSTEM, che grazie alla miscelazione non premix e al controllo elettronico, raggiunge rapidamente temperature fino a 300 °C garantendo cotture perfette anche a pieno carico. Questa tecnologia assicura alte prestazioni con basse emissioni, risparmio energetico e massima sicurezza, grazie alla modulazione P.I.D. e alla gestione precisa del rapporto aria/gas.
+           Stilema utilizza un bruciatore brevettato con tecnologia SWIRLING GAS SYSTEM, che grazie alla miscelazione non premix e al controllo elettronico, raggiunge rapidamente temperature fino a 300 °C garantendo cotture perfette anche a pieno carico.Questa tecnologia assicura alte prestazioni con basse emissioni, risparmio energetico e massima sicurezza, grazie alla modulazione P.I.D. e alla gestione precisa del rapporto aria/gas.
         </p>
     </div>
 </section>
@@ -100,7 +100,7 @@ La scelta di utilizzare componentistica made in Italy di alta qualità, progetta
 </section>
 
 <section class="padding-lr padding-bt section-information carrousel-container">
-    <img src="../public/line/stilema.png" alt="">
+    <img src="../public/line/stilema.webp" alt="">
     
     <div class="main-info">
         <h4>SWIRLING GAS SYSTEM</h4>
@@ -205,7 +205,7 @@ La scelta di utilizzare componentistica made in Italy di alta qualità, progetta
         align-items: center;
     }
     .section-back-information p {
-        width: 70%;
+        width: 50%;
         text-align: center;
         color: white;
     }
