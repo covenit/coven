@@ -80,7 +80,19 @@
     ];
 
     /*Images of details*/
-    const imageDetails = "../public/details/steadycook/merch.png";
+    const imageDetails = "../public/details/steadycook/merch.webp";
+    const details = [
+        { id: 1, title: "apertura/chiusura", text: "valvola evacuazione rapida"},
+        { id: 2, title: "display", text: "termoregolatore digitale"},
+        { id: 3, title: "encoder", text: "push-to-set"},
+        { id: 4, title: "cottura", text: "a convenzione"},
+        { id: 5, title: "cottura", text: "a vapore"},
+        { id: 6, title: "cottura", text: "mista convenzione / vapore"},
+        { id: 7, title: "timer", text: "da 1 to 120’ e posizione permanente"},
+        { id: 8, title: "on/off", text: ""}
+
+    ]
+    
 
 </script>
 
@@ -100,7 +112,7 @@
     <Carrousel images={images}></Carrousel>
 </section>
 
-<SectionImageDetails imageDetails={imageDetails}></SectionImageDetails>
+<SectionImageDetails imageDetails={imageDetails} details={details}></SectionImageDetails>
 
 <SectionComponent spec_items={spec_items}></SectionComponent>
 

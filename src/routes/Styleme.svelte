@@ -153,7 +153,8 @@ La scelta di utilizzare componentistica made in Italy di alta qualità, progetta
             <br>
             <p>
                 Stilema Touch è dotato di un ampio touch screen in vetro da 10” e di un software intelligente che gestisce automaticamente ogni processo di cottura per risultati eccellenti. L’interfaccia intuitiva offre 12 modalità di cottura, funzioni MultiCook e la personalizzazione completa di tutti i parametri, inclusi doratura e intensità. <br>
-                Grazie al controllo della temperatura con algoritmo P.I.D., anche nei modelli elettrici, Stilema massimizza l’efficienza energetica. Goditi un preriscaldamento rapido, cotture a vapore precise con tre algoritmi di umidità dedicati e cicli di vapore da 30°C a 130°C per risultati perfetti ogni volta.</p>
+                Grazie al controllo della temperatura con algoritmo P.I.D., anche nei modelli elettrici, Stilema massimizza l’efficienza energetica. Goditi un preriscaldamento rapido, cotture a vapore precise con tre algoritmi di umidità dedicati e cicli di vapore da 30°C a 130°C per risultati perfetti ogni volta.
+            </p>
         </div>
     </main>
 </section>

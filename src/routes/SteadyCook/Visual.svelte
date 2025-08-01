@@ -12,6 +12,7 @@
     import SectionModels from "../../components/SectionModels.svelte";
     import Form from "../../components/Form.svelte";
     import { models } from "../../data/models-visual-steadycook";
+    import SectionImageDetails from "../../components/SectionImageDetails.svelte";
     const image = "../public/line/visual.webp";
 
     const texts = [
@@ -93,6 +94,28 @@
             text: "massima sicurezza e chiusura ermetica a tenuta perfetta. I forni di grande dimensione sono dotati di maniglie con sistema di chiusura in 2 punti", 
             src : "../public/spec-images/manigliabistadio.png"
         },
+    ];
+
+    /*Images of details*/
+    const imageDetails = "../public/details/steadycook/visual.webp";
+
+    const details = [
+        { id: 1, title: "cottura", text: "a convenzione"},
+        { id: 2, title: "cottura", text: "a vapore"},
+        { id: 3, title: "cottura", text: "mista convenzione / vapore"},
+        { id: 4, title: "doppio display", text: "visualizzazione temperatura velocità ventola, timer e segnalazione"},
+        { id: 5, title: "timer", text: ""},
+        { id: 6, title: "delta-t", text: ""},
+        { id: 7, title: "temperatura", text: "camera / sonda al cuore"},
+        { id: 8, title: "doppio display", text: "visualizzazione percentuale umidità, programmi, fasi"},
+        { id: 9, title: "programmi /", text: "valvola automatica di sfiato"},
+        { id: 10, title: "fasi", text: ""},
+        { id: 11, title: "percentual", text: "umidità"},
+        { id: 12, title: "luce", text: "camera"},
+        { id: 13, title: "start", text: "stop"},
+        { id: 14, title: "velocità", text: "ventola controllata da inverter"},
+        { id: 15, title: "encoder", text: "push / set / up and down / stand-by"},
+        { id: 16, title: "porta usb", text: ""},
     ]
 
 </script>
@@ -112,6 +135,8 @@
 <section class="padding-bt carrousel-container">
     <Carrousel images={images}></Carrousel>
 </section>
+
+<SectionImageDetails imageDetails={imageDetails} details={details}></SectionImageDetails>
 
 <SectionComponent spec_items={spec_items}></SectionComponent>
 
