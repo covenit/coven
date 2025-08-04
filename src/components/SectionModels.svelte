@@ -56,7 +56,7 @@
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
-        gap: 0px;
+        gap: 15px;
 
     }
     article {
@@ -100,7 +100,8 @@
     }
 
     article header img {
-        width: 35%;
+        height: auto;
+        width: 40%;
     }
 
     main ul {
@@ -146,7 +147,6 @@
             margin-bottom: 2vh;
         }
         article header img {
-            width: 100%;
             margin-top: 3vh;
         }
         article header, article main {

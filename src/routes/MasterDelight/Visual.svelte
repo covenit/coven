@@ -9,6 +9,7 @@
     import Carrousel from "../../components/Carrousel.svelte";
     import SectionComponent from "../../components/SectionComponent.svelte";
     import Form from "../../components/Form.svelte";
+    import SectionImageDetails from "../../components/SectionImageDetails.svelte";
     const image = "../public/line/master-visual.webp";
 
     const texts = [
@@ -78,7 +79,29 @@
             text: "automatico e manuale.", 
             src : "../public/spec-images/umidificatore.png"
         }
-    ]
+    ];
+
+    /*Images of details*/
+    const imageDetails = "../public/details/masterdelight/visual.jpg";
+
+    const details = [
+        { id: 1, title: "cottura", text: "a convenzione"},
+        { id: 2, title: "umidificatore / vapore", text: ""},
+        { id: 3, title: "cottura", text: "mista convenzione / umidificatore"},
+        { id: 4, title: "doppio display", text: "visualizzazione temperatura velocità ventola, timer e segnalazione allarmi"},
+        { id: 5, title: "timer", text: ""},
+        { id: 6, title: "valvola", text: "automatica di sfiato"},
+        { id: 7, title: "temperatura", text: "camera"},
+        { id: 8, title: "doppio display", text: "visualizzazione percentuale umidità, programmi e fasi"},
+        { id: 9, title: "programmi", text: "e cicli speciali"},
+        { id: 10, title: "fasi", text: ""},
+        { id: 11, title: "percentuale", text: "umidità"},
+        { id: 12, title: "luce", text: "camera"},
+        { id: 13, title: "start", text: "stop"},
+        { id: 14, title: "velocità", text: "ventola controllata da inverter"},
+        { id: 15, title: "encoder", text: "push / set / up and down / stand-by"},
+        { id: 16, title: "porta usb", text: ""}
+    ];
 
 </script>
 
@@ -97,6 +120,8 @@
 <section class="padding-bt carrousel-container">
     <Carrousel images={images}></Carrousel>
 </section>
+
+<SectionImageDetails imageDetails={imageDetails} details={details}></SectionImageDetails>
 
 <SectionComponent spec_items={spec_items}></SectionComponent>
 

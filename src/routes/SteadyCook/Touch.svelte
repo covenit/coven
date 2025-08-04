@@ -98,7 +98,9 @@
             text: "massima sicurezza e chiusura ermetica a tenuta perfetta. I forni di grande dimensione sono dotati di maniglie con sistema di chiusura in 2 punti", 
             src : "../public/spec-images/manigliabistadio.png"
         },
-    ]
+    ];
+
+    const imageDetails = "../public/details/steadycook/touch/touch1.jpg";
 
 </script>
 
@@ -118,6 +120,51 @@
     <Carrousel images={images}></Carrousel>
 </section>
 
+<section class="padding-bt padding-lr details-container">
+    <div class="image-details-container">
+        <img src={imageDetails} alt="" srcset="">
+    </div>
+    <div class="card-detail-container">
+        <article>
+            <img src="../public/details/steadycook/touch/touch2.jpg" alt="">
+            <div>
+                <p><span>home page</span></p>
+                <p>ampia panoramica, grafica intuitiva, selezione delle funzioni facile e veloce</p>
+            </div>
+        </article>
+        <article>
+            <img src="../public/details/steadycook/touch/touch3.jpg" alt="">
+            <div>
+                <p><span>ricette</span></p>
+                <p>possibilità di salvare programmi di cottura personalizzati, libreria di programmi precaricati appossitamente realizzati e testati nei
+                    nostri laboratori, aggiornamento e salvataggio dati tramite porta usb</p>
+            </div>
+        </article>
+        <article>
+            <img src="../public/details/steadycook/touch/touch4.jpg" alt="">
+            <div>
+                <p><span>cicli speciali</span></p>
+                <p>multicook con funzione
+                    count-up che permette
+                    un ciclo di cottura
+                    “continua” e funzione
+                    count-down in cui
+                    teglie con tempi di
+                    preparazione differenti
+                    completano la cottura
+                    tutte nello stesso
+                    momento</p>
+            </div>
+        </article>
+        <article>
+           <div class="number">
+                1
+           </div>
+            <p>porta <span>USB</span></p>
+        </article>
+    </div>    
+</section>
+
 <SectionComponent spec_items={spec_items}></SectionComponent>
 
 <CookingTechnologySection></CookingTechnologySection>
@@ -127,3 +174,55 @@
 <Gallery></Gallery>
 
 <Form complete={false}></Form>
+
+<style>
+    .details-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+    .details-container > .image-details-container img{
+        width: 400px;
+    }
+    .card-detail-container article {
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        gap: 10px;
+        width: 400px;
+    }
+    .card-detail-container article img {
+        margin-bottom: 2vh;
+    }
+    .card-detail-container article p {
+        font-family: 'sf-ui-display-regular';
+        color: #2F2F2F;
+        font-size: 16px;
+        line-height: 130%;
+        letter-spacing: -2%
+    }
+    .card-detail-container article p span {
+        font-family: 'sf-ui-display-bold';
+        color: #E20C18;
+    }
+    .card-detail-container article div {
+        padding-bottom: 2vh;
+        border-bottom: 1px solid #E20C18;
+    }
+    .details-container .number {
+        width: 20px;
+        height: 20px;
+        top: 68px;
+        left: 723px;
+        gap: 7.14px;
+        border-radius: 30px;
+        background: #E20C18;
+        color: white;
+        font-family: 'sf-ui-display-medium';
+        text-align: center;
+        font-size: 11.72px;
+        line-height: 20px;
+        letter-spacing: -2%;
+    }
+</style>

@@ -9,6 +9,9 @@
     import SectionComponent from "../../components/SectionComponent.svelte";
     import Form from "../../components/Form.svelte";
     import SectionImageDetails from "../../components/SectionImageDetails.svelte";
+    import SectionModels from "../../components/SectionModels.svelte";
+
+    import { models } from "../../data/models-merch-steadycook";
 
     const backgroundImage = '/hero-line-steady.cook.webp';
     const image = "../public/line/merch.webp";
@@ -115,6 +118,8 @@
 <SectionImageDetails imageDetails={imageDetails} details={details}></SectionImageDetails>
 
 <SectionComponent spec_items={spec_items}></SectionComponent>
+
+<SectionModels models={models}></SectionModels>
 
 <CookingTechnologySection></CookingTechnologySection>
 

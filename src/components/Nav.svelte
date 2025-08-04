@@ -1,5 +1,6 @@
         <script>
             import Router, { location } from 'svelte-spa-router';
+    import { compile } from 'svelte/compiler';
             import { derived } from 'svelte/store';
 
             const isProductSection = derived(location, $location =>
@@ -13,6 +14,7 @@
             });
 
             const logo = '/logo-black.png';
+
         </script>
 
         <nav class="padding-lr">
@@ -49,6 +51,12 @@
                 <a href="#/styleme" class:selected={$currentPath === '/styleme'}>Stilema</a>
                 <a href="#/about" class:selected={$currentPath === '/about'}>Contatto</a>
                 <!-- agrega más links y rutas como necesites -->
+            </div>
+
+            <div id="btnmenu">
+                <svg width="24" height="18" viewBox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 0H18V2H0V0ZM0 5H18V7H0V5ZM0 10H18V12H0V10Z" fill="white"/>
+                </svg>
             </div>
         </nav>
 
@@ -113,9 +121,17 @@
                 color: red;
             }
 
+            #btnmenu {
+                display: none;
+            }
+
             @media (max-width: 767px) {
                 nav .links{
-                display: none;
+                    display: none;
+                }
+                #btnmenu {
+                    display: block;
+                    cursor: pointer;
                 }
             }
         </style>

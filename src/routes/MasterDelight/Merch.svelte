@@ -9,6 +9,7 @@
     import Carrousel from "../../components/Carrousel.svelte";
     import SectionComponent from "../../components/SectionComponent.svelte";
     import Form from "../../components/Form.svelte";
+    import SectionImageDetails from "../../components/SectionImageDetails.svelte";
     
     const image = "../public/line/master-merch.webp";
 
@@ -76,8 +77,22 @@
             text: "massima sicurezza e chiusura ermetica a tenuta perfetta. I forni di grande dimensione sono dotati di maniglie con sistema di chiusura in 2 punti", 
             src : "../public/spec-images/manigliabistadio.png"
         }
-    ]
+    ];
 
+
+    /*Images of details*/
+    const imageDetails = "../public/details/masterdelight/merch.webp";
+
+    const details = [
+        { id: 1, title: "apertura/chiusura", text: "valvola evacuazione rapida"},
+        { id: 2, title: "display", text: "termoregolatore digitale"},
+        { id: 3, title: "encoder", text: "push-to-set"},
+        { id: 4, title: "umidificatore", text: "automatico"},
+        { id: 5, title: "umidificatore", text: "manuale"},
+        { id: 6, title: "timer", text: "da 1 to 120’ e posizione permanente"},
+        { id: 7, title: "on/off", text: ""},
+        { id: 8, title: "regolazione", text: "velocità della ventola"}
+    ];
 </script>
 
 <HeroProducts backgroundImage={backgroundImage} category="Pasticceria e Panificazione" title="Master Delight" line={"merch"}>
@@ -95,6 +110,8 @@
 <section class="padding-bt carrousel-container">
     <Carrousel images={images}></Carrousel>
 </section>
+
+<SectionImageDetails imageDetails={imageDetails} details={details}></SectionImageDetails>
 
 <SectionComponent spec_items={spec_items}></SectionComponent>
 
