@@ -45,8 +45,11 @@
             </div>
 
             <!-- Botón hamburguesa para móvil -->
+            <!-- svelte-ignore a11y_consider_explicit_label -->
             <button class="hamburger" class:active={mobileMenuOpen} on:click={toggleMobileMenu}>
-                menu
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3 6H21V8H3V6ZM3 11H21V13H3V11ZM3 16H21V18H3V16Z" fill="white"/>
+                </svg>
             </button>
 
             <!-- Menú de navegación -->
@@ -109,6 +112,7 @@
                 cursor: pointer;
                 padding: 4px;
                 z-index: 1001;
+                border: none;
             }
 
             .hamburger span {
@@ -320,7 +324,6 @@
                     left: 0;
                     width: 30%;
                     height: 100vh;
-                    background-color: rgba(0,0,0,0.5);
                     z-index: -1;
                 }
             }

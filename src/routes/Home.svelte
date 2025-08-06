@@ -77,11 +77,12 @@
 <section class="padding-lr padding-bt">
     <ImageRightSection image={imageRightSection1} title={'Tradizione che ispira innovazione'} text={'Da oltre 40 anni perfezioniamo l’eccellenza culinaria. Con passione tutta italiana, uniamo tradizione e innovazione per offrire soluzioni uniche ai professionisti della cucina.'}>
         <br>
-        <button id="btnPrimary-black">Scopri di più</button>
+        <a href="#/who-we-are">
+            <button id="btnPrimary-black">Scopri di più</button>
+        </a>
     </ImageRightSection>
 </section>
 
-<hr>
 
 <section class="padding-lr padding-bt">
     <h2>Forni di alta qualità su misura per le esigenze del tuo business</h2>
