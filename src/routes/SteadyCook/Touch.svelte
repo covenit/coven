@@ -125,7 +125,7 @@
         <img src={imageDetails} alt="" srcset="">
     </div>
     <div class="card-detail-container">
-        <article>
+        <article class="flex">
            <div class="number">1</div>
             <p><span>display grafico touch screen ad alta visibilità</span></p>
         </article>
@@ -133,14 +133,14 @@
             <p>Librerie memorizzate e programmabili. Cicli di cottura: mantenimento, delta-T, rigenerazione, bassa temperatura e sottovuoto. programmi di lavaggio automatici, autodiagnosi e aggiornamento in remoto.</p>
         </article>
         <br>
-        <article>
+        <article class="item">
             <img src="../public/details/steadycook/touch/touch2.jpg" alt="">
             <div>
                 <p><span>home page</span></p>
                 <p>ampia panoramica, grafica intuitiva, selezione delle funzioni facile e veloce</p>
             </div>
         </article>
-        <article>
+        <article class="item">
             <img src="../public/details/steadycook/touch/touch3.jpg" alt="">
             <div>
                 <p><span>ricette</span></p>
@@ -148,7 +148,7 @@
                     nostri laboratori, aggiornamento e salvataggio dati tramite porta usb</p>
             </div>
         </article>
-        <article>
+        <article class="item">
             <img src="../public/details/steadycook/touch/touch4.jpg" alt="">
             <div>
                 <p><span>cicli speciali</span></p>
@@ -190,19 +190,18 @@
         gap: 30px;
     }
     .details-container > .image-details-container img{
-        width: 400px;
+        width: 500px;
     }
     .card-detail-container article {
         display: flex;
         justify-content: start;
         align-items: start;
-        gap: 10px;
+        gap: 14px;
         margin-bottom: 2vh;
         width: 400px;
     }
     .card-detail-container article img {
         margin-bottom: 2vh;
-        width: 150px;
     }
     .card-detail-container article p {
         font-family: 'sf-ui-display-regular';
@@ -242,8 +241,18 @@
             width: 100%;
             margin-bottom: 2vh;
         }
-        .card-detail-container article img {
+        .card-detail-container article p {
+            width: 100%;
+        }
+        .card-detail-container article {
+            width: 100%;
+        }
+        .item {
+            display: block !important;
+        }
+        .item p, .item img {
             width: 100%;
         }
     }
+
 </style>
