@@ -34,10 +34,15 @@
     '/about': About,
   };
 
+  // Scroll to top when a new route is loaded
+  function scrollToTop() {
+    window.scrollTo(0, 0);
+  }
+  
 </script>
 
 <Nav></Nav>
 
-<Router {routes} />
+<Router {routes} on:routeLoaded={scrollToTop}/>
 
 <Footer/>

@@ -3,6 +3,14 @@
     export let text;
     export let charact;
     export let tags;
+
+    function scrollAction(node) {
+        node.addEventListener('click', e => {
+        e.preventDefault();
+        const targetId = node.getAttribute('href').replace('#', '');
+        document.getElementById(targetId)?.scrollIntoView({ behavior: 'smooth' });
+    });
+  }
 </script>
 
 <article>
@@ -26,7 +34,7 @@
 
         <div class="elements">    
             {#each tags as t}
-            <button id="btnPrimary-black">{t.tag}</button>
+                <button id="btnPrimary-black" href="#models" use:scrollAction>{t.tag}</button>
             {/each} 
         </div>
     </main>

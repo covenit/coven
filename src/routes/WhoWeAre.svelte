@@ -27,7 +27,6 @@
 </Hero>
 
 <ContainerGrey ifSubitutle={'Our mission'} ifTitle={'Eleva ogni esperienza gastronomica'}>
-    <br>
     <div class="cards-container">
         <CardTextImage src={image1} title={"Innovazione senza limiti"} 
             text={"Continuando a guidare il mercato dei forni professionali attraverso una ricerca costante e lo sviluppo di tecnologie esclusive che garantiscono prestazioni eccezionali e il 'calore ideale' in ogni cucina."}>

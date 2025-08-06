@@ -5,7 +5,9 @@
 <section>
     <div class="padding-lr padding-bt" style="background-image: url({img})">
         <h2>Fatto su misura. Strumenti personalizzati per risultati perfetti</h2>
-        <button id="btnPrimary-black">Scopri di più</button>
+        <a href="#/accessories">
+            <button id="btnPrimary-black">Scopri di più</button>
+        </a>
     </div>
 </section>
 
@@ -28,7 +30,7 @@
             text-align: start;
             background-size: contain;
             background-repeat: no-repeat;
-            height: 60vh;
+            height: 75vh;
         }
     }
 </style>

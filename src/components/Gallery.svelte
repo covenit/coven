@@ -39,7 +39,7 @@
             gap: 20px;
         }
         img {
-            width: 150px;
+            width: 45%;
         }
     }
 

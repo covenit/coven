@@ -3,8 +3,8 @@
 </script>
 
 
-<section class="padding-lr padding-bt">
-        <div>
+<section class="padding-lr padding-bt" id="x">
+        <div id="models">
             <h2>Modelli</h2>
         </div>
         <br><br>
@@ -148,6 +148,7 @@
         }
         article header img {
             margin-top: 3vh;
+            width: 60%;
         }
         article header, article main {
             display: block;

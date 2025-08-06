@@ -54,7 +54,7 @@
 
             <!-- Menú de navegación -->
             <div class="links" class:mobile-open={mobileMenuOpen}>
-                <a href="#/" class:selected={$currentPath === '/'} on:click={closeMenus}>Home</a>
+                <a href="/" class:selected={$currentPath === '/'} on:click={closeMenus}>Home</a>
                 <a href="#/who-we-are" class:selected={$currentPath === '/who-we-are'} on:click={closeMenus}>Chi siamo</a>
 
                 <!-- Productos con submenu -->

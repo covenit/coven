@@ -76,7 +76,7 @@
 
 #btnPrimary-outline:hover {
   background: #1D1D1D;
-  color: white;
+  color: white !important;
 }
 
 h2 {

@@ -102,13 +102,19 @@
     <br><br>
     <main>
         <CardProductMain image={cardProduct1} title={'Stilema'} text={"La nuova generazione di forni con la più alta tecnologia."}>
-            <button id="btnPrimary-outline">Scopri di più</button>
+            <a href="#/styleme">
+                <button id="btnPrimary-outline">Scopri di più</button>
+            </a>
         </CardProductMain>
         <CardProductMain image={cardProduct2} title={'Steady Cook Touch'} text={"Forni di alta qualità per l'industria della ristorazione."}>
-            <button id="btnPrimary-outline">Scopri di più</button>
+            <a href="#/steady-cook-touch">
+                <button id="btnPrimary-outline">Scopri di più</button>
+            </a>
         </CardProductMain>
         <CardProductMain image={cardProduct3} title={'Steady Cook Visual'} text={"Forni di alta qualità per l'industria della ristorazione."}>
-            <button id="btnPrimary-outline">Scopri di più</button>
+            <a href="#/steady-cook-visual">
+                <button id="btnPrimary-outline">Scopri di più</button>
+            </a>
         </CardProductMain>
         <CardProductMain image={cardProduct4} title={'Master Delight Visual'} text={"Forni di alta qualità per l'industria della pasticceria e panificazione."}>
             <button id="btnPrimary-outline">Scopri di più</button>

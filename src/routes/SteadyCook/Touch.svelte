@@ -113,7 +113,7 @@
 </section>
 
 <ContainerGrey ifTitle={"Perfezione senza sforzo con tecnologia avanzata"} text={"Nella gastronomia di alta classe, la precisione è tutto. Steady Cook Touch porta ogni piatto a un livello superiore, garantendo texture perfette, sapori definiti e una cottura uniforme ogni volta. Progettato per chef e ristoranti esigenti, offre automazione intelligente e controllo totale, ottimizzando il tempo senza compromettere la qualità. Quando la creatività incontra la tecnologia, i risultati sono straordinari. Scopri come Steady Cook Touch può trasformare la tua cucina."}>
-    <button id="btnPrimary-black">Scopri di più</button>
+    
 </ContainerGrey>
 
 <section class="padding-bt carrousel-container">
@@ -125,6 +125,14 @@
         <img src={imageDetails} alt="" srcset="">
     </div>
     <div class="card-detail-container">
+        <article>
+           <div class="number">1</div>
+            <p><span>display grafico touch screen ad alta visibilità</span></p>
+        </article>
+        <article>
+            <p>Librerie memorizzate e programmabili. Cicli di cottura: mantenimento, delta-T, rigenerazione, bassa temperatura e sottovuoto. programmi di lavaggio automatici, autodiagnosi e aggiornamento in remoto.</p>
+        </article>
+        <br>
         <article>
             <img src="../public/details/steadycook/touch/touch2.jpg" alt="">
             <div>
@@ -156,10 +164,9 @@
                     momento</p>
             </div>
         </article>
+
         <article>
-           <div class="number">
-                1
-           </div>
+            <div class="number">2</div>
             <p>porta <span>USB</span></p>
         </article>
     </div>    
@@ -190,10 +197,12 @@
         justify-content: start;
         align-items: start;
         gap: 10px;
+        margin-bottom: 2vh;
         width: 400px;
     }
     .card-detail-container article img {
         margin-bottom: 2vh;
+        width: 150px;
     }
     .card-detail-container article p {
         font-family: 'sf-ui-display-regular';
@@ -224,5 +233,17 @@
         font-size: 11.72px;
         line-height: 20px;
         letter-spacing: -2%;
+    }
+    @media (max-width: 767px) {
+        .details-container {
+            display: block;
+        }
+        .details-container > .image-details-container img {
+            width: 100%;
+            margin-bottom: 2vh;
+        }
+        .card-detail-container article img {
+            width: 100%;
+        }
     }
 </style>

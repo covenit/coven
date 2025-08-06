@@ -78,4 +78,18 @@
         margin-bottom: 1vh;
         width: 50%;
     }
+
+    @media (max-width: 767px) {
+        .section-lines {
+            display: block;
+        }
+
+        .section-lines > * {
+            margin-bottom: 2vh;
+        }
+
+        .p-text {
+            width: 100%;
+        }
+    }
 </style>
