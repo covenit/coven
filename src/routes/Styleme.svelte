@@ -5,7 +5,7 @@
     import Carrousel from "../components/Carrousel.svelte";
 
     const backgroundImage = '/hero-stilema.webp';
-    const image = "../public/line/stilema.jpg";
+    const image = "/line/stilema.webp";
 
     const texts = [
         {t: "La Serie Programmabile con tastiera a comandi capacitivi. L’innovativo sistema consente di memorizzare fino a 99 ricette, ciascuna con 6 fasi di cottura. L’ingresso USB permette di salvare i dati e aggiornare il software con nuove funzioni e ricette."},
@@ -64,7 +64,7 @@
     <img src="/carrousel-stilema-line/A.webp" alt="">
 </section>
 
-<section class="padding-lr padding-bt section-back-information" style="background-image: url('../public/carrousel-stilema-line/background-a.webp');">
+<section class="padding-lr padding-bt section-back-information" style="background-image: url('/carrousel-stilema-line/background-a.webp');">
     <h4>SWIRLING GAS SYSTEM </h4>
     <h5>La rivoluzione del calore intelligente</h5>
     <br>
@@ -87,7 +87,7 @@ La scelta di utilizzare componentistica made in Italy di alta qualità, progetta
     </div>
 </section>
 
-<section class="padding-lr padding-bt section-back-information" style="background-image: url('../public/carrousel-stilema-line/background-b.webp');">
+<section class="padding-lr padding-bt section-back-information" style="background-image: url('/carrousel-stilema-line/background-b.webp');">
     <h4>DUO STEAM SYSTEM (VAPORE)</h4>
     <h5>Controllo assoluto, efficienza che guarda al domani.</h5>
     <br>
@@ -100,7 +100,7 @@ La scelta di utilizzare componentistica made in Italy di alta qualità, progetta
 </section>
 
 <section class="padding-lr padding-bt section-information carrousel-container">
-    <img src="/line/stilema.jpg" alt="">
+    <img src="/line/stilema.webp" alt="">
     
     <div class="main-info">
         <h4>SWIRLING GAS SYSTEM</h4>
