@@ -44,7 +44,7 @@
 </section>
 
 <ContainerGrey ifTitle={"Il futuro non si predice, si progetta."} text={"Con Stilema, lo facciamo con il carattere e l’eleganza senza tempo del design italiano. Ogni modello è il frutto di anni di ricerca, innovazione tecnologica all’avanguardia e una cura maniacale per i dettagli. Con Stilema, non stai semplicemente cuocendo: stai dominando tempo, temperatura ed energia con una precisione assoluta. Non stai semplicemente osservando un forno: stai vivendo un’esperienza pensata per trasformare ogni cucina in un ambiente professionale, flessibile ed efficiente. Stilema non segue le tendenze. Le anticipa. Le definisce. Le supera. Il futuro inizia nel momento in cui lo accendi."}>
-    <button id="btnPrimary-black">Scopri di più</button>
+   
 </ContainerGrey>
 
 <section class="padding-bt carrousel-container">
@@ -143,10 +143,11 @@ La scelta di utilizzare componentistica made in Italy di alta qualità, progetta
             <img src="../public/carrousel-stilema-line/d.png" alt="">
         </div>
         <div class="container-imgs">
-            <p>12 tipi di <br> processi di cottura</p>
+            <p>12 tipi di processi di cottura</p>
             <img src="../public/carrousel-stilema-line/e.png" alt="">
             <img src="../public/carrousel-stilema-line/f.png" alt="">
             <p>4 programmi di lavaggio con detersivo liquido o tablet</p>
+            <br>
         </div>
         <div class="container-texts">
             <h4>GRAPHICAL USER INTERFACE</h4>
@@ -217,7 +218,6 @@ La scelta di utilizzare componentistica made in Italy di alta qualità, progetta
     .section-details header h5 {
         font-family: "sf-ui-display-regular";
         font-size: 20px;
-        line-height: 57px;
         letter-spacing: 0%;
         text-align: center;
     }
@@ -255,6 +255,46 @@ La scelta di utilizzare componentistica made in Italy di alta qualità, progetta
         width: 100%;
         height: auto;
         margin: 2vh 0;
+    }
+
+    @media (max-width: 767px) {
+        .section-information {
+            display: block;
+        }
+        .section-information img, .section-information .main-info {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        .section-back-information p {
+            width: 100%;
+             text-align: start;
+            color: white;
+        }
+        .section-information .main-info h5,   .section-back-information h5 {
+            font-size: 16px; 
+            font-family: "sf-ui-display-medium";
+            text-align: start;
+        }
+        .section-details main {
+            display: block;
+        }
+        .section-details .container-imgs {
+            width: 100%;
+            text-align: start;
+        }
+        .section-details .container-imgs p, .section-details h4 {
+            text-align: start;
+        }
+        .section-details .container-texts {
+            width: 100%;
+        }
+        .section-details main div {
+            width: 100%;
+        }
+        .section-details header h5 {
+            font-size: 16px;
+            text-align: start;
+        }
     }
 
 </style>

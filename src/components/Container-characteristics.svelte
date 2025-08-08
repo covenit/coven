@@ -101,6 +101,7 @@
         }
         article .text {
            margin-top: 4vh;
+           width: 100%;
         }
         article .main-info span {
             font-size: 14px;
