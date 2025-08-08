@@ -14,7 +14,7 @@
     import { models } from "../../data/models-merch-steadycook";
 
     const backgroundImage = '/hero-line-steady.cook.webp';
-    const image = "../public/line/merch.webp";
+    const image = "/line/merch.webp";
 
     const texts = [
         {t: "La serie con termoregolazione digitale con encoder e comandi manuali."},
@@ -34,56 +34,56 @@
     ];
 
     const images = [
-            {src : "../public/carrousel-steady-cook-line/1.webp"},
-            {src : "../public/carrousel-steady-cook-line/5.webp"},
-            {src : "../public/carrousel-steady-cook-line/6.webp"},
-            {src : "../public/carrousel-steady-cook-line/4.webp"},
-            {src : "../public/carrousel-steady-cook-line/1.webp"},
-            {src : "../public/carrousel-steady-cook-line/5.webp"},
-            {src : "../public/carrousel-steady-cook-line/6.webp"},
-            {src : "../public/carrousel-steady-cook-line/4.webp"}
+            {src : "/carrousel-steady-cook-line/1.webp"},
+            {src : "/carrousel-steady-cook-line/5.webp"},
+            {src : "/carrousel-steady-cook-line/6.webp"},
+            {src : "/carrousel-steady-cook-line/4.webp"},
+            {src : "/carrousel-steady-cook-line/1.webp"},
+            {src : "/carrousel-steady-cook-line/5.webp"},
+            {src : "/carrousel-steady-cook-line/6.webp"},
+            {src : "/carrousel-steady-cook-line/4.webp"}
     ];
 
     const spec_items = [
         {
             title: "acciaio inox",
             text: "tutta la struttura è realizzata con acciaio inox.", 
-            src : "../public/spec-images/acciaioinox.png"
+            src : "/spec-images/acciaioinox.png"
         },
         {
             title: "umidificatore",
             text: "automatico e manuale.", 
-            src : "../public/spec-images/umidificatore.png"
+            src : "/spec-images/umidificatore.png"
         },
         {
             title: "porta a libro",
             text: "doppio vetro ispezionabile di grande spessore per abbattere in modo efficace la trasmissione del calore all’esterno.", 
-            src : "../public/spec-images/portaalibro.png"
+            src : "/spec-images/portaalibro.png"
         },
         {
             title: "termoregolatore",
             text: "digitale con encoder.", 
-            src : "../public/spec-images/termoregolatore.png"
+            src : "/spec-images/termoregolatore.png"
         },
         {
             title: "doppia vasca raccolta liquidi",
             text: "La porta del forno è dotata di un serbatoio di raccolta con un sistema automatico di raccolta dei liquidi che drena direttamente.", 
-            src : "../public/spec-images/doppiavascaraccoltaliquidi.png"
+            src : "/spec-images/doppiavascaraccoltaliquidi.png"
         },
         {
             title: "evacuazione rapida umidità",
             text: "sistema automatico per valvola di sfiato.", 
-            src : "../public/spec-images/evacuazionerapidaumidita.png"
+            src : "/spec-images/evacuazionerapidaumidita.png"
         },
         {
             title: "maniglia bistadio",
             text: "massima sicurezza e chiusura ermetica a tenuta perfetta. I forni di grande dimensione sono dotati di maniglie con sistema di chiusura in 2 punti", 
-            src : "../public/spec-images/manigliabistadio.png"
+            src : "/spec-images/manigliabistadio.png"
         },
     ];
 
     /*Images of details*/
-    const imageDetails = "../public/details/steadycook/merch.webp";
+    const imageDetails = "/details/steadycook/merch.webp";
     const details = [
         { id: 1, title: "apertura/chiusura", text: "valvola evacuazione rapida"},
         { id: 2, title: "display", text: "termoregolatore digitale"},

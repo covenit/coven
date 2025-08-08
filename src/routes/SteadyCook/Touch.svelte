@@ -11,7 +11,7 @@
     import Form from "../../components/Form.svelte";
     const backgroundImage = '/hero-line-steady.cook.webp';
 
-    const image = "../public/line/touch.webp";
+    const image = "/line/touch.webp";
 
     const texts = [
         {t: "La serie programmabile top-class con display grafico touch-screen a colori da 7 pollici. L’innovativo sistema consente di memorizzare fino a 120 ricette con 6 fasi di cottura. L’ingresso USB permette di scaricare i dati HACCP e di aggiornare il software con nuove funzioni."},
@@ -32,75 +32,75 @@
     ];
 
     const images = [
-            {src : "../public/carrousel-steady-cook-line/8.webp"},
-            {src : "../public/carrousel-steady-cook-line/1.webp"},
-            {src : "../public/carrousel-steady-cook-line/4.webp"},
-            {src : "../public/carrousel-steady-cook-line/7.webp"},
-            {src : "../public/carrousel-steady-cook-line/1.webp"},
-            {src : "../public/carrousel-steady-cook-line/5.webp"},
-            {src : "../public/carrousel-steady-cook-line/6.webp"},
-            {src : "../public/carrousel-steady-cook-line/7.webp"}
+            {src : "/carrousel-steady-cook-line/8.webp"},
+            {src : "/carrousel-steady-cook-line/1.webp"},
+            {src : "/carrousel-steady-cook-line/4.webp"},
+            {src : "/carrousel-steady-cook-line/7.webp"},
+            {src : "/carrousel-steady-cook-line/1.webp"},
+            {src : "/carrousel-steady-cook-line/5.webp"},
+            {src : "/carrousel-steady-cook-line/6.webp"},
+            {src : "/carrousel-steady-cook-line/7.webp"}
     ];
 
     const spec_items = [
         {
             title: "acciaio inox",
             text: "tutta la struttura è realizzata con acciaio inox.", 
-            src : "../public/spec-images/acciaioinox.png"
+            src : "/spec-images/acciaioinox.png"
         },
         {
             title: "duo steam system",
             text: "innovativo sistema di gestione del vapore sia in forma diretta che con generatore esterno.", 
-            src : "../public/spec-images/duosteamsystem.png"
+            src : "/spec-images/duosteamsystem.png"
         },
         {
             title: "porta a libro",
             text: "doppio vetro ispezionabile di grande spessore per abbattere in modo efficace la trasmissione del calore all’esterno.", 
-            src : "../public/spec-images/portaalibro.png"
+            src : "/spec-images/portaalibro.png"
         },
         {
             title: "sistema steady cook touch screen",
             text: "Touch screen grafico, software personalizzabile, 120 ricette programmabili, 6 fasi di cottura, vapore regolabile 0-100%, 9 velocità delle ventole.", 
-            src : "../public/spec-images/sistemasteadycookvisual.png"
+            src : "/spec-images/sistemasteadycookvisual.png"
         },
         {
             title: "doppia vasca raccolta liquidi",
             text: "La porta del forno è dotata di un serbatoio di raccolta con un sistema automatico di raccolta dei liquidi che drena direttamente.", 
-            src : "../public/spec-images/doppiavascaraccoltaliquidi.png"
+            src : "/spec-images/doppiavascaraccoltaliquidi.png"
         },
         {
             title: "porta usb",
             text: "per memorizzare dati e aggiornare il software.", 
-            src : "../public/spec-images/portausb.png"
+            src : "/spec-images/portausb.png"
         },
         {
             title: "self washing mode",
             text: "tre cicli di lavaggio per ogni esigenza completamente automatizzati.", 
-            src : "../public/spec-images/selfwashingmode.png"
+            src : "/spec-images/selfwashingmode.png"
         },
         {
             title: "delta T combo",
             text: "sonda al cuore esterna o interna per una perfetta cottura ΔT.", 
-            src : "../public/spec-images/deltatcombo.png"
+            src : "/spec-images/deltatcombo.png"
         },
         {
             title: "evacuazione rapida umidità",
             text: "sistema automatico per valvola di sfiato.", 
-            src : "../public/spec-images/evacuazionerapidaumidita.png"
+            src : "/spec-images/evacuazionerapidaumidita.png"
         },
         {
             title: "multicook",
             text: "Sistema di cottura multilivello per preparare alimenti con tempi diversi. Include 72 ricette precaricate e 48 personalizzabili.", 
-            src : "../public/spec-images/multicook.png"
+            src : "/spec-images/multicook.png"
         },
         {
             title: "maniglia bistadio",
             text: "massima sicurezza e chiusura ermetica a tenuta perfetta. I forni di grande dimensione sono dotati di maniglie con sistema di chiusura in 2 punti", 
-            src : "../public/spec-images/manigliabistadio.png"
+            src : "/spec-images/manigliabistadio.png"
         },
     ];
 
-    const imageDetails = "../public/details/steadycook/touch/touch1.jpg";
+    const imageDetails = "/details/steadycook/touch/touch1.jpg";
 
 </script>
 
@@ -134,14 +134,14 @@
         </article>
         <br>
         <article class="item">
-            <img src="../public/details/steadycook/touch/touch2.jpg" alt="">
+            <img src="/details/steadycook/touch/touch2.jpg" alt="">
             <div>
                 <p><span>home page</span></p>
                 <p>ampia panoramica, grafica intuitiva, selezione delle funzioni facile e veloce</p>
             </div>
         </article>
         <article class="item">
-            <img src="../public/details/steadycook/touch/touch3.jpg" alt="">
+            <img src="/details/steadycook/touch/touch3.jpg" alt="">
             <div>
                 <p><span>ricette</span></p>
                 <p>possibilità di salvare programmi di cottura personalizzati, libreria di programmi precaricati appossitamente realizzati e testati nei
@@ -149,7 +149,7 @@
             </div>
         </article>
         <article class="item">
-            <img src="../public/details/steadycook/touch/touch4.jpg" alt="">
+            <img src="/details/steadycook/touch/touch4.jpg" alt="">
             <div>
                 <p><span>cicli speciali</span></p>
                 <p>multicook con funzione
