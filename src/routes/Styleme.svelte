@@ -24,14 +24,14 @@
     ];
 
     const images = [
-        {src : "../public/carrousel-stilema-line/1.webp"},
-        {src : "../public/carrousel-stilema-line/2.webp"},
-        {src : "../public/carrousel-stilema-line/3.webp"},
-        {src : "../public/carrousel-stilema-line/4.webp"},
-        {src : "../public/carrousel-stilema-line/1.webp"},
-        {src : "../public/carrousel-stilema-line/2.webp"},
-        {src : "../public/carrousel-stilema-line/3.webp"},
-        {src : "../public/carrousel-stilema-line/4.webp"},
+        {src : "/carrousel-stilema-line/1.webp"},
+        {src : "/carrousel-stilema-line/2.webp"},
+        {src : "/carrousel-stilema-line/3.webp"},
+        {src : "/carrousel-stilema-line/4.webp"},
+        {src : "/carrousel-stilema-line/1.webp"},
+        {src : "/carrousel-stilema-line/2.webp"},
+        {src : "/carrousel-stilema-line/3.webp"},
+        {src : "/carrousel-stilema-line/4.webp"},
     ];
 
 </script>
@@ -76,7 +76,7 @@
 </section>
 
 <section class="padding-lr padding-bt section-information">
-    <img src="../public/carrousel-stilema-line/B.webp" alt="">
+    <img src="/carrousel-stilema-line/B.webp" alt="">
     
     <div class="main-info">
         <h4>AIR FLOW</h4>
@@ -100,7 +100,7 @@ La scelta di utilizzare componentistica made in Italy di alta qualità, progetta
 </section>
 
 <section class="padding-lr padding-bt section-information carrousel-container">
-    <img src="../public/line/stilema.webp" alt="">
+    <img src="/line/stilema.jpg" alt="">
     
     <div class="main-info">
         <h4>SWIRLING GAS SYSTEM</h4>
@@ -128,7 +128,7 @@ La scelta di utilizzare componentistica made in Italy di alta qualità, progetta
         </p>
     </div>
     
-    <img src="../public/carrousel-stilema-line/C.webp" alt="">
+    <img src="/carrousel-stilema-line/C.webp" alt="">
 </section>
 
 
@@ -140,12 +140,12 @@ La scelta di utilizzare componentistica made in Italy di alta qualità, progetta
     <br>
     <main>
         <div>
-            <img src="../public/carrousel-stilema-line/d.png" alt="">
+            <img src="/carrousel-stilema-line/d.png" alt="">
         </div>
         <div class="container-imgs">
             <p>12 tipi di processi di cottura</p>
-            <img src="../public/carrousel-stilema-line/e.png" alt="">
-            <img src="../public/carrousel-stilema-line/f.png" alt="">
+            <img src="/carrousel-stilema-line/e.png" alt="">
+            <img src="/carrousel-stilema-line/f.png" alt="">
             <p>4 programmi di lavaggio con detersivo liquido o tablet</p>
             <br>
         </div>
