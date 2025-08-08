@@ -5,7 +5,7 @@
     import Carrousel from "../components/Carrousel.svelte";
 
     const backgroundImage = '/hero-stilema.webp';
-    const image = "../public/line/stilema.webp";
+    const image = "../public/line/stilema.jpg";
 
     const texts = [
         {t: "La Serie Programmabile con tastiera a comandi capacitivi. L’innovativo sistema consente di memorizzare fino a 99 ricette, ciascuna con 6 fasi di cottura. L’ingresso USB permette di salvare i dati e aggiornare il software con nuove funzioni e ricette."},
@@ -61,7 +61,7 @@
             Realizzata completamente in acciaio inox, la camera di cottura di STILEMA consente il raggiungimento e il mantenimento della temperatura fino a 300°. Grazie al KNOW HOW del nostro comparto tecnico, ai continui studi e test di laboratorio, abbiamo raggiunto la massima efficienza e precisione della distribuzione dell’aria calda e la conseguente totale uniformità della temperatura. I risultati di cottura saranno sempre impeccabili in ogni singolo spazio utilizzato.
             STILEMA garantisce massima flessibilità in cucina, con capacità di carico teglie GN1/1 e 60X40 per garantire i migliori risultati sia per la Gastronomia che per la Pasticceria.</p>
     </div>
-    <img src="../public/carrousel-stilema-line/A.webp" alt="">
+    <img src="/carrousel-stilema-line/A.webp" alt="">
 </section>
 
 <section class="padding-lr padding-bt section-back-information" style="background-image: url('../public/carrousel-stilema-line/background-a.webp');">
