@@ -6,7 +6,7 @@ export const accessories = [
     code: "ADCTH405",
     serie: "Steady Cook & Master Delight",
     category: ["Tutti", "Tecnico"],
-    image: "../src/assets/accessories/ADCTH405.png"
+    image: "/src/assets/accessories/ADCTH405.png"
   },
   {
     id: 2,
