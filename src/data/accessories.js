@@ -1,4 +1,7 @@
 // src/data/accessories.js
+
+import ADCTH405 from "../assets/accessories/ADCTH405.png";
+
 export const accessories = [
   {
     id: 1,
@@ -6,7 +9,7 @@ export const accessories = [
     code: "ADCTH405",
     serie: "Steady Cook & Master Delight",
     category: ["Tutti", "Tecnico"],
-    image: "/src/assets/accessories/ADCTH405.png"
+    image: ADCTH405
   },
   {
     id: 2,
