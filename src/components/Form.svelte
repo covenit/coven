@@ -175,6 +175,7 @@
         }
         p{
             margin-bottom: 4vh;
+            line-height: 25px;
         }
         .form-container-maps iframe {
             height: 40vh;

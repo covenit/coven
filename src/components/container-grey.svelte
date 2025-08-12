@@ -34,6 +34,8 @@
         }
         p {
             width: 100%;
+            font-size: 16px;
+            line-height: 25px;
         }
     }
 </style>

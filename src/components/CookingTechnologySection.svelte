@@ -38,7 +38,6 @@
         letter-spacing: 0%;
         vertical-align: middle;
         color: #5B5B5B;
-
     }
 
     @media (max-width: 767px) {
@@ -48,6 +47,9 @@
         section > * {
             width: 100%;
             margin-bottom: 6vh;
+        }
+        section p {
+            line-height: 25px;
         }
     }
 

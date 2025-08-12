@@ -30,7 +30,7 @@
             {/each} 
         </div>
         
-        <br>
+        <br><br><br>
 
         <div class="elements">    
             {#each tags as t}
@@ -106,6 +106,8 @@
         article .main-info span {
             font-size: 14px;
             line-height: 20px;
+            width: 100%;
+            text-align: center;
         }
     }
 </style>
