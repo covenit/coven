@@ -229,14 +229,6 @@ export const accessories = [
     image: ATFP4060
   },
   {
-    id: 23,
-    name: "BAKING TRAY, PERFORATED, SILICONE COATED",
-    code: "ATFP4060",
-    serie: "40X60 cm",
-    category: ["Master Delight", "Multigrill"],
-    image: ATFP4060
-  },
-  {
     id: 24,
     name: "TRAY FOR BAGUETTES SILICONE COATED",
     code: "ATF04060",
