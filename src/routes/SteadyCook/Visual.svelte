@@ -13,7 +13,7 @@
     import Form from "../../components/Form.svelte";
     import { models } from "../../data/models-visual-steadycook";
     import SectionImageDetails from "../../components/SectionImageDetails.svelte";
-    const image = "../public/line/visual.webp";
+    const image = "/line/visual.webp";
 
     const texts = [
         {t: "La serie programmabile con tastiera a comandi capacitivi. L’innovativo sistema consente di memorizzare i dati fino a 99 ricette con 6 fasi di cottura."},
@@ -33,71 +33,71 @@
     ];
 
     const images = [
-        {src : "../public/carrousel-steady-cook-line/1.webp"},
-        {src : "../public/carrousel-steady-cook-line/2.webp"},
-        {src : "../public/carrousel-steady-cook-line/3.webp"},
-        {src : "../public/carrousel-steady-cook-line/4.webp"},
-        {src : "../public/carrousel-steady-cook-line/1.webp"},
-        {src : "../public/carrousel-steady-cook-line/2.webp"},
-        {src : "../public/carrousel-steady-cook-line/3.webp"},
-        {src : "../public/carrousel-steady-cook-line/4.webp"}
+        {src : "/carrousel-steady-cook-line/1.webp"},
+        {src : "/carrousel-steady-cook-line/2.webp"},
+        {src : "/carrousel-steady-cook-line/3.webp"},
+        {src : "/carrousel-steady-cook-line/4.webp"},
+        {src : "/carrousel-steady-cook-line/1.webp"},
+        {src : "/carrousel-steady-cook-line/2.webp"},
+        {src : "/carrousel-steady-cook-line/3.webp"},
+        {src : "/carrousel-steady-cook-line/4.webp"}
     ]
 
     const spec_items = [
         {
             title: "acciaio inox",
             text: "tutta la struttura è realizzata con acciaio inox.", 
-            src : "../public/spec-images/acciaioinox.png"
+            src : "/spec-images/acciaioinox.png"
         },
         {
             title: "duo steam system",
             text: "innovativo sistema di gestione del vapore sia in forma diretta che con generatore esterno.", 
-            src : "../public/spec-images/duosteamsystem.png"
+            src : "/spec-images/duosteamsystem.png"
         },
         {
             title: "porta a libro",
             text: "doppio vetro ispezionabile di grande spessore per abbattere in modo efficace la trasmissione del calore all’esterno.", 
-            src : "../public/spec-images/portaalibro.png"
+            src : "/spec-images/portaalibro.png"
         },
         {
             title: "sistema steady cook visual",
             text: "Elettronica capacitiva con software personalizzabile e 99 ricette programmabili. Fino a 6 fasi di cottura e vapore regolabile 0-100%.", 
-            src : "../public/spec-images/sistemasteadycookvisual.png"
+            src : "/spec-images/sistemasteadycookvisual.png"
         },
         {
             title: "doppia vasca raccolta liquidi",
             text: "La porta del forno è dotata di un serbatoio di raccolta con un sistema automatico di raccolta dei liquidi che drena direttamente.", 
-            src : "../public/spec-images/doppiavascaraccoltaliquidi.png"
+            src : "/spec-images/doppiavascaraccoltaliquidi.png"
         },
         {
             title: "porta usb",
             text: "per memorizzare dati e aggiornare il software.", 
-            src : "../public/spec-images/portausb.png"
+            src : "/spec-images/portausb.png"
         },
         {
             title: "self washing mode",
             text: "tre cicli di lavaggio per ogni esigenza completamente automatizzati.", 
-            src : "../public/spec-images/selfwashingmode.png"
+            src : "/spec-images/selfwashingmode.png"
         },
         {
             title: "delta T combo",
             text: "sonda al cuore esterna o interna per una perfetta cottura ΔT.", 
-            src : "../public/spec-images/deltatcombo.png"
+            src : "/spec-images/deltatcombo.png"
         },
         {
             title: "evacuazione rapida umidità",
             text: "sistema automatico per valvola di sfiato.", 
-            src : "../public/spec-images/evacuazionerapidaumidita.png"
+            src : "/spec-images/evacuazionerapidaumidita.png"
         },
         {
             title: "maniglia bistadio",
             text: "massima sicurezza e chiusura ermetica a tenuta perfetta. I forni di grande dimensione sono dotati di maniglie con sistema di chiusura in 2 punti", 
-            src : "../public/spec-images/manigliabistadio.png"
+            src : "/spec-images/manigliabistadio.png"
         },
     ];
 
     /*Images of details*/
-    const imageDetails = "../public/details/steadycook/visual.webp";
+    const imageDetails = "/details/steadycook/visual.webp";
 
     const details = [
         { id: 1, title: "cottura", text: "a convenzione"},

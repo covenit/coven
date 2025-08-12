@@ -1,5 +1,5 @@
 <script>
-    const img = "../../public/business-establishment.webp";
+    const img = "/business-establishment.webp";
 </script>
 
 <section>
