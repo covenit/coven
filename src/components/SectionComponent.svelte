@@ -32,7 +32,7 @@
         }
 
         .container-cards-text-image > * {
-            width: 90%;
+            width: 100%;
             margin-bottom: 2vh;
         }
     }
