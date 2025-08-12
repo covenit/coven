@@ -1,34 +1,38 @@
 <script>
     export let complete;
-    let username = '';
-    let email = '';
-    let subject = '';
-    let message = '';
-    let enviado = false;
-    let error = false;
+    import emailjs from 'emailjs-com';
 
-    async function enviarFormulario(e) {
+    let username = "";
+    let email = "";
+    let message = "";
+    let subject = "";
 
-        e.preventDefault();
+    const sendEmail = (event) => {
+    event.preventDefault();
 
-        const res = await fetch('https://formspree.io/f/xnnzjero', {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json',
-            Accept: 'application/json'
+    emailjs.send(
+        "service_m8s6o0s",       // lo copias del dashboard
+        "template_39rmejt",      // lo copias del dashboard
+        {
+            name: username,
+            subject: subject,
+            user_email: email,
+            message: message
         },
-        body: JSON.stringify({ email, message, subject})
+        "bQtjWmCJtvVLnmpwW"        // lo copias del dashboard
+        )
+        .then(() => {
+            alert("✅ Mensaje enviado con éxito!");
+                username = "";
+                subject = "";
+                email = "";
+                message = "";
+            })
+        .catch((error) => {
+                console.error("Error:", error);
+                alert("❌ Error al enviar el mensaje.");
         });
-
-        if (res.ok) {
-            enviado = true;
-            email = '';
-            message = '';
-            subject = '';
-        } else {
-            error = true;
-        }
-    }
+    };
 </script>
 
 <section class="padding-bt padding-lr form-container">
@@ -46,25 +50,19 @@
          </div>
     {/if}
     <div>
-        {#if enviado}
-        <h2>Ok.</h2>
-        {:else if error}
-        <h2>Error</h2>
-        {:else}
-        <form on:submit={enviarFormulario}>
+        <form on:submit={sendEmail}>
             <div class="form-group">
-                <input type="text" name="username" bind:value={username} placeholder="Name" required />
-                <input type="email" name="email" bind:value={email} placeholder="Email" required />
+                <input type="text" placeholder="Name" bind:value={username} required />
+                <input type="email" placeholder="Email" bind:value={email} required />
             </div>
             <div>
-                <input type="text" name="subject" bind:value={subject}  placeholder="Subject" required />
+                <input type="text" name="subject" bind:value={subject} placeholder="Subject" required />
             </div>
             <div>
-                <textarea rows="10" name="message" bind:value={message} placeholder="Message" required></textarea>
+                <textarea rows="10" placeholder="Tu mensaje" bind:value={message} required></textarea>
             </div>
             <button type="submit" id="btnPrimary-black">Invia</button>
         </form>
-        {/if}
     </div>
 </section>
 
