@@ -1,13 +1,18 @@
 <script>
   let container;
 
-
   function scrollLeft() {
-    container.scrollBy({ left: -600, behavior: 'smooth' });
+    const amount = window.innerWidth <= 768 
+      ? -(window.innerWidth * 0.87) 
+      : -600;                     
+    container.scrollBy({ left: amount, behavior: 'smooth' });
   }
 
   function scrollRight() {
-    container.scrollBy({ left: 600, behavior: 'smooth' });
+    const amount = window.innerWidth <= 768 
+      ? (window.innerWidth * 0.87) 
+      : 600;                      
+    container.scrollBy({ left: amount, behavior: 'smooth' });
   }
 
   export let images;
@@ -78,7 +83,7 @@
       height: 50vh;
     }
     .carousel {
-      gap: 5px;
+      gap: 1vw;
       margin-left: -85vw;
     }
   }
