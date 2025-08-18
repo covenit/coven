@@ -70,7 +70,7 @@
     <!-- content here -->
     <section class="padding-bt padding-lr form-container-maps">
         <div>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1041.4256820239127!2d7.611185229016509!3d45.08278107536116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47886b7ff1102def%3A0xad0cd89319776434!2sStrada%20Vicinale%20della%20Berlia%2C%20555%2C%2010146%20Torino%20TO%2C%20Italia!5e0!3m2!1ses!2sar!4v1753748534659!5m2!1ses!2sar" title="Coven S.r.l. Location Map" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1041.4256820239127!2d7.611185229016509!3d45.08278107536116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47886b7ff1102def%3A0xad0cd89319776434!2sStrada%20Vicinale%20della%20Berlia%2C%20555%2C%2010146%20Torino%20TO%2C%20Italia!5e0!3m2!1ses!2sar!4v1753748534659!5m2!1ses!2sar" title="Coven S.r.l. Location Map" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
         <div>
             <h2>Informazioni</h2>

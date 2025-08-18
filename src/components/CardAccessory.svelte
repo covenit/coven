@@ -1,9 +1,21 @@
 <script>
     export let accessory;
     export let activeFilter;
+
+    let showModal = false;
+
+    function openModal() {
+        showModal = true;
+    }
+
+    function closeModal() {
+        showModal = false;
+    }
 </script>
 
-<article>
+<!-- svelte-ignore a11y_click_events_have_key_events -->
+<!-- svelte-ignore a11y_no_noninteractive_element_interactions -->
+<article on:click={openModal}>
     <div>
         <h5>{accessory.code}</h5>
         <h4>{accessory.name}</h4>
@@ -21,6 +33,34 @@
     </div>
     <img src={accessory.image} alt="" srcset="">
 </article>
+
+<!-- svelte-ignore a11y_click_events_have_key_events -->
+{#if showModal}
+
+<!-- svelte-ignore a11y_click_events_have_key_events -->
+<!-- svelte-ignore a11y_no_static_element_interactions -->
+<div class="modal-backdrop" on:click={closeModal}>
+    <div class="modal-content">
+        <header>      
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="24" height="24" rx="12" fill="#E5E5E5"/>
+                <path d="M12 10.8891L15.8891 7L17 8.11094L13.1109 12L17 15.8891L15.8891 17L12 13.1109L8.11094 17L7 15.8891L10.8891 12L7 8.11094L8.11094 7L12 10.8891Z" fill="black"/>
+            </svg>
+        </header>
+        <main>
+            <img src={accessory.image} alt="">
+            <div>
+                <h5>{accessory.name}</h5>
+                <p>Questo strumento è perfetto sia per panetterie che per pasticcerie, rendendolo un'aggiunta essenziale per chiunque desideri elevare il proprio livello di panificazione.</p>
+                <a href="/#/about">
+                    <button id="btnPrimary-black">Scopri di più</button>
+                </a>
+            </div>
+        </main>
+    </div>
+</div>
+
+{/if}
 
 <style>
     article {
@@ -78,6 +118,53 @@
         margin-bottom: 2vh;
     }
 
+    .modal-backdrop {
+        position: fixed;
+        inset: 0;
+        background: rgba(0,0,0,0.5);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 999;
+    }
+
+    .modal-content {
+        position: relative;
+        background: #fff;
+        padding: 10px;
+        border-radius: 16px;
+        width: 40vw;
+    }
+    .modal-content header {
+        display: flex;
+        justify-content: end;
+    }
+    .modal-content main {
+        text-align: center;
+        padding: 2vh;
+    }
+    .modal-content main img {
+        height: 15vh;
+        width: auto;
+    }
+    .modal-content main > div {
+        padding: 1vh 8vh;
+    }
+    .modal-content main div h5 {
+        font-family: 'sf-ui-display-heavy';
+        font-size: 22px;
+        text-align: center;
+        margin-bottom: 2vh;
+    }
+    .modal-content main div p {
+        font-family: 'sf-ui-display-regular';
+        font-size: 16px;    
+        line-height: 18px;
+        letter-spacing: 0%;
+        text-align: center;
+        color: #494949;
+        margin: 4vh 0px;
+    }
     @media (max-width: 767px) {
         article {
             width: 100%;
