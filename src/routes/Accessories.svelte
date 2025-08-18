@@ -35,15 +35,14 @@
         <p>Filtra per prodotto</p>
         <div class="container-filters">
             {#each filters as item}
-                <div>
-                    <span 
-                        class="filter {activeFilter === item.f ? 'active' : ''}"
+                <div class="filter {activeFilter === item.f ? 'active' : ''}"
                         on:click={() => setFilter(item.f)}
                         on:keydown={(e) => e.key === 'Enter' && setFilter(item.f)}
                         tabindex="0"
                         role="button"
                         aria-pressed={activeFilter === item.f}
                         >
+                    <span>
                         {item.f}
                     </span>
                 </div>
@@ -88,7 +87,7 @@
         justify-content: start;
         gap: 10px;
     }
-    section .container-filters span {
+    section .container-filters > div {
         padding: 6px 20px;
         border-radius: 40px;
         background-color: #4949491A;
@@ -102,18 +101,18 @@
         transition: all 0.3s ease;
     }
     
-    section .container-filters span:hover {
+    section .container-filters > div:hover {
         background-color: #4949496f;
     }
     
-    section .container-filters span.active {
+    section .container-filters > div.active {
         border: 1px solid #E20C18;
         outline-offset: 2px;
         color: #E20C18;
         background: #E20C181A;
     }
     
-    section .container-filters span:focus {
+    section .container-filters > div:focus {
         border: 1px solid #E20C18;
         outline-offset: 2px;
         color: #E20C18;
@@ -125,7 +124,16 @@
             display: block;
         }
         section .container-filters {
-            flex-wrap: wrap;
+            display: block;
+        }
+        section .container-filters > div {
+            width: 100%;
+            padding: 3px 10px;
+            margin: 0px;
+            margin-bottom: 10px;
+        }
+        br {
+            display: none;
         }
     }
 </style>

@@ -14,6 +14,11 @@
   src: url('/src/assets/fonts/sf-ui-display/sf-ui-display-bold-58646a511e3d9.otf') format('opentype');
 }
 
+@font-face {
+  font-family: 'sf-ui-display-heavy';
+  src: url('/src/assets/fonts/sf-ui-display/sf-ui-display-heavy-586470160b9e5.otf') format('opentype');
+}
+
 :root {
   font-family: 'sf-ui-display-regular';
 }
@@ -80,8 +85,7 @@
 }
 
 h2 {
-  font-family: 'sf-ui-display-bold';
-  font-weight: 800;
+  font-family: 'sf-ui-display-heavy';
   font-size: 32px;
   line-height: 52px;
   letter-spacing: -2%;
@@ -117,7 +121,7 @@ h6{
   h2 {
     text-align: start;
     font-size: 24px;
-    line-height: 36px;
+    line-height: 29px;
   }
 
   h6 {

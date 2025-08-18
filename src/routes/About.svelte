@@ -22,4 +22,12 @@
         letter-spacing: -2%;
         text-align: center;
     }
+
+    @media (max-width: 767px) {
+        h1 {
+            font-size: 30px;
+            line-height: 31px;
+            text-align: start;
+        }
+    }
 </style>

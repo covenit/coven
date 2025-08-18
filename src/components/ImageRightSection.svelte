@@ -75,5 +75,11 @@
         .if-mobile-block {
             display: block;
         }
+        p{
+            line-height: 25px;
+        }
+        h2 {
+            font-family: 'sf-ui-display-heavy';
+        }
     }
 </style>

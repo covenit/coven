@@ -235,12 +235,14 @@
     }
 
     .p-sub {
-        font-family: 'sf-ui-display-medium';
+        font-family: 'sf-ui-display-regular';
         font-size: 18px;
-        line-height: 57px;
+        line-height: 38px;
         letter-spacing: 0%;
-        text-align: center;
-        color: #2F2F2F;
+        color: #5B5B5B;
+        width: 60%;
+        margin: 0 auto;
+        padding: 2vh 0vh;
     }
 
     .stadistics {
@@ -292,8 +294,10 @@
             display: block;
         }
 
-         .p-sub {
-            line-height: 34px;
+        .p-sub {
+            width: 100%;
+            font-size: 16px;
+            line-height: 25px;
             text-align: start;
         }
         .stadistics {

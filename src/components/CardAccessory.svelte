@@ -25,10 +25,7 @@
 <style>
     article {
         width: 49%;
-        padding-top: 44px;
-        padding-right: 47px;
-        padding-bottom: 44px;
-        padding-left: 47px;
+        padding: 40px;
         border-radius: 20px;
         background: #FFFFFF;
         box-shadow: 0px 2px 4px 0px #60617029;
@@ -86,6 +83,7 @@
             width: 100%;
             display: block;
             margin-bottom: 4vh;
+            padding: 30px;
         }
         article > div {
             width: 100%;
@@ -93,6 +91,7 @@
         article > img {
             width: 100%;
             height: auto;
+            margin-top: 4vh;
         }
     }
 </style>

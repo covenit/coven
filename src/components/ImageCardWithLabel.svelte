@@ -37,7 +37,13 @@
     @media (max-width: 767px) {
         article {
             width: 100%;
-            margin-bottom: 10px;
+            margin-bottom: 5px;
+            height: 220px;
+            border-radius: 10px;
+        }
+        article h3 {
+            font-size: 16px;
+            line-height: 20px;
         }
     }
 </style>

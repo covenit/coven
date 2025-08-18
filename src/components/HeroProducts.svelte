@@ -32,7 +32,7 @@
   }
   
   h1 {
-    font-family: 'sf-ui-display-bold';
+    font-family: 'sf-ui-display-medium';
     font-size: 70px;
     line-height: 80px;
     letter-spacing: -2%;
@@ -41,7 +41,7 @@
   }
 
     h2 {
-        font-family: 'sf-ui-display-medium';
+        font-family: 'sf-ui-display-bold';
         font-size: 36px;
         line-height: 50px;
         letter-spacing: -2%;
@@ -61,7 +61,7 @@
 
     @media (max-width: 767px) {
       .hero {
-        height: 40vh;
+        height: 50vh;
         display: flex;
         justify-content: start;
         align-items: end;
@@ -74,13 +74,18 @@
         text-align: start;
       }
       h1{
+        font-size: 35px;
+        line-height: 34px;
+        margin: 5px 0px;
+      }
+      h2 {
+        font-size: 26px;
+        line-height: 30px;
+      }
+      h3 {
         font-size: 32px;
         line-height: 31px;
-      }
-      h2, h3 {
-        font-size: 26px;
-        line-height: 32px;
-        margin-bottom: 2vh;
+        letter-spacing: 0%;
       }
     }
 </style>
