@@ -18,16 +18,15 @@
     display: flex;
     align-items: center;
     position: relative;
-    margin-left: -600px; /* Empuja el carrusel hacia la izquierda */
     overflow: hidden;
   }
 
   .carousel {
     display: flex;
+    justify-content: center;
     overflow-x: auto;
     scroll-behavior: smooth;
     gap: 16px;
-    padding-left: 150px; /* Esto deja "oculta" la mitad de la primer imagen */
   }
 
   .carousel::-webkit-scrollbar {
@@ -75,12 +74,13 @@
 
   @media (max-width: 767px) {
     .carousel-item {
-      width: 252px;
-      height: 186px;
+      width: 85vw;
+      height: 50vh;
     }
-    .carousel-wrapper {
-      margin-left: -320px; /* Empuja el carrusel hacia la izquierda */
-  }
+    .carousel {
+      gap: 5px;
+      margin-left: -85vw;
+    }
   }
 </style>
 
