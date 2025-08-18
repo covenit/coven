@@ -40,7 +40,10 @@
                         <li><p>distanza teglie: <span>{model.distanzateglie}</span></p></li>
                     </ul>
                     <ul>
-                        <li><p>numero pasti: <span>{model.numeropasti}</span></p></li>
+                        {#if model.numeropasti != ""}
+                             <!-- content here -->
+                            <li><p>numero pasti: <span>{model.numeropasti}</span></p></li>
+                        {/if}
                         <li><p>peso: <span>{model.peso}</span></p></li>
                         <li><p>tensione: <span>{model.tensione}</span></p></li>
                         <li><p>potenza: <span>{model.potenza}</span></p></li>
@@ -69,11 +72,11 @@
     article header, article main {
         display: flex;
         justify-content: start;
-        gap: 50px;
+        gap: 10px;
     }
 
     article header h5 {
-        font-family: 'sf-ui-display-bold';
+        font-family: 'sf-ui-display-heavy';
         font-size: 16px;
         line-height: 146%;
         letter-spacing: 1%;

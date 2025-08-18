@@ -25,19 +25,19 @@
         <ul>
             <li><a href="/">Home</a></li>
             <li><a href="/who-we-are">Chi siamo</a></li>
-            <li>Accessori</li>
+            <li><a href="/accessories">Accessori</a></li>
         </ul>
     </div>
     <div>
         <ul>
-            <li>Linea Gastronomia</li>
-            <li>Linea Pasticceria</li>
-            <li>Stilema</li>
+            <li><a href="/steady-cook">Linea Gastronomia</a></li>
+            <li><a href="/master-delight">Linea Pasticceria</a></li>
+            <li><a href="/styleme">Stilema</a></li>
         </ul>
     </div>
     <div>
         <ul>
-            <li>Contatto</li>
+            <li><a href="/about">Contatto</a></li>
             <li>Termini e Condizioni</li>
             <li>Informativa sulla Privacy</li>
         </ul>

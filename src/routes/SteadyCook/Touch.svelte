@@ -11,6 +11,10 @@
     import Form from "../../components/Form.svelte";
     const backgroundImage = '/hero-line-steady.cook.webp';
 
+
+    import SectionModels from "../../components/SectionModels.svelte";
+    import { models } from "../../data/models-touch-steadycook";
+
     const image = "/line/touch.webp";
 
     const texts = [
@@ -133,6 +137,11 @@
             <p>Librerie memorizzate e programmabili. Cicli di cottura: mantenimento, delta-T, rigenerazione, bassa temperatura e sottovuoto. programmi di lavaggio automatici, autodiagnosi e aggiornamento in remoto.</p>
         </article>
         <br>
+        <article>
+            <div class="number">2</div>
+            <p>porta <span>USB</span></p>
+        </article>
+        <br>
         <article class="item">
             <img src="/details/steadycook/touch/touch2.jpg" alt="">
             <div>
@@ -164,17 +173,14 @@
                     momento</p>
             </div>
         </article>
-
-        <article>
-            <div class="number">2</div>
-            <p>porta <span>USB</span></p>
-        </article>
     </div>    
 </section>
 
 <SectionComponent spec_items={spec_items}></SectionComponent>
 
 <CookingTechnologySection></CookingTechnologySection>
+
+<SectionModels models={models}></SectionModels>
 
 <CustomizedTools></CustomizedTools>
 

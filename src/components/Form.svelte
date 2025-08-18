@@ -52,14 +52,14 @@
     <div>
         <form on:submit={sendEmail}>
             <div class="form-group">
-                <input type="text" placeholder="Name" bind:value={username} required />
-                <input type="email" placeholder="Email" bind:value={email} required />
+                <input type="text" placeholder="nome" bind:value={username} required />
+                <input type="email" placeholder="e-mail" bind:value={email} required />
             </div>
             <div>
-                <input type="text" name="subject" bind:value={subject} placeholder="Subject" required />
+                <input type="text" name="subject" bind:value={subject} placeholder="soggetto" required />
             </div>
             <div>
-                <textarea rows="10" placeholder="Tu mensaje" bind:value={message} required></textarea>
+                <textarea rows="10" placeholder="messaggio" bind:value={message} required></textarea>
             </div>
             <button type="submit" id="btnPrimary-black">Invia</button>
         </form>
