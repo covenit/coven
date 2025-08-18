@@ -20,7 +20,7 @@
 
   @media (max-width: 767px) {
     .hero {
-      height: 50vh;
+      height: 60vh;
       display: flex;
       justify-content: start;
       align-items: end;

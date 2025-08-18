@@ -326,6 +326,10 @@
                     height: 100vh;
                     z-index: -1;
                 }
+                nav {
+                    position: fixed;
+                    width: 100%;
+                }
             }
 
             /* Animaciones suaves */
