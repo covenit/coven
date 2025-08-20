@@ -57,7 +57,7 @@
         display: flex;
         justify-content: start;
         align-items: start;
-        gap:100px;
+        gap: 5vw;
         background: #2F2F2F;
     }
 

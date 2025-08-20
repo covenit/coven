@@ -117,13 +117,19 @@
             </a>
         </CardProductMain>
         <CardProductMain image={cardProduct4} title={'Master Delight Visual'} text={"Forni di alta qualità per l'industria della pasticceria e panificazione."}>
-            <button id="btnPrimary-outline">Scopri di più</button>
+            <a href="#/master-delight-visual">
+                <button id="btnPrimary-outline">Scopri di più</button>
+            </a>
         </CardProductMain>
         <CardProductMain image={cardProduct5} title={'Master Delight Mech'} text={"Forni di alta qualità per l'industria della pasticceria e panificazione."}>
-            <button id="btnPrimary-outline">Scopri di più</button>
+            <a href="#/master-delight-merch">
+                <button id="btnPrimary-outline">Scopri di più</button>
+            </a>
         </CardProductMain>
         <CardProductMain image={cardProduct6} title={'Accessori'} text={"I migliori accessori sul mercato per la tua cucina."}>
-            <button id="btnPrimary-outline">Scopri di più</button>
+            <a href="#/accessories">
+                <button id="btnPrimary-outline">Scopri di più</button>
+            </a>
         </CardProductMain>
     </main>
 </section>
@@ -231,7 +237,7 @@
         justify-content: space-between;
         align-items: center;
         flex-wrap: wrap;
-        gap: 16px;
+        gap: 1vw;
     }
 
     .p-sub {
@@ -240,7 +246,7 @@
         line-height: 38px;
         letter-spacing: 0%;
         color: #5B5B5B;
-        width: 60%;
+        width: 100%;
         margin: 0 auto;
         padding: 2vh 0vh;
     }
@@ -295,7 +301,6 @@
         }
 
         .p-sub {
-            width: 100%;
             font-size: 16px;
             line-height: 25px;
             text-align: start;

@@ -37,7 +37,7 @@
     @media (max-width: 767px) {
         article {
             width: 100%;
-            margin-bottom: 5px;
+            margin-bottom: 2vh;
             height: 220px;
             border-radius: 10px;
         }

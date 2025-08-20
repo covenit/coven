@@ -23,9 +23,9 @@
         line-height: 38px;
         letter-spacing: 0%;
         color: #5B5B5B;
-        width: 60%;
+        width: auto;
         margin: 0 auto;
-        padding: 2vh 0vh;
+        padding: 2vh 30vh;
     }
 
     @media (max-width: 767px) {
@@ -36,6 +36,7 @@
             width: 100%;
             font-size: 16px;
             line-height: 25px;
+            padding: 2vh 0vh;
         }
     }
 </style>

@@ -66,8 +66,8 @@
     .section-lines {
         display: flex;
         justify-content: space-between;
-        align-items: center;
-        gap: 12px;
+        align-items: start;
+        gap: 1vw;
     }
 
     .section-lines > * {
@@ -81,7 +81,8 @@
         letter-spacing: 0%;
         color: rgba(91, 91, 91, 1);
         margin-bottom: 1vh;
-        width: 80%;
+        width: 70%;
+        height: 80px;
     }
 
     @media (max-width: 767px){
