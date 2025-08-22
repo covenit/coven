@@ -96,6 +96,7 @@
                 justify-content: space-between;
                 align-items: center;
                 position: relative;
+                z-index: 1001;
             }
 
             .nav-brand img {
@@ -111,7 +112,7 @@
                 border: none;
                 cursor: pointer;
                 padding: 4px;
-                z-index: 1001;
+                z-index: 10000;
                 border: none;
             }
 
@@ -263,7 +264,7 @@
                     padding: 80px 20px 20px;
                     gap: 20px;
                     transition: right 0.3s ease;
-                    z-index: 1000;
+                    z-index: 9999;
                     box-shadow: -2px 0 10px rgba(0,0,0,0.3);
                 }
 

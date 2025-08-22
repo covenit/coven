@@ -24,6 +24,7 @@
     align-items: center;
     position: relative;
     overflow: hidden;
+    z-index: 1;
   }
 
   .carousel {
