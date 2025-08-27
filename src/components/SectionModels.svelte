@@ -99,7 +99,7 @@
     }
 
     article header div, article main ul {
-        width: 49%;
+        width: 51%;
     }
 
     article header img {

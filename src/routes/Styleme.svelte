@@ -3,6 +3,11 @@
     import ContainerCharacteristics from "../components/Container-characteristics.svelte";
     import ContainerGrey from "../components/container-grey.svelte";
     import Carrousel from "../components/Carrousel.svelte";
+    import Form from "../components/Form.svelte";
+    import Gallery from "../components/Gallery.svelte";
+    import CustomizedTools from "../components/CustomizedTools.svelte";
+    import SectionModels from "../components/SectionModels.svelte";
+    import { models } from "../data/models-stilema";
 
     const backgroundImage = '/hero-stilema.webp';
     const image = "/line/stilema.webp";
@@ -159,6 +164,14 @@ La scelta di utilizzare componentistica made in Italy di alta qualità, progetta
         </div>
     </main>
 </section>
+
+<SectionModels models={models}></SectionModels>
+
+<CustomizedTools></CustomizedTools>
+
+<Gallery></Gallery>
+
+<Form complete={false}></Form>
 
 <style>
     .section-information {
