@@ -122,7 +122,7 @@
             </a>
         </CardProductMain>
         <CardProductMain image={cardProduct5} title={'Master Delight Mech'} text={"Forni di alta qualità per l'industria della pasticceria e panificazione."}>
-            <a href="#/master-delight-merch">
+            <a href="#/master-delight-mech">
                 <button id="btnPrimary-outline">Scopri di più</button>
             </a>
         </CardProductMain>

@@ -11,7 +11,7 @@
     import Form from "../../components/Form.svelte";
     import SectionImageDetails from "../../components/SectionImageDetails.svelte";
     import SectionModels from "../../components/SectionModels.svelte";
-    import {models} from "../../data/models-merch-master";
+    import {models} from "../../data/models-mech-master";
     
     const image = "../public/line/master-merch.webp";
 
@@ -97,7 +97,7 @@
     ];
 </script>
 
-<HeroProducts backgroundImage={backgroundImage} category="Pasticceria e Panificazione" title="Master Delight" line={"merch"}>
+<HeroProducts backgroundImage={backgroundImage} category="Pasticceria e Panificazione" title="Master Delight" line={"mech"}>
 </HeroProducts>
 
 <section class="padding-lr padding-bt">

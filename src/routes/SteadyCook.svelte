@@ -34,7 +34,7 @@
 
 <section class="padding-lr padding-bt section-lines">
     <div>
-        <CardLineOfProduct src={merch} title="MERCH" link={"/#/steady-cook-merch"}>
+        <CardLineOfProduct src={merch} title="MECH" link={"/#/steady-cook-mech"}>
             <p class="p-text">La serie con termostato digitale con encoder e controllo manuale.</p>
         </CardLineOfProduct>
     </div>

@@ -99,7 +99,7 @@
 
 </script>
 
-<HeroProducts backgroundImage={backgroundImage} category="Gastonomia" title="Steady Cook" line={"merch"}>
+<HeroProducts backgroundImage={backgroundImage} category="Gastonomia" title="Steady Cook" line={"mech"}>
 </HeroProducts>
 
 <section class="padding-lr padding-bt">
