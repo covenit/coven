@@ -93,9 +93,8 @@
             </button>
             <div class="submenu" class:open={submenuCatalogsOpen}>
                 <ul>
-                    <li><a href="#" on:click={closeMenus}>Scarica PDF Steady Cook</a></li>
-                    <li><a href="#" on:click={closeMenus}>Scarica PDF Master Delight</a></li>
-                    <li><a href="#" on:click={closeMenus}>Scarica PDF Stilema</a></li>
+                    <li><a href="#" on:click={closeMenus}>New Line</a></li>
+                    <li><a href="#" on:click={closeMenus}>Stilema</a></li>
                 </ul>
             </div>
         </div>
