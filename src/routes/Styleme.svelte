@@ -40,6 +40,12 @@
         {src : "/carrousel-stilema-line/4.webp"},
     ];
 
+    import SCA from "../../public/carrousel-stilema-line/a.webp";
+    import SCB from "../../public/carrousel-stilema-line/b.webp";
+    import SCC from "../../public/carrousel-stilema-line/c.webp";
+    import SCD from "../../public/carrousel-stilema-line/d.webp";
+    import SCE from "../../public/carrousel-stilema-line/e.webp";
+
 </script>
 
 <HeroProducts backgroundImage={backgroundImage} category="Tutto in uno" title="Stilema" line="the future is here"></HeroProducts>
@@ -60,33 +66,33 @@
 <section class="padding-lr padding-bt cards-stilema">
     <h2>L’eccellenza di Stilema, in ogni dettaglio</h2>
     <main>
-        <CardMainStilema urlImg={'/carrousel-stilema-line/a.webp'} title="CAMERA DI COTTURA" subtitle="Uniformità assoluta. Il futuro non lascia punti freddi" 
+        <CardMainStilema urlImg={SCA} title="CAMERA DI COTTURA" subtitle="Uniformità assoluta. Il futuro non lascia punti freddi" 
             text="Realizzata completamente in acciaio inox, la camera di cottura di STILEMA consente il raggiungimento e il mantenimento della temperatura fino a 300°. Grazie al KNOW HOW del nostro comparto tecnico, ai continui studi e test di laboratorio, abbiamo raggiunto la massima efficienza e precisione della distribuzione dell’aria calda e la conseguente totale uniformità della temperatura. I risultati di cottura saranno sempre impeccabili in ogni singolo spazio utilizzato.
             STILEMA garantisce massima flessibilità in cucina, con capacità di carico teglie GN1/1 e 60X40 per garantire i migliori risultati sia per la Gastronomia che per la Pasticceria."
         >
         </CardMainStilema>
 
-        <CardMainStilema urlImg={'/carrousel-stilema-line/b.webp'} title="SWIRLING GAS SYSTEM" subtitle="La rivoluzione del calore intelligente" 
+        <CardMainStilema urlImg={SCB} title="SWIRLING GAS SYSTEM" subtitle="La rivoluzione del calore intelligente" 
             text="Stilema utilizza un bruciatore brevettato con tecnologia SWIRLING GAS SYSTEM, che grazie alla miscelazione non premix e al controllo elettronico, raggiunge rapidamente temperature fino a 300 °C garantendo cotture perfette anche a pieno carico.Questa tecnologia assicura alte prestazioni con basse emissioni, risparmio energetico e massima sicurezza, grazie alla modulazione P.I.D. e alla gestione precisa del rapporto aria/gas.">
         </CardMainStilema>
 
-        <CardMainStilema urlImg={'/carrousel-stilema-line/c.webp'} title="AIR FLOW" subtitle="La nuova era della flessibilità è nell’aria" 
+        <CardMainStilema urlImg={SCC} title="AIR FLOW" subtitle="La nuova era della flessibilità è nell’aria" 
             text="La ventola di STILEMA, comandata da un motore brushless e relativo inverter, è in grado di variare automaticamente il senso di rotazione e la velocità in funzione dei diversi processi di cottura e del calore richiesto per ogni preparazione. Ciò garantisce massima flessibilità ed azione garantendo una velocità di cottura e di precisione senza precedenti.
 La scelta di utilizzare componentistica made in Italy di alta qualità, progettata e realizzata in partnership con i nostri fornitori, garantisce a STILEMA massima robustezza e performance ottimali oltre a semplificare gli interventi di manutenzione.">
         </CardMainStilema>
 
-        <CardMainStilema urlImg={'/carrousel-stilema-line/d.webp'} title="DUO STEAM SYSTEM (VAPORE)" subtitle="Controllo assoluto, efficienza che guarda al domani" 
+        <CardMainStilema urlImg={SCD} title="DUO STEAM SYSTEM (VAPORE)" subtitle="Controllo assoluto, efficienza che guarda al domani" 
             text="Innovativo sistema combinato che produce vapore consentendo di regolare la percentuale di umidità. Una caldaia dedicata conduce vapore nella camera di cottura insieme a dispositivi che ne consentono la produzione diretta in un binomio perfetto di efficienza.
 DUO STEAM SYSTEM permette di realizzare cotture rapide ad alta temperatura per esaltare la croccantezza degli alimenti e preparazioni lente a bassa temperatura per preservare le proprietà organolettiche. STILEMA permette di cuocere alimenti sottovuoto, con minori perdite di peso e una maggiore esaltazione dei sapori ed è dotata di un inverter che permette di controllare le ventole a 9 differenti velocità.">
         </CardMainStilema>
 
-        <CardMainStilema urlImg={'/carrousel-stilema-line/a.webp'} title="PROFESSIONAL WASHING SYSTEM" subtitle="L’efficienza del futuro è anche sostenibile" 
+        <CardMainStilema urlImg={SCA} title="PROFESSIONAL WASHING SYSTEM" subtitle="L’efficienza del futuro è anche sostenibile" 
             text="L’innovativo sistema di Lavaggio Automatico Professionale, si prende cura di Stilema mantenendo una pulizia sempre accurata ed efficace e garantendo elevati livelli di igiene per l’ambiente professionale.
 Sono disponibili 4 differenti programmi di lavaggio per adattarsi sempre di più ad ogni necessità: solo risciacquo, lavaggio delicato, medio e intenso. 
 Il riutilizzo dell’acqua calda garantisce un fattivo risparmio idrico ed energetico così come l’utilizzo di detergenti biologici e di brillantanti naturali garantiscono la giusta attenzione alla sostenibilità.">
         </CardMainStilema>
 
-        <CardMainStilema urlImg={'/carrousel-stilema-line/e.webp'} title="SEMPRE CONNESSO" subtitle="La cucina del futuro, a portata di click" 
+        <CardMainStilema urlImg={SCE} title="SEMPRE CONNESSO" subtitle="La cucina del futuro, a portata di click" 
             text="L’interfaccia Wi-Fi consente a STILEMA di connettersi facilmente a internet per segnalare guasti, programmare interventi di manutenzione e scaricare i dati HACCP in modo immediato.
 Grazie alla connettività cloud, è possibile accedere da remoto in tempo reale tramite PC, monitorare tutti i parametri funzionali e aggiornare i programmi di cottura, ottimizzando la gestione del lavoro in cucina. Inoltre, la porta USB permette di salvare dati e aggiornare il software in modo semplice e intuitivo.">
         </CardMainStilema>
@@ -205,6 +211,7 @@ Grazie alla connettività cloud, è possibile accedere da remoto in tempo reale 
         }
         .cards-stilema main { 
             display: block;
+            margin-top: 5vh;
         }
     }
 
