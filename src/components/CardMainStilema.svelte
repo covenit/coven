@@ -20,9 +20,26 @@
             </button>
         </div>
     {:else}
-        <div>
-            <p class="text-info">{text}</p>
-            <button on:click={() => showInfo = false}>Chiudi</button>
+        <div
+            class="modal-backdrop"
+            role="button"
+            tabindex="0"
+            aria-label="Chiudi la finestra informativa"
+            on:click={() => showInfo = false}
+            on:keydown={(e) => { if (e.key === 'Enter' || e.key === ' ') { showInfo = false; } }}
+        >
+            <div class="modal-content">
+                <header>      
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="24" height="24" rx="12" fill="#E5E5E5"/>
+                        <path d="M12 10.8891L15.8891 7L17 8.11094L13.1109 12L17 15.8891L15.8891 17L12 13.1109L8.11094 17L7 15.8891L10.8891 12L7 8.11094L8.11094 7L12 10.8891Z" fill="black"/>
+                    </svg>
+                </header>
+                <div>
+                    <p class="text-info">{text}</p>
+                    <button on:click={() => showInfo = false}>Chiudi</button>
+                </div>
+            </div>
         </div>
     {/if}
 </article>
@@ -88,6 +105,9 @@
         line-height: 28px;
         text-align: start;
     }
+    .modal-content header {
+        display: none;
+    }
 
     @media (max-width: 767px) {
         article {
@@ -105,9 +125,51 @@
             font-size: 16px;
             line-height: 18px;
         }
-        article .text-info {
-            font-size: 14px;
-            line-height: 18px;
+
+        .modal-backdrop {
+            position: fixed;
+            inset: 0;
+            background: rgba(0,0,0,0.5);
+            display: flex;
+            align-items: end;
+            justify-content: center;
+            z-index: 999;
+        }
+
+        .modal-content {
+            position: relative;
+            background: #fff;
+            padding: 4vw;
+            border-radius: 16px;
+            width: 100vw;
+            height: 80vh;
+            background-image:
+            linear-gradient(to bottom, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.6) 40%, rgba(0,0,0,0.8) 100%),
+            var(--img);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-end-end-radius: 0;
+            border-bottom-left-radius: 0;
+            animation: popUp 1s ease;
+        }
+
+        @keyframes popUp {
+            0%{
+                transform: translateY(20vh);
+            }
+            50%{
+                
+            }
+            100%{
+              
+            }
+        }
+
+        .modal-content header {
+            display: flex;
+            justify-content: end;
+            margin-bottom: 8vh;
         }
     }
 </style>
