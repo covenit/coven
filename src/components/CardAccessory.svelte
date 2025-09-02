@@ -53,7 +53,7 @@
                 <h5>{accessory.name}</h5>
                 <p>Questo strumento è perfetto sia per panetterie che per pasticcerie, rendendolo un'aggiunta essenziale per chiunque desideri elevare il proprio livello di panificazione.</p>
                 <a href="/#/about">
-                    <button id="btnPrimary-black">Scopri di più</button>
+                    <button id="btnPrimary-black">Richiedi informazioni</button>
                 </a>
             </div>
         </main>
@@ -177,14 +177,22 @@
         }
         article > img {
             width: 100%;
-            height: auto;
             margin-top: 4vh;
         }
         .modal-content {
-            width: 80vw;
+            width: 100vw;
+            height: 80vh;
+            border-bottom-left-radius: 0;
+            border-end-end-radius: 0;
         }
         .modal-content main > div {
-            padding: 1vh 3vh;
+            padding: 6vh 3vh;
+        }
+        .modal-backdrop {
+            align-items: end;
+        }
+        .modal-content main img {
+            height: 25vh;
         }
     }
 </style>
