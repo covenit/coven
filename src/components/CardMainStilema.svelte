@@ -93,8 +93,21 @@
         article {
             width: 100%;
             margin-bottom: 2vh;
-            height: 220px;
+            height: 430px;
             border-radius: 10px;
+            padding: 10%;
+        }
+        article div h4 {
+            font-size: 20px;
+            line-height: 20px;
+        }
+        article div p {
+            font-size: 16px;
+            line-height: 18px;
+        }
+        article .text-info {
+            font-size: 14px;
+            line-height: 18px;
         }
     }
 </style>
