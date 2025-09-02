@@ -9,6 +9,12 @@
     import SectionModels from "../components/SectionModels.svelte";
     import { models } from "../data/models-stilema";
     import CardMainStilema from "../components/CardMainStilema.svelte";
+    import SCA from "../../public/carrousel-stilema-line/a.webp";
+    import SCB from "../../public/carrousel-stilema-line/b.webp";
+    import SCC from "../../public/carrousel-stilema-line/c.webp";
+    import SCD from "../../public/carrousel-stilema-line/d.webp";
+    import SCE from "../../public/carrousel-stilema-line/e.webp";
+
 
     const backgroundImage = '/hero-stilema.webp';
     const image = "/line/stilema.webp";
@@ -39,13 +45,6 @@
         {src : "/carrousel-stilema-line/3.webp"},
         {src : "/carrousel-stilema-line/4.webp"},
     ];
-
-    import SCA from "../../public/carrousel-stilema-line/a.webp";
-    import SCB from "../../public/carrousel-stilema-line/b.webp";
-    import SCC from "../../public/carrousel-stilema-line/c.webp";
-    import SCD from "../../public/carrousel-stilema-line/d.webp";
-    import SCE from "../../public/carrousel-stilema-line/e.webp";
-
 </script>
 
 <HeroProducts backgroundImage={backgroundImage} category="Tutto in uno" title="Stilema" line="the future is here"></HeroProducts>
