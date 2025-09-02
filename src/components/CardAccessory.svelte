@@ -184,6 +184,19 @@
             height: 80vh;
             border-bottom-left-radius: 0;
             border-end-end-radius: 0;
+            animation: popUp 1s ease;
+        }
+
+        @keyframes popUp {
+            0%{
+                transform: translateY(20vh);
+            }
+            50%{
+                
+            }
+            100%{
+              
+            }
         }
         .modal-content main > div {
             padding: 6vh 3vh;
