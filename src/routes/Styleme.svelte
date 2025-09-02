@@ -9,11 +9,11 @@
     import SectionModels from "../components/SectionModels.svelte";
     import { models } from "../data/models-stilema";
     import CardMainStilema from "../components/CardMainStilema.svelte";
-    import SCA from "../../public/carrousel-stilema-line/a.webp";
-    import SCB from "../../public/carrousel-stilema-line/b.webp";
-    import SCC from "../../public/carrousel-stilema-line/c.webp";
-    import SCD from "../../public/carrousel-stilema-line/d.webp";
-    import SCE from "../../public/carrousel-stilema-line/e.webp";
+    const SCA = "/carrousel-stilema-line/a.webp";
+    const SCB = "/carrousel-stilema-line/b.webp";
+    const SCC = "/carrousel-stilema-line/c.webp";
+    const SCD = "/carrousel-stilema-line/d.webp";
+    const SCE = "/carrousel-stilema-line/e.webp";
 
 
     const backgroundImage = '/hero-stilema.webp';
