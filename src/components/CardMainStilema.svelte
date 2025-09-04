@@ -115,15 +115,15 @@
             margin-bottom: 2vh;
             height: 260px;
             border-radius: 10px;
-            padding: 10% 5%;
+            padding: 15%;
         }
         article div h4 {
-            font-size: 20px;
+            font-size: 18px;
             line-height: 20px;
         }
         article div p {
-            font-size: 18px;
-            line-height: 20px;
+            font-size: 16px;
+            line-height: 18px;
         }
 
         article .text-info {
