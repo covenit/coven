@@ -10,8 +10,8 @@
     import { models } from "../data/models-stilema";
     import CardMainStilema from "../components/CardMainStilema.svelte";
     const SCA = "/carrousel-stilema-line/camera.webp";
-    const SCB = "/carrousel-stilema-line/b.webp";
-    const SCC = "/carrousel-stilema-line/c.webp";
+    const SCB = "/carrousel-stilema-line/gassystem.webp";
+    const SCC = "/carrousel-stilema-line/airflow.webp";
     const SCD = "/carrousel-stilema-line/d.webp";
     const SCE = "/carrousel-stilema-line/e.webp";
 
