@@ -65,7 +65,7 @@
 <section class="padding-lr padding-bt cards-stilema">
     <h2>L’eccellenza di Stilema, in ogni dettaglio</h2>
     <main>
-        <CardMainStilema urlImg={SCA} title="CAMERA DI COTTURA" subtitle="Uniformità assoluta. Il futuro non lascia punti freddi" 
+        <CardMainStilema urlImg={SCD} title="CAMERA DI COTTURA" subtitle="Uniformità assoluta. Il futuro non lascia punti freddi" 
             text="Realizzata completamente in acciaio inox, la camera di cottura di STILEMA consente il raggiungimento e il mantenimento della temperatura fino a 300°. Grazie al KNOW HOW del nostro comparto tecnico, ai continui studi e test di laboratorio, abbiamo raggiunto la massima efficienza e precisione della distribuzione dell’aria calda e la conseguente totale uniformità della temperatura. I risultati di cottura saranno sempre impeccabili in ogni singolo spazio utilizzato.
             STILEMA garantisce massima flessibilità in cucina, con capacità di carico teglie GN1/1 e 60X40 per garantire i migliori risultati sia per la Gastronomia che per la Pasticceria."
         >
