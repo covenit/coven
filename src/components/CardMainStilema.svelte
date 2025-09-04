@@ -126,6 +126,11 @@
             line-height: 18px;
         }
 
+        article .text-info {
+           font-size: 16px;
+            line-height: 25px;
+        }
+
         .modal-backdrop {
             position: fixed;
             inset: 0;
@@ -139,7 +144,9 @@
         .modal-content {
             position: relative;
             background: #fff;
-            padding: 4vw;
+            padding: 4vh;
+            padding-left: 5vh;
+            padding-right: 5vh;
             border-radius: 16px;
             width: 100vw;
             height: 80vh;
@@ -169,7 +176,7 @@
         .modal-content header {
             display: flex;
             justify-content: end;
-            margin-bottom: 8vh;
+            margin-bottom: 2vh;
         }
     }
 </style>
