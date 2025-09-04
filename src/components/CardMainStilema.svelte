@@ -113,17 +113,17 @@
         article {
             width: 100%;
             margin-bottom: 2vh;
-            height: 430px;
+            height: 260px;
             border-radius: 10px;
-            padding: 10%;
+            padding: 10% 5%;
         }
         article div h4 {
             font-size: 20px;
             line-height: 20px;
         }
         article div p {
-            font-size: 16px;
-            line-height: 18px;
+            font-size: 18px;
+            line-height: 20px;
         }
 
         article .text-info {
