@@ -99,6 +99,7 @@
         vertical-align: middle;
         cursor: pointer;
         transition: all 0.3s ease;
+        text-align: center;
     }
     
     section .container-filters > div:hover {

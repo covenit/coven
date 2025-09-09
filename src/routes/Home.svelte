@@ -249,6 +249,7 @@
         width: 100%;
         margin: 0 auto;
         padding: 2vh 0vh;
+        text-align: center;
     }
 
     .stadistics {

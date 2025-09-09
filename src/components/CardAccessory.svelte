@@ -71,6 +71,14 @@
         box-shadow: 0px 2px 4px 0px #60617029;
         display: flex;
     }
+
+    article:hover {
+        box-shadow: 0px 4px 8px 0px #60617040;
+        cursor: pointer;
+        transform: translateY(-6px);
+        transition: all 0.3s ease;
+    }
+
     article > div {
         width: 45%;
     }
