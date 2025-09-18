@@ -5,9 +5,9 @@
 <style>
   .hero {
     width: 100%;
-    height: 90vh;
+    height: 70vh;
     background-size: cover;
-    background-position: center center;
+    background-position-y: 40%;
     background-color: rgba(0, 0, 0, 0.4); /* negro semitransparente arriba */
     background-blend-mode: darken; /* o multiply, overlay, etc. */
     display: flex;

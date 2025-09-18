@@ -18,7 +18,7 @@
 <style>
   .hero {
     width: 100%;
-    height: 90vh;
+    height: 70vh;
     background-size: cover;
     background-position: center center;
     background-color: rgba(0, 0, 0, 0.6); /* negro semitransparente arriba */

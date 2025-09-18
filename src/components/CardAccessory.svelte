@@ -51,7 +51,7 @@
             <img src={accessory.image} alt="">
             <div>
                 <h5>{accessory.name}</h5>
-                <p>Questo strumento è perfetto sia per panetterie che per pasticcerie, rendendolo un'aggiunta essenziale per chiunque desideri elevare il proprio livello di panificazione.</p>
+                <p>{accessory.text}</p>
                 <a href="/#/about">
                     <button id="btnPrimary-black">Richiedi informazioni</button>
                 </a>
