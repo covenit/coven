@@ -18,7 +18,7 @@
     const imageCard4 = '/cards-category/catering-rent.webp';
     
     /*Image of products main*/
-    const cardProduct1 = '/cards-main-products/SteadyCookTouch.webp';
+    const cardProduct1 = '/cards-main-products/SteadyCookMech.png';
     const cardProduct2 = '/cards-main-products/SteadyCookTouch.webp';
     const cardProduct3 = '/cards-main-products/SteadyCookVisual.webp';
     const cardProduct4 = '/cards-main-products/MasterDelightVisual.webp';
@@ -67,10 +67,9 @@
 </script>
 
 <Hero backgroundImage={backgroundImage}>
-    <h1>Innovando forni <br> professionali <p>dal 1980</p></h1>
+    <h1>Passione made in Italy per i forni professionali <p>dal 1980</p></h1>
 </Hero>
-
-<ContainerGrey ifSubitutle={'Made in italy'} ifTitle={'Qualità, prestazioni ed efficienza'} text={"Fondata negli anni '80 a Cremona, siamo stati pionieri nel mondo dei forni combinati a vapore. Nel 2019, il nostro viaggio si è evoluto con un nuovo capitolo a Torino, guidato dalla nostra passione per l'eccellenza tecnologica e la ricerca delle condizioni di cottura perfette. Ogni forno che costruiamo viene attentamente testato dai nostri tecnici esperti durante il processo di assemblaggio, garantendo affidabilità e precisione. Il nostro impegno è creare forni che siano intuitivi, durevoli e che offrano prestazioni eccezionali."}>
+<ContainerGrey ifSubitutle={'Made in italy'} ifTitle={"Qualità, affidabilita' ed efficienza"} text={"Fondata negli anni '80 a Cremona, siamo stati pionieri nel mondo dei forni combinati a vapore. Nel 2019, il nostro viaggio si è evoluto con un nuovo capitolo a Torino, guidato dalla nostra passione per l'eccellenza tecnologica e la ricerca delle condizioni per la cottura perfetta. Ogni forno che costruiamo viene attentamente testato e collaudato dai nostri tecnici esperti durante il processo di assemblaggio, garantendo affidabilità e precisione. Il nostro impegno è creare forni che siano intuitivi, resilienti e che garantiscano prestazioni eccellenti."}>
 </ContainerGrey>
 
 
@@ -106,13 +105,13 @@
                 <button id="btnPrimary-outline">Scopri di più</button>
             </a>
         </CardProductMain>
-        <CardProductMain image={cardProduct3} title={'Steady Cook Mech'} text={"Forni di alta qualità per l'industria della ristorazione."}>
-            <a href="#/steady-cook-mech">
+        <CardProductMain image={cardProduct3} title={'Steady Cook Visual'} text={"Forni di alta qualità per l'industria della ristorazione."}>
+            <a href="#/steady-cook-visual">
                 <button id="btnPrimary-outline">Scopri di più</button>
             </a>
         </CardProductMain>
-        <CardProductMain image={cardProduct3} title={'Steady Cook Visual'} text={"Forni di alta qualità per l'industria della ristorazione."}>
-            <a href="#/steady-cook-visual">
+        <CardProductMain image={cardProduct1} title={'Steady Cook Mech'} text={"Forni di alta qualità per l'industria della ristorazione."}>
+            <a href="#/steady-cook-mech">
                 <button id="btnPrimary-outline">Scopri di più</button>
             </a>
         </CardProductMain>
@@ -175,7 +174,7 @@
         font-family: 'sf-ui-display-medium';
         font-weight: 600;
         font-style: Semibold;
-        font-size: 80px;
+        font-size: 70px;
         line-height: 74px;
         letter-spacing: -2%;
         text-align: center;
@@ -253,7 +252,7 @@
     @media (max-width: 767px) {
         h1{
             font-size: 32px;
-            line-height: 31px;
+            line-height: 34px;
             text-align: start;
         }
         h1 p{

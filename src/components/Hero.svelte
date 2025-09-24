@@ -13,6 +13,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0px 40vh;
   }
   .hero .content {
     text-align: center;
@@ -24,6 +25,7 @@
       display: flex;
       justify-content: start;
       align-items: end;
+      padding: 5vh;
     }
     .hero .content {
       text-align: start;
