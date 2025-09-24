@@ -41,7 +41,7 @@
 </ContainerGrey>
 
 <section class="padding-lr padding-bt">
-    <ImageRightSection aling={false} image={passione} title={'Passione'} text={'Il sistema di produzione di Coven soddisfa rapidamente le richieste dei clienti per una consegna veloce. I nostri forni a convezione sono assemblati con cura, garantendo durata grazie al nostro avanzato sistema di controllo interno e ai componenti di alta qualità.'}>
+    <ImageRightSection aling={false} image={passione} title={'Passione'} text={'Sosteniamo con orgoglio i cuochi che utilizzano i nostri forni, stimolando la loro creatività con semplici gesti. Made in Italy, i forni professionali a convezione Coven sono interamente realizzati e testati rigorosamente per un uso intensivo. Offriamo informazioni essenziali pre-vendita e assistenza continua.'}>
     </ImageRightSection>
 </section>
 

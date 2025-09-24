@@ -18,7 +18,7 @@
     const imageCard4 = '/cards-category/catering-rent.webp';
     
     /*Image of products main*/
-    const cardProduct1 = '/cards-main-products/stilema.webp';
+    const cardProduct1 = '/cards-main-products/SteadyCookTouch.webp';
     const cardProduct2 = '/cards-main-products/SteadyCookTouch.webp';
     const cardProduct3 = '/cards-main-products/SteadyCookVisual.webp';
     const cardProduct4 = '/cards-main-products/MasterDelightVisual.webp';
@@ -101,13 +101,13 @@
     <h2 class="text-start">I nostri prodotti principali</h2>
     <br><br>
     <main>
-        <CardProductMain image={cardProduct1} title={'Stilema'} text={"La nuova generazione di forni con la più alta tecnologia."}>
-            <a href="#/styleme">
+        <CardProductMain image={cardProduct2} title={'Steady Cook Touch'} text={"Forni di alta qualità per l'industria della ristorazione."}>
+            <a href="#/steady-cook-touch">
                 <button id="btnPrimary-outline">Scopri di più</button>
             </a>
         </CardProductMain>
-        <CardProductMain image={cardProduct2} title={'Steady Cook Touch'} text={"Forni di alta qualità per l'industria della ristorazione."}>
-            <a href="#/steady-cook-touch">
+        <CardProductMain image={cardProduct3} title={'Steady Cook Mech'} text={"Forni di alta qualità per l'industria della ristorazione."}>
+            <a href="#/steady-cook-mech">
                 <button id="btnPrimary-outline">Scopri di più</button>
             </a>
         </CardProductMain>
@@ -163,44 +163,6 @@
         </main>
         {/if}
 </section>
-
-
-<ContainerGrey ifTitle={'Clienti che si fidano di noi'}>
-    <div class="elements-clients">
-        <div>
-            <p>PizzaHut</p>
-        </div>
-        <div>
-            <p>Dominos</p>
-        </div>
-        <div>
-            <p>PapaJohns</p>
-        </div>
-        <div>
-            <p>LittleCaesars</p>
-        </div>
-        <div>
-            <p>Sbarro</p>
-        </div>
-        <div>
-            <p>CaliforniaPizzaKitchen</p>
-        </div>
-        <div>
-            <p>PizzaExpress</p>
-        </div>
-        <div>
-            <p>BlazePizza</p>
-        </div>
-        <div>
-            <svg width="25" height="26" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M2.66666 3.1665L5.33332 5.83317M29.3333 3.1665L26.6667 5.83317M29.3333 29.8332L26.6667 27.1665M2.66666 29.8332L5.33332 27.1665M2.66666 21.8332H4.66666M10.6667 3.1665V5.1665M29.3333 11.1665H27.3333M21.3333 29.8332V27.8332M24 21.8332H28.6667M21.3333 3.1665V8.49984M2.66666 11.1665H7.99999M10.6667 29.8332V24.4998M15.2457 10.5874L10.0876 15.7456C9.82356 16.0096 9.69155 16.1416 9.64209 16.2938C9.59859 16.4277 9.59859 16.572 9.64209 16.7058C9.69155 16.8581 9.82356 16.9901 10.0876 17.2541L15.2457 22.4123C15.5097 22.6763 15.6418 22.8083 15.794 22.8577C15.9279 22.9012 16.0721 22.9012 16.206 22.8577C16.3582 22.8083 16.4902 22.6763 16.7542 22.4123L21.9124 17.2541C22.1764 16.9901 22.3084 16.8581 22.3579 16.7058C22.4014 16.572 22.4014 16.4277 22.3579 16.2938C22.3084 16.1416 22.1764 16.0096 21.9124 15.7456L16.7542 10.5874C16.4902 10.3234 16.3582 10.1914 16.206 10.1419C16.0721 10.0984 15.9279 10.0984 15.794 10.1419C15.6418 10.1914 15.5098 10.3234 15.2457 10.5874Z" stroke="#2F2F2F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-            <p>
-                Marco's
-            </p>
-        </div>
-    </div>
-</ContainerGrey>
 
 
 <Form complete={false}></Form>
@@ -260,7 +222,8 @@
         align-items: start;
         gap: 32px;
     }
-
+    
+    /*
     .elements-clients {
         display: flex;
         flex-wrap: wrap;
@@ -285,7 +248,7 @@
         text-transform: lowercase;
         text-align: center;
         vertical-align: middle;
-    }
+    } */
 
     @media (max-width: 767px) {
         h1{
@@ -310,6 +273,7 @@
             width: 100%;
             display: block;
         }
+        /*
         .elements-clients {
             display: block;
         }
@@ -322,7 +286,7 @@
         }
         .elements-clients p {
             text-align: start;
-        }
+        }*/
 
     }
 </style>
