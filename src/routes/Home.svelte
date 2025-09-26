@@ -74,7 +74,7 @@
 
 
 <section class="padding-lr padding-bt">
-    <ImageRightSection image={imageRightSection1} title={'Tradizione che ispira innovazione'} text={'Da oltre 40 anni perfezioniamo l’eccellenza culinaria. Con passione tutta italiana, uniamo tradizione e innovazione per offrire soluzioni uniche ai professionisti della cucina.'}>
+    <ImageRightSection image={imageRightSection1} title={'Tradizione che ispira innovazione'} text={'Da oltre 40 anni perfezioniamo i nostri forni con una particolare attenzione ai sistemi di combustione, del controllo del vapore e alla camera di cottura. con passione tutta italiana, uniamo tradizione e innovazione per offrire soluzioni uniche ai professionisti della cucina.'}>
         <br>
         <a href="#/who-we-are">
             <button id="btnPrimary-black">Scopri di più</button>
@@ -84,7 +84,7 @@
 
 
 <section class="padding-lr padding-bt">
-    <h2>Forni di alta qualità su misura per le esigenze del tuo business</h2>
+    <h2>La qualita’ che cerchi in un forno professionale in grado di adattarsi perfettamente alle esigenze del tuo business</h2>
     <p class="p-sub">Ogni settore ha il suo forno professionale Coven. Trova la soluzione perfetta per le tue esigenze!</p>
     <br>
     <main>
@@ -100,27 +100,27 @@
     <h2 class="text-start">I nostri prodotti principali</h2>
     <br><br>
     <main>
-        <CardProductMain image={cardProduct2} title={'Steady Cook Touch'} text={"Forni di alta qualità per l'industria della ristorazione."}>
+        <CardProductMain image={cardProduct2} title={'Steady Cook Touch'} text={"Forni professionali per la ristorazione. Tecnologia programmabile con display touch screen."}>
             <a href="#/steady-cook-touch">
                 <button id="btnPrimary-outline">Scopri di più</button>
             </a>
         </CardProductMain>
-        <CardProductMain image={cardProduct3} title={'Steady Cook Visual'} text={"Forni di alta qualità per l'industria della ristorazione."}>
+        <CardProductMain image={cardProduct3} title={'Steady Cook Visual'} text={"Forni professionali per la ristorazione. Tecnologia programmabile con comandi capacitivi."}>
             <a href="#/steady-cook-visual">
                 <button id="btnPrimary-outline">Scopri di più</button>
             </a>
         </CardProductMain>
-        <CardProductMain image={cardProduct1} title={'Steady Cook Mech'} text={"Forni di alta qualità per l'industria della ristorazione."}>
+        <CardProductMain image={cardProduct1} title={'Steady Cook Mech'} text={"Forni professionali per la ristorazione con termoregolazione digitale e comandi manuali."}>
             <a href="#/steady-cook-mech">
                 <button id="btnPrimary-outline">Scopri di più</button>
             </a>
         </CardProductMain>
-        <CardProductMain image={cardProduct4} title={'Master Delight Visual'} text={"Forni di alta qualità per l'industria della pasticceria e panificazione."}>
+        <CardProductMain image={cardProduct4} title={'Master Delight Visual'} text={"Forni professionali per la pasticceria e la panificazione. Tecnologia programmabile con comandi capacitivi."}>
             <a href="#/master-delight-visual">
                 <button id="btnPrimary-outline">Scopri di più</button>
             </a>
         </CardProductMain>
-        <CardProductMain image={cardProduct5} title={'Master Delight Mech'} text={"Forni di alta qualità per l'industria della pasticceria e panificazione."}>
+        <CardProductMain image={cardProduct5} title={'Master Delight Mech'} text={"Forni professionali per l'industria della pasticceria e della panificazione. Termoregolazione digitale con comandi manuali."}>
             <a href="#/master-delight-mech">
                 <button id="btnPrimary-outline">Scopri di più</button>
             </a>

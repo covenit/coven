@@ -40,13 +40,13 @@
          <div>
              <h2>Trasforma il tuo business con i nostri forni!</h2>
              <br>
-             <p>Contattaci oggi! Il nostro team di esperti è pronto ad aiutarti a trovare il forno perfetto per soddisfare le esigenze del tuo business.</p>
+             <p>Contattaci adesso! Il nostro team di esperti è pronto ad aiutarti a trovare il forno perfetto per soddisfare le esigenze del tuo business.</p>
          </div>
     {:else}
          <div>
              <h2>Pronto a ottimizzare la tua cucina?</h2>
              <br>
-             <p>Contattaci oggi! Il nostro team di esperti è pronto ad aiutarti a trovare il forno perfetto per soddisfare le esigenze della tua attività.</p>
+             <p>Contattaci adesso! Il nostro team di esperti è pronto ad aiutarti a trovare il forno perfetto per soddisfare le esigenze della tua attività.</p>
          </div>
     {/if}
     <div>
