@@ -46,7 +46,7 @@
         <ul>
             <li><a href="#/about">Contatto</a></li>
             <li>Termini e Condizioni</li>
-            <li>Informativa sulla Privacy</li>
+            <li>Politica sulla riservatezza</li>
         </ul>
     </div>
     <div>
@@ -75,7 +75,7 @@
     }
 
     footer div {
-        width: 150px;
+        width: 170px;
     }
 
     ul {

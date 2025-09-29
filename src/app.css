@@ -128,6 +128,10 @@ h6{
     line-height: 29px;
     padding: 0vh;
   }
+  
+  .h2-container {
+    padding: 0vh;
+  }
 
   h6 {
     text-align: start;

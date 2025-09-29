@@ -13,6 +13,8 @@
     let mobileMenuOpen = false;
     let submenuProductsOpen = false;
     let submenuCatalogsOpen = false;
+    let submenuSteadyCookOpen = false;
+    let submenuMasterOpen = false;
 
     // Toggle menú móvil
     function toggleMobileMenu() {
@@ -33,6 +35,15 @@
         submenuCatalogsOpen = !submenuCatalogsOpen;
         if (submenuCatalogsOpen) submenuProductsOpen = false;
     }
+
+    function toggleSubmenuSteadyCook(event) {
+        submenuSteadyCookOpen = !submenuSteadyCookOpen;
+    }
+
+    function toggleSubmenuMaster(event) {
+        submenuMasterOpen = !submenuMasterOpen;
+    }
+
 
     // Cierra todo al hacer click en un enlace
     function closeMenus() {
@@ -74,8 +85,48 @@
             </button>
             <div class="submenu" class:open={submenuProductsOpen}>
                 <ul>
-                    <li><a href="#/steady-cook" class:selected={$currentPath === '/steady-cook'} on:click={closeMenus}>Steady Cook</a></li>
-                    <li><a href="#/master-delight" class:selected={$currentPath === '/master-delight'} on:click={closeMenus}>Master Delight</a></li>
+                    <li class="nav-item has-submenu">
+                        <div class="nav-link-container">
+                            <a href="#/steady-cook" class:selected={$currentPath === '/steady-cook'} on:click={closeMenus}>
+                                Steady Cook
+                            </a>
+                            <!-- svelte-ignore a11y_consider_explicit_label -->
+                            <button class="submenu-toggle" on:click={toggleSubmenuSteadyCook}>
+                                <svg width="auto" height="8" viewBox="0 0 10 6" xmlns="http://www.w3.org/2000/svg" class:rotated={submenuSteadyCookOpen}>
+                                    <path d="M0.88 1.19L5.12 5.44L9.37 1.19L8.84 0.67L5.12 4.38L1.41 0.67L0.88 1.19Z" fill="#fff"/>
+                                </svg>
+                            </button>
+                        </div>
+
+                        <div class=" innermenu" class:open={submenuSteadyCookOpen}>
+                            <ul>
+                                <li><a href="#/steady-cook-mech" on:click={closeMenus}>Mech</a></li>
+                                <li><a href="#/steady-cook-visual" on:click={closeMenus}>Visual</a></li>
+                                <li><a href="#/steady-cook-touch" on:click={closeMenus}>Touch</a></li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li class="nav-item has-submenu">
+                        <div class="nav-link-container">
+                            <a href="#/master-delight" class:selected={$currentPath === '/master-delight'} on:click={closeMenus}>
+                                Master Delight
+                            </a>
+                            <!-- svelte-ignore a11y_consider_explicit_label -->
+                            <button class="submenu-toggle" on:click={toggleSubmenuMaster}>
+                                <svg width="auto" height="8" viewBox="0 0 10 6" xmlns="http://www.w3.org/2000/svg" class:rotated={submenuMasterOpen}>
+                                    <path d="M0.88 1.19L5.12 5.44L9.37 1.19L8.84 0.67L5.12 4.38L1.41 0.67L0.88 1.19Z" fill="#fff"/>
+                                </svg>
+                            </button>
+                        </div>
+
+                        <div class=" innermenu" class:open={submenuMasterOpen}>
+                            <ul>
+                                <li><a href="#/master-delight-mech" on:click={closeMenus}>Mech</a></li>
+                                <li><a href="#/master-delight-visual" on:click={closeMenus}>Visual</a></li>
+                            </ul>
+                        </div>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -93,8 +144,8 @@
             </button>
             <div class="submenu" class:open={submenuCatalogsOpen}>
                 <ul>
-                    <li><a href="/CATALOGONEWLINEITA0525.pdf" on:click={closeMenus} target="_blank">New Line</a></li>
-                    <li><a href="/CATALOGONEWLINEENG.pdf" on:click={closeMenus} target="_blank">Stilema</a></li>
+                    <li><a href="/CATALOGONEWLINEITA0525.pdf" on:click={closeMenus} target="_blank">New Line (Ita)</a></li>
+                    <li><a href="/CATALOGONEWLINEENG.pdf" on:click={closeMenus} target="_blank">New Line (Eng)</a></li>
                 </ul>
             </div>
         </div>
@@ -237,6 +288,32 @@
         color: #ff6666;
     }
 
+    .nav-link-container {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .submenu-toggle {
+        background: none;
+        border: none;
+        cursor: pointer;
+        padding: 4px;
+    }
+
+    .innermenu {
+        background-color: #3a3a3a;
+        text-align: end;
+        padding-right: 20px;
+        margin-top: 1vh;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease;
+    }
+
+    .innermenu.open {
+        max-height: 500px; /* Ajustar según cantidad de opciones */
+    }
     /* Estilos móviles */
     @media (max-width: 767px) {
         .hamburger {
@@ -289,7 +366,7 @@
         }
 
         .submenu.open {
-            max-height: 200px;
+            max-height: 300px;
             opacity: 1;
             visibility: visible;
         }
