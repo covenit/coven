@@ -335,6 +335,7 @@
             transition: right 0.3s ease;
             z-index: 9999;
             box-shadow: -2px 0 10px rgba(0,0,0,0.3);
+            overflow-y: auto;
         }
 
         .links.mobile-open {
@@ -366,7 +367,7 @@
         }
 
         .submenu.open {
-            max-height: 300px;
+            max-height: 450px;
             opacity: 1;
             visibility: visible;
         }
