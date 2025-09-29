@@ -10,7 +10,7 @@
         {f: "Stilema"},
         {f: "Steady Cook"},
         {f: "Master Delight"},
-        {f: "Tecnico"},
+        {f: "Specifiche"},
         {f: "Multigrill"}
     ];
 

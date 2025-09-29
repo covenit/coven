@@ -34,7 +34,7 @@ export const accessories = [
     text: "Sistema manuale per trattare l’acqua, riducendo calcare e impurità. Garantisce prestazioni ottimali e maggiore durata agli apparecchi.",
     code: "ADCTH405",
     serie: "TUTTI MODELLI",
-    category: ["Tutti", "Tecnico"],
+    category: ["Tutti", "Specifiche"],
     image: ADCTH405
   },
   {
@@ -43,7 +43,7 @@ export const accessories = [
     text:"Dispositivo professionale per ridurre rapidamente la temperatura di cibi cotti, preservandone freschezza, sapore e consistenza. Efficiente e sicuro.",
     code: "ABVAP06 - ABVAP10-20",
     serie: "Series 6, 10, 20",
-    category: ["Steady cook", "Tecnico"],
+    category: ["Steady cook", "Specifiche"],
     image: ABVAP06
   },
   {
@@ -52,7 +52,7 @@ export const accessories = [
     text:"Cappa aspirante professionale per rimuovere fumi, vapori e odori in cucina, garantendo un ambiente pulito e sicuro. Facile da installare e mantenere.",
     code: "CAPPA610",
     serie: "Only Series 6 - 10 E",
-    category: ["Tutti", "Tecnico"],
+    category: ["Tutti", "Specifiche"],
     image: CAPPA610
   },
   {
@@ -61,7 +61,7 @@ export const accessories = [
     text:"Doccia professionale per il lavaggio intenso di teglie e accessori, rimuove rapidamente sporco e residui. Facile da usare e resistente.",
     code: "CDOCC004",
     serie: "Steady Cook & Master Delight",
-    category: ["Tutti", "Tecnico"],
+    category: ["Tutti", "Specifiche"],
     image: CDOCC004
   },
   {
@@ -70,7 +70,7 @@ export const accessories = [
     text:"Porta reversibile per forno, progettata per aprirsi in entrambe le direzioni e adattarsi a qualsiasi spazio di lavoro. Robusta e sicura.",
     code: "NS061723C - NS01021C - CL20022C - MD05014C - MD08022C - MC12022C",
     serie: "TUTTI MODELLI",
-    category: ["Tutti", "Tecnico"],
+    category: ["Tutti", "Specifiche"],
     image: NS061723C
   },
   {
@@ -79,7 +79,7 @@ export const accessories = [
     text:"Supporto in acciaio inox resistente e modulare, facile da montare e smontare. Perfetto per organizzare al meglio teglie e bacinelle nel forno.",
     code: "SUPSC06 - SUPSC10 -SUPSC20 - SUPMD05 - SUPMD08 -SUPMD10",
     serie: "TUTTI MODELLI",
-    category: ["Tutti", "Tecnico"],
+    category: ["Tutti", "Specifiche"],
     image: SUPSC06
   },
   {
@@ -88,7 +88,7 @@ export const accessories = [
     text:"Sistema professionale per la pulizia completa del forno, rimuovendo residui e grassi in modo rapido ed efficace. Mantiene il forno sempre igienico e pronto all’uso.",
     code: "LAV0506EG - LAV0810EG - LAV20EG - LAV2140E - LAV0506EG - LAV0810EG",
     serie: "VISUAL E TOUCH MODELLI",
-    category: ["Tutti", "Tecnico"],
+    category: ["Tutti", "Specifiche"],
     image: LAV0506EG
   },
   {
@@ -97,7 +97,7 @@ export const accessories = [
     text: "Sonda professionale per misurare la temperatura interna di carne e altri alimenti, garantendo cotture precise e sicure. Facile da usare e affidabile.",
     code: "C0V00013",
     serie: "VISUAL E TOUCH MODELLI",
-    category: ["Tutti", "Tecnico"],
+    category: ["Tutti", "Specifiche"],
     image: C0V00013
   },
   {
@@ -106,7 +106,7 @@ export const accessories = [
     text: "Filtro progettato per trattenere grassi e residui durante la cottura, mantenendo il forno pulito e le preparazioni più sane. Facile da rimuovere e pulire.",
     code: "ASU00006 - ASU00010 - ASU00020",
     serie: "Series 6, 10, 20",
-    category: ["Steady Cook", "Tecnico"],
+    category: ["Steady Cook", "Specifiche"],
     image: ASU00006
   },
   {
