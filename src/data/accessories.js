@@ -68,19 +68,10 @@ export const accessories = [
     id: 5,
     name: "PORTA CONTRARIA",
     text:"Porta reversibile per forno, progettata per aprirsi in entrambe le direzioni e adattarsi a qualsiasi spazio di lavoro. Robusta e sicura.",
-    code: "NS061723C - NS01021C - CL20022C",
-    serie: "Series 6, 10, 20",
-    category: ["Steady Cook", "Tecnico"],
+    code: "NS061723C - NS01021C - CL20022C - MD05014C - MD08022C - MC12022C",
+    serie: "TUTTI MODELLI",
+    category: ["Tutti", "Tecnico"],
     image: NS061723C
-  },
-  {
-    id: 6,
-    name: "PORTA CONTRARIA",
-    text:"Porta reversibile per forno, progettata per aprirsi in entrambe le direzioni e adattarsi a qualsiasi spazio di lavoro. Robusta e sicura.",
-    code: "MD05014C - MD08022C - MC12022C",
-    serie: "Series 5, 8, 10",
-    category: ["Master Delight", "Tecnico"],
-    image:  MD05014C
   },
   {
     id: 7,
