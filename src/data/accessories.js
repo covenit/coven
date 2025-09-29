@@ -33,7 +33,7 @@ export const accessories = [
     name: "ADDOLCITORE MANUALE",
     text: "Sistema manuale per trattare l’acqua, riducendo calcare e impurità. Garantisce prestazioni ottimali e maggiore durata agli apparecchi.",
     code: "ADCTH405",
-    serie: "Steady Cook & Master Delight",
+    serie: "TUTTI MODELLI",
     category: ["Tutti", "Tecnico"],
     image: ADCTH405
   },
@@ -43,7 +43,7 @@ export const accessories = [
     text:"Dispositivo professionale per ridurre rapidamente la temperatura di cibi cotti, preservandone freschezza, sapore e consistenza. Efficiente e sicuro.",
     code: "ABVAP06 - ABVAP10-20",
     serie: "Series 6, 10, 20",
-    category: ["Tutti", "Tecnico"],
+    category: ["Steady cook", "Tecnico"],
     image: ABVAP06
   },
   {
@@ -52,7 +52,7 @@ export const accessories = [
     text:"Cappa aspirante professionale per rimuovere fumi, vapori e odori in cucina, garantendo un ambiente pulito e sicuro. Facile da installare e mantenere.",
     code: "CAPPA610",
     serie: "Only Series 6 - 10 E",
-    category: ["Steady Cook", "Tecnico"],
+    category: ["Tutti", "Tecnico"],
     image: CAPPA610
   },
   {
@@ -77,54 +77,27 @@ export const accessories = [
     id: 7,
     name: "SUPPORTO INOX SMONTABILE",
     text:"Supporto in acciaio inox resistente e modulare, facile da montare e smontare. Perfetto per organizzare al meglio teglie e bacinelle nel forno.",
-    code: "SUPSC06 - SUPSC10 - SUPSC20",
-    serie: "Series 6, 10, 20",
-    category: ["Steady Cook", "Tecnico"],
+    code: "SUPSC06 - SUPSC10 -SUPSC20 - SUPMD05 - SUPMD08 -SUPMD10",
+    serie: "TUTTI MODELLI",
+    category: ["Tutti", "Tecnico"],
     image: SUPSC06
   },
   {
-    id: 8,
-    name: "SUPPORTO INOX SMONTABILE",
-    text:"Supporto in acciaio inox resistente e modulare, facile da montare e smontare. Perfetto per organizzare al meglio teglie e bacinelle nel forno.",
-    code: "SUPMD05 - SUPMD08 - SUPMD10",
-    serie: "Series 5, 8, 10",
-    category: ["Master Delight", "Tecnico"],
-    image: SUPMD05
-  },
-  {
     id: 9,
-    name: "LAVAGGIO",
+    name: "LAVAGGIO (Facoltativo nella serie Visual e incluso nella serie Touch)",
     text:"Sistema professionale per la pulizia completa del forno, rimuovendo residui e grassi in modo rapido ed efficace. Mantiene il forno sempre igienico e pronto all’uso.",
-    code: "LAV0506EG - LAV0810EG - LAV20EG - LAV2140E",
-    serie: "Series 6, 10, 20, 21, 40",
-    category: ["Steady Cook", "Tecnico"],
-    image: LAV0506EG
-  },
-  {
-    id: 91,
-    name: "LAVAGGIO",
-    text: "Sistema professionale per la pulizia completa del forno, rimuovendo residui e grassi in modo rapido ed efficace. Mantiene il forno sempre igienico e pronto all’uso.",
-    code: "LAV0506EG - LAV0810EG",
-    serie: "SERIES 5, 8, 10",
-    category: ["Steady Cook", "Tecnico"],
+    code: "LAV0506EG - LAV0810EG - LAV20EG - LAV2140E - LAV0506EG - LAV0810EG",
+    serie: "VISUAL E TOUCH MODELLI",
+    category: ["Tutti", "Tecnico"],
     image: LAV0506EG
   },
   {
     id: 10,
-    name: "SONDA AL CUORE",
+    name: "SONDA AL CUORE (Facoltativo nella serie Visual e incluso nella serie Touch)",
     text: "Sonda professionale per misurare la temperatura interna di carne e altri alimenti, garantendo cotture precise e sicure. Facile da usare e affidabile.",
     code: "C0V00013",
-    serie: "Series 6, 10, 20, 21, 40",
-    category: ["Steady Cook", "Tecnico"],
-    image: C0V00013
-  },
-  {
-    id: 10,
-    name: "SONDA AL CUORE",
-    text: "Sonda professionale per misurare la temperatura interna di carne e altri alimenti, garantendo cotture precise e sicure. Facile da usare e affidabile.",
-    code: "C0V00013",
-    serie: "Series 6, 10, 20, 21, 40",
-    category: ["Steady Cook", "Tecnico"],
+    serie: "VISUAL E TOUCH MODELLI",
+    category: ["Tutti", "Tecnico"],
     image: C0V00013
   },
   {
@@ -140,21 +113,12 @@ export const accessories = [
     id: 12,
     name: "GRIGLIA CROMATA",
     text:"Griglia con finitura cromata, ideale per cotture uniformi e dorature perfette su carne, pesce e verdure. Resistente e facile da pulire.",
-    code: "AGR00012 - AGR00023 - AGR00011 - AGR00021",
-    serie: "GN 1/2, GN 2/3, GN 1/1, GN 2/1",
-    category: ["Steady Cook", "Multigrill"],
+    code: "AGR00012 - AGR00023 - AGR00011 - AGR00021 - AGR4604P - AGRMXD23 - AGRIX011 - AGRIX021",
+    serie: "GN 1/2, GN 2/3, GN 1/1, GN 2/1 - 40X60 CM - GN 2/3, GN 1/1, GN 2/1",
+    category: ["Tutti", "Multigrill"],
     image: AGR00012
   },
-  {
-    id: 13,
-    name: "GRIGLIA CROMATA",
-    text:"Griglia con finitura cromata, ideale per cotture uniformi e dorature perfette su carne, pesce e verdure. Resistente e facile da pulire.",
-    code: "AGR4604P",
-    serie: "40X60 cm",
-    category: ["Master Delight", "Multigrill"],
-    image: AGR4604P
-  },
-  {
+  /*{
     id: 14,
     name: "GRIGLIA INOX",
     text: "Griglia in acciaio inox resistente, perfetta per cuocere carne, pesce e verdure in modo uniforme. Facile da pulire e duratura.",
@@ -162,7 +126,7 @@ export const accessories = [
     serie: "GN 2/3, GN 1/1, GN 2/1",
     category: ["Steady Cook", "Multigrill"],
     image: AGRMXD23
-  },
+  },*/
   {
     id: 15,
     name: "BACINELLE RETE",
