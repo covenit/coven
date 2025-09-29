@@ -93,8 +93,8 @@
             </button>
             <div class="submenu" class:open={submenuCatalogsOpen}>
                 <ul>
-                    <li><a href="#" on:click={closeMenus}>New Line</a></li>
-                    <li><a href="#" on:click={closeMenus}>Stilema</a></li>
+                    <li><a href="/CATALOGONEWLINEITA0525.pdf" on:click={closeMenus} target="_blank">New Line</a></li>
+                    <li><a href="/CATALOGONEWLINEENG.pdf" on:click={closeMenus} target="_blank">Stilema</a></li>
                 </ul>
             </div>
         </div>

@@ -6,7 +6,7 @@
 
 <section class="container-grey padding-lr padding-bt">
     <h6>{ifSubitutle}</h6>
-    <h2>{ifTitle}</h2>
+    <h2 class="h2-container">{ifTitle}</h2>
     <p>{text}</p>
     <slot></slot>
 </section>

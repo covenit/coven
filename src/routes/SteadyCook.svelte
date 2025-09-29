@@ -29,7 +29,7 @@
 <HeroProducts backgroundImage={backgroundImage} category="Gastonomia" title="Steady Cook">
 </HeroProducts>
 
-<ContainerGrey ifTitle={'Un forno speciale per una gastronomia eccezionale'} text={'Un forno high-tech disponibile in tre modelli: Mech, Visual e Touch; forni a convezione e combinati a vapore con controllo preciso e uniforme della temperatura, e software in grado di memorizzare fino a 120 ricette con 6 fasi di cottura differenti. La porta USB consente aggiornamenti del software, permettendo la gestione e semplificazione dei processi di lavoro.'}>
+<ContainerGrey ifTitle={'Un forno pensato per la gastronomia, l’alleato perfetto per bar, ristoranti e hotel'} text={'Il nostro forno per la gastronomia disponibile in tre modelli: Mech, Visual e Touch. Forni a convezione e combinati a vapore con controllo preciso e uniforme della temperatura e software in grado di memorizzare fino a 120 ricette con 6 fasi di cottura differenti. Nei modelli digitali la porta usb consente aggiornamenti del software. permettendo la gestione e semplificazione dei processi di lavoro e il sistema di lavaggio automatico permette di mantenere il forno sempre pulito ed impeccabile. Disponibile nella versione elettrica o a gas.'}>
 </ContainerGrey>
 
 <section class="padding-lr padding-bt section-lines">
@@ -40,7 +40,7 @@
     </div>
     <div>
         <CardLineOfProduct src={visual} title="VISUAL" link={"/#/steady-cook-visual"}>
-            <p class="p-text">Una serie dotata di una tastiera capacitiva intuitiva e affidabile con un design sofisticato.</p>
+            <p class="p-text">Una serie dotata di una tastiera capacitiva intuitiva e affidabile dal design sofisticato.</p>
         </CardLineOfProduct>
     </div>
     <div>

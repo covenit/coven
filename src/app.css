@@ -93,6 +93,10 @@ h2 {
   color: #2F2F2F;
 }
 
+.h2-container {
+  padding: 0vh 30vh;
+}
+
 h6{
   font-family: 'sf-ui-display-bold';
   font-weight: 800;
@@ -122,6 +126,7 @@ h6{
     text-align: start;
     font-size: 24px;
     line-height: 29px;
+    padding: 0vh;
   }
 
   h6 {
