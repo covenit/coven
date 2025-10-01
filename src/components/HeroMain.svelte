@@ -1,0 +1,40 @@
+<script>
+  export let backgroundImage = '';
+</script>
+
+<style>
+  .hero {
+    width: 100%;
+    height: 70vh;
+    background-size: cover;
+    background-position-y: 40%;
+    background-color: rgba(0, 0, 0, 0.4); /* negro semitransparente arriba */
+    background-blend-mode: darken; /* o multiply, overlay, etc. */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 40vh;
+  }
+  .hero .content {
+    text-align: center;
+  }
+
+  @media (max-width: 767px) {
+    .hero {
+      height: 60vh;
+      display: flex;
+      justify-content: start;
+      align-items: end;
+      padding: 5vh;
+    }
+    .hero .content {
+      text-align: start;
+    }
+  }
+</style>
+
+<header class="hero padding-lr padding-bt" style="background-image: url({backgroundImage})">
+  <div class="content">
+    <slot></slot>
+  </div>
+</header>

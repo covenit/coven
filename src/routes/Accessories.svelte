@@ -7,7 +7,6 @@
 
     const filters = [
         {f: "Tutti"},
-        {f: "Stilema"},
         {f: "Steady Cook"},
         {f: "Master Delight"},
         {f: "Specifiche"},

@@ -8,8 +8,6 @@
     import { fade } from 'svelte/transition';
     import Form from '../components/Form.svelte';
 
-
-    const backgroundImage = '/hero1.webp';
     const imageRightSection1 = '/home1.png';
 
     const imageCard1 = '/cards-category/restaurant-hotel.webp';
@@ -66,8 +64,8 @@
 
 </script>
 
-<Hero backgroundImage={backgroundImage}>
-    <h1>Passione made in Italy per i forni professionali <p>dal 1980</p></h1>
+<Hero>
+    
 </Hero>
 <ContainerGrey ifSubitutle={'Made in italy'} ifTitle={"Qualità, affidabilita' ed efficienza"} text={"Fondata negli anni '80 a Cremona, siamo stati pionieri nel mondo dei forni combinati a vapore. Nel 2019, il nostro viaggio si è evoluto con un nuovo capitolo a Torino, guidato dalla nostra passione per l'eccellenza tecnologica e la ricerca delle condizioni per la cottura perfetta. Ogni forno che costruiamo viene attentamente testato e collaudato dai nostri tecnici esperti durante il processo di assemblaggio, garantendo affidabilità e precisione. Il nostro impegno è creare forni che siano intuitivi, resilienti e che garantiscano prestazioni eccellenti."}>
 </ContainerGrey>
@@ -250,15 +248,6 @@
     } */
 
     @media (max-width: 767px) {
-        h1{
-            font-size: 32px;
-            line-height: 34px;
-            text-align: start;
-        }
-        h1 p{
-            font-size: 26px;
-            line-height: 26px;
-        }
         main {
             display: block;
         }

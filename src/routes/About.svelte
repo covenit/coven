@@ -1,13 +1,14 @@
 <script>
     import Form from "../components/Form.svelte";
     import Hero from "../components/Hero.svelte";
+    import HeroMain from "../components/HeroMain.svelte";
     const backgroundImage = '/hero-contatto.webp';
 </script>
 
-<Hero backgroundImage={backgroundImage}>
+<HeroMain backgroundImage={backgroundImage}>
     <h1>Eleva la tua attività.</h1>
     <h1>Inizia oggi.</h1>
-</Hero>
+</HeroMain>
 
 <Form complete={true}></Form>
 

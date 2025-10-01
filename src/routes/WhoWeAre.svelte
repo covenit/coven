@@ -5,6 +5,7 @@
     import CardTextImage from '../components/CardTextImage.svelte';
     import ImageRightSection from '../components/ImageRightSection.svelte';
     import Form from '../components/Form.svelte';
+    import HeroMain from '../components/HeroMain.svelte';
 
     /*Cards Image*/
     const image1 = '/cards-our-mision/1.webp';
@@ -18,13 +19,13 @@
     const consegnaVeloceImage = '/consegnaveloce.webp';
 </script>
 
-<Hero backgroundImage={backgroundImage}>
+<HeroMain backgroundImage={backgroundImage}>
     <h1>When Heat Matters</h1>
     <br>
     <div class="hero-text">
         <p>La ricerca della cottura perfetta guida costantemente il nostro lavoro in coven. l’attenzione ai dettagli, la garanzia dei componenti di alta qualità e i test di laboratorio ci permettono di offrire un prodotto unico nella sua totalita’.</p>
     </div>
-</Hero>
+</HeroMain>
 
 <ContainerGrey ifSubitutle={'La nostra missione'} ifTitle={'La ricerca del calore perfetto'}>
     <div class="cards-container">
