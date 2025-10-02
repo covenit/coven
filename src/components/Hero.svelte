@@ -89,8 +89,8 @@ h1 p {
 
 /* Animación texto: entra todo junto */
 @keyframes showText {
-  0%, 50%   { opacity: 0; transform: translateY(100px); z-index: 0; }
-  50%, 90%  { opacity: 1; transform: translateY(0); z-index: 2; }
+  0%, 45%   { opacity: 0; transform: translateY(100px); z-index: 0; }
+  50%, 85%  { opacity: 1; transform: translateY(0); z-index: 2; }
   90%, 100% { opacity: 0; transform: translateY(-50px); z-index: 0; }
 }
 
