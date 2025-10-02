@@ -46,6 +46,15 @@
             {src : "/carrousel-steady-cook-line/7.webp"}
     ];
 
+    const imagesGalery = [
+        {src : "/gallery/steadycook/touch/1.webp"},
+        {src : "/gallery/steadycook/touch/2.webp"},
+        {src : "/gallery/steadycook/touch/3.webp"},
+        {src : "/gallery/steadycook/touch/4.webp"},
+        {src : "/gallery/steadycook/touch/5.webp"},
+        {src : "/gallery/steadycook/touch/6.webp"},
+    ];
+
     const spec_items = [
         {
             title: "acciaio inox",
@@ -116,7 +125,7 @@
     </ContainerCharacteristics>
 </section>
 
-<ContainerGrey ifTitle={"Perfezione senza sforzo con tecnologia avanzata"} text={"Nella gastronomia di alta classe, la precisione è tutto. Steady Cook Touch porta ogni piatto a un livello superiore, garantendo texture perfette, sapori definiti e una cottura uniforme ogni volta. Progettato per chef e ristoranti esigenti, offre automazione intelligente e controllo totale, ottimizzando il tempo senza compromettere la qualità. Quando la creatività incontra la tecnologia, i risultati sono straordinari. Scopri come Steady Cook Touch può trasformare la tua cucina."}>
+<ContainerGrey ifTitle={"Alta tecnologia al tuo servizio"} text={"Nella gastronomia di alto livello, la precisione è tutto. Steady Cook Touch porta ogni preparazione a un livello superiore, garantendo texture perfette, sapori definiti e una cottura uniforme ogni volta. Progettato per chef e ristoranti esigenti, offre automazione intelligente e controllo totale, ottimizzando il tempo senza compromettere la qualità. Quando la creatività incontra la tecnologia, i risultati sono straordinari. Scopri come Steady Cook Touch può trasformare la tua cucina."}>
     
 </ContainerGrey>
 
@@ -184,7 +193,7 @@
 
 <CustomizedTools></CustomizedTools>
 
-<Gallery></Gallery>
+<Gallery images={imagesGalery}></Gallery>
 
 <Form complete={false}></Form>
 
