@@ -3,7 +3,6 @@
     import ContainerGrey from "../components/container-grey.svelte";
     import CardLineOfProduct from "../components/CardLineOfProduct.svelte";
     import Carrousel from "../components/Carrousel.svelte";
-    import Gallery from "../components/Gallery.svelte";
     import Form from "../components/Form.svelte";
     const backgroundImage = '/MasterDelight.webp';
 
@@ -15,21 +14,21 @@
 
     /*Image for carrousel*/
     const images = [
-        { src: '/carrousel-master-delight/1.webp'},
-        { src: '/carrousel-master-delight/2.webp'},
         { src: '/carrousel-master-delight/3.webp'},
         { src: '/carrousel-master-delight/4.webp'},
         { src: '/carrousel-master-delight/1.webp'},
         { src: '/carrousel-master-delight/2.webp'},
         { src: '/carrousel-master-delight/3.webp'},
         { src: '/carrousel-master-delight/4.webp'},
+        { src: '/carrousel-master-delight/1.webp'},
+        { src: '/carrousel-master-delight/2.webp'},
     ];
 </script>
 
 <HeroProducts backgroundImage={backgroundImage} category="Pasticceria e Panificazione" title="Master Delight">
 </HeroProducts>
 
-<ContainerGrey ifTitle={"Un forno che trasforma la panificazione in una forma d'arte"} text={"Il nuovo concetto Coven applicato alla pasticceria e panificazione disponibile in due versioni: Mech e Visual. Il termostato digitale e l'inversione della rotazione della ventola garantiscono un'alta precisione di cottura. La raccolta della condensa è garantita da un sistema a doppio serbatoio. Master Delight è il forno da pasticceria e panificazione di alta gamma di Coven, una meraviglia di perfezione e semplicità."}>
+<ContainerGrey ifTitle={"Un forno che trasforma la pasticceria in una forma d'arte"} text={"Il nuovo concetto Coven applicato alla pasticceria e panificazione disponibile in due versioni: Mech e Visual. Il termostato digitale e l'inversione della rotazione della ventola garantiscono un'alta precisione di cottura. La raccolta della condensa è garantita da un sistema a doppio serbatoio. Master Delight è il forno da pasticceria e panificazione di alta gamma di Coven, una meraviglia di perfezione e semplicità."}>
 </ContainerGrey>
 
 <section class="padding-lr padding-bt section-lines">
@@ -52,8 +51,6 @@
 <section class="padding-bt carrousel-container">
     <Carrousel images={images}></Carrousel>
 </section>
-
-<Gallery></Gallery>
 
 <Form complete={false}></Form>
 

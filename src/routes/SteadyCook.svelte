@@ -3,7 +3,6 @@
     import ContainerGrey from "../components/container-grey.svelte";
     import CardLineOfProduct from "../components/CardLineOfProduct.svelte";
     import Carrousel from "../components/Carrousel.svelte";
-    import Gallery from "../components/Gallery.svelte";
     import Form from "../components/Form.svelte";
     const backgroundImage = '/SteadyCook.webp';
 
@@ -15,14 +14,14 @@
 
     /*Image for carrousel*/
     const images = [
-        { src: '/carrousel-steady-cook/1.webp'},
-        { src: '/carrousel-steady-cook/2.webp'},
         { src: '/carrousel-steady-cook/3.webp'},
         { src: '/carrousel-steady-cook/4.webp'},
         { src: '/carrousel-steady-cook/1.webp'},
         { src: '/carrousel-steady-cook/2.webp'},
         { src: '/carrousel-steady-cook/3.webp'},
         { src: '/carrousel-steady-cook/4.webp'},
+        { src: '/carrousel-steady-cook/1.webp'},
+        { src: '/carrousel-steady-cook/2.webp'},
     ];
 </script>
 
@@ -53,8 +52,6 @@
 <section class="padding-bt carrousel-container">
     <Carrousel images={images}></Carrousel>
 </section>
-
-<Gallery></Gallery>
 
 <Form complete={false}></Form>
 
