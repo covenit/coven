@@ -37,16 +37,20 @@
     </div>
     <div>
         <ul>
-            <li><a href="#/steady-cook">Linea Gastronomia</a></li>
-            <li><a href="#/master-delight">Linea Pasticceria</a></li>
+            <li><a href="#/steady-cook">Linea Steady Cook</a></li>
+            <li><a href="#/master-delight">Linea Master Delight</a></li>
             <li><a href="#/styleme">Stilema</a></li>
         </ul>
     </div>
     <div>
         <ul>
             <li><a href="#/about">Contatto</a></li>
-            <li>Termini e Condizioni</li>
-            <li>Politica sulla riservatezza</li>
+            <li>
+                <a href="https://docs.google.com/document/d/17PYZNNGELfHRsoEZskZXQl2EEOrO5cuqJHCxzrAVqp4/edit?tab=t.0">
+                    Privacy Policy
+                </a>
+            </li>
+            <li>Cookies Policy</li>
         </ul>
     </div>
     <div>

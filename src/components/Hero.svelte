@@ -100,7 +100,7 @@ h1 p {
     background: white;
   }
   50%, 100% {
-    background-image: url('hero1.webp');
+    background-image: url("./../../public/hero1.webp");
     background-size: cover;
     background-position: center 40%;
     background-color: rgba(0, 0, 0, 0.4);
