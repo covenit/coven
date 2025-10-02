@@ -1,20 +1,12 @@
 <script>
-
-    const images = [
-        {i: '../../gallery/1.webp'},
-        {i: '../../gallery/2.webp'},
-        {i: '../../gallery/3.webp'},
-        {i: '../../gallery/4.webp'},
-        {i: '../../gallery/5.webp'},
-        {i: '../../gallery/6.webp'}
-    ]
+    export let images;
 </script>
 
 <section class="padding-lr padding-bt">
     <h2>Galleria</h2>
     <div class="container-gallery">
         {#each images as image}
-        <img src="{image.i}" alt="" srcset="">
+        <img src="{image.src}" alt="" srcset="">
         {/each}
     </div>
 </section>

@@ -21,7 +21,7 @@
         border-radius: 20px;
         box-shadow: 0px 8px 16px 0px #0000001A;
         height: auto;
-        width: 33%;
+        width: 100%;
         min-height: 400px;
     }
     article h3 {

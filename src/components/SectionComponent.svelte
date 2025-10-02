@@ -21,8 +21,8 @@
         gap: 12px;
     }
     .container-cards-text-image > * {
-        width: 24%;
         margin-bottom: 2vh;
+        width: 18vw;
     }
 
     @media (max-width: 767px) {

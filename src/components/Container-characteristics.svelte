@@ -22,7 +22,7 @@
 
         <br>
 
-        <p class="title">Caratteristiche principali</p>
+        <p class="title">Principali Caratteristiche</p>
 
         <div class="elements">
             {#each charact as x}

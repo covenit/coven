@@ -17,7 +17,7 @@
 
     const texts = [
         {t: "La serie programmabile con tastiera a comandi capacitivi. L’innovativo sistema consente di memorizzare i dati fino a 99 ricette con 6 fasi di cottura."},
-        {t: "L’ingresso Usb permette di memorizzare i dati e di aggiornare il software con nuove funzioni e ricette."}
+        {t: "L’ingresso USB permette di memorizzare i dati e di aggiornare il software con nuove funzioni e ricette. Il sistema di lavaggio automatico (optional) permette una pulizia del forno semplice e veloce."}
     ]
 
     const charact = [
@@ -41,7 +41,16 @@
         {src : "/carrousel-steady-cook-line/2.webp"},
         {src : "/carrousel-steady-cook-line/3.webp"},
         {src : "/carrousel-steady-cook-line/4.webp"}
-    ]
+    ];
+
+    const imagesGalery = [
+        {src : "/gallery/steadycook/visual/1.webp"},
+        {src : "/gallery/steadycook/visual/2.webp"},
+        {src : "/gallery/steadycook/visual/3.webp"},
+        {src : "/gallery/steadycook/visual/4.webp"},
+        {src : "/gallery/steadycook/visual/5.webp"},
+        {src : "/gallery/steadycook/visual/6.webp"},
+    ];
 
     const spec_items = [
         {
@@ -128,7 +137,7 @@
     </ContainerCharacteristics>
 </section>
 
-<ContainerGrey ifTitle={"Precisione e innovazione in ogni piatto"} text={"Con un design sofisticato e una tecnologia avanzata, Steady Cook Visual offre un controllo intuitivo e risultati costanti in ogni piatto. Ideale per chef e ristoranti che desiderano ottimizzare i tempi senza compromettere la qualità. Progettato per valorizzare la tua creatività ed efficienza. Una tecnologia che fa la differenza, perché in cucina ogni dettaglio conta.\nScopri come Steady Cook Visual può trasformare la tua cucina"}>
+<ContainerGrey ifTitle={"Precisione e innovazione in ogni piatto"} text={"Con un design sofisticato e una tecnologia avanzata, Steady Cook Visual offre un controllo intuitivo e risultati costanti in ogni piatto. Ideale per chef e ristoranti che desiderano ottimizzare i tempi senza compromettere la qualità. Progettato per valorizzare la tua creatività ed efficienza. Una tecnologia che fa la differenza, perché in cucina ogni dettaglio conta. Scopri come Steady Cook Visual può trasformare la tua cucina."}>
 </ContainerGrey>
 
 <section class="padding-bt carrousel-container">
@@ -145,6 +154,6 @@
 
 <CustomizedTools></CustomizedTools>
 
-<Gallery></Gallery>
+<Gallery images={imagesGalery}></Gallery>
 
 <Form complete={false}></Form>
