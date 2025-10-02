@@ -22,7 +22,7 @@
     }
     .container-cards-text-image > * {
         margin-bottom: 2vh;
-        width: 18vw;
+        width: 19vw;
     }
 
     @media (max-width: 767px) {

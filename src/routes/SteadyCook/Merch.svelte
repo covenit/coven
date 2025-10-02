@@ -44,6 +44,15 @@
             {src : "/carrousel-steady-cook-line/4.webp"}
     ];
 
+    const imagesGalery = [
+        {src : "/gallery/steadycook/mech/1.webp"},
+        {src : "/gallery/steadycook/mech/2.webp"},
+        {src : "/gallery/steadycook/mech/3.webp"},
+        {src : "/gallery/steadycook/mech/4.webp"},
+        {src : "/gallery/steadycook/mech/5.webp"},
+        {src : "/gallery/steadycook/mech/6.webp"},
+    ];
+
     const spec_items = [
         {
             title: "acciaio inox",
@@ -107,8 +116,8 @@
     </ContainerCharacteristics>
 </section>
 
-<ContainerGrey ifTitle={"Semplicità e affidabilità in ogni pasto"} text={"Steady Cook Mech offre una soluzione affidabile ed efficiente per coloro che cercano un controllo manuale e risultati costanti. Con la regolazione digitale della temperatura, questo modello è ideale per le attività alimentari che necessitano di un forno facile da usare senza compromettere la qualità. La tecnologia di cui hai bisogno, l'affidabilità che cerchi. Scopri come Steady Cook Mech può trasformare la tua cucina."}>
-    <button id="btnPrimary-black">Scopri di più</button>
+<ContainerGrey ifTitle={"La tecnologia di cui hai bisogno, l’affidabilità che cerchi"} text={"Steady Cook Mech offre una soluzione affidabile ed efficiente per coloro che cercano un controllo manuale e risultati costanti. Con la regolazione digitale della temperatura, questo modello è ideale per le attivita’ professionali che necessitano di un forno resistente, facile da usare senza comprometterne la qualità. La doccetta manuale (optional) garantisce una pulizia semplice e veloce, per un forno al tuo servizio sempre pulito ed impeccabile. Scopri come steady cook mech può trasformare la tua cucina."}>
+    
 </ContainerGrey>
 
 <section class="padding-bt carrousel-container">
@@ -125,6 +134,6 @@
 
 <CustomizedTools></CustomizedTools>
 
-<Gallery></Gallery>
+<Gallery images={imagesGalery}></Gallery>
 
 <Form complete={false}></Form>
