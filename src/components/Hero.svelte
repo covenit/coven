@@ -137,5 +137,10 @@ h1 p {
     50%, 85%  { opacity: 1; z-index: 2; }
     90%, 100% { opacity: 0; z-index: 0; }
   }
+  /* Animación banners */
+  @keyframes showBanners {
+    0%, 40%   { opacity: 1; z-index: 2; }
+    45%, 100% { opacity: 0; z-index: 0; }
+  }
 }
 </style>
