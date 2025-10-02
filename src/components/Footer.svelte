@@ -1,5 +1,7 @@
 <script>
     const logo = '/logo-black.png';
+    import privacypolicy from './../../src/assets/informativaprivacy.pdf';
+    import cookiespolicy from './../../src/assets/cookiespolicy.pdf';
 </script>
 
 
@@ -44,13 +46,17 @@
     </div>
     <div>
         <ul>
-            <li><a href="#/about">Contatto</a></li>
+            <li><a href="#/about">Contatti</a></li>
             <li>
-                <a href="https://docs.google.com/document/d/17PYZNNGELfHRsoEZskZXQl2EEOrO5cuqJHCxzrAVqp4/edit?tab=t.0">
+                <a href={privacypolicy} target="_blank">
                     Privacy Policy
                 </a>
             </li>
-            <li>Cookies Policy</li>
+            <li>
+                <a href={cookiespolicy} target="_blank">
+                    Cookies Policy
+                </a>
+            </li>
         </ul>
     </div>
     <div>

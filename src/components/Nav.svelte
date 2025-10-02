@@ -151,7 +151,7 @@
         </div>
 
         <a href="#/accessories" class:selected={$currentPath === '/accessories'} on:click={closeMenus}>Accessori</a>
-        <a href="#/about" class:selected={$currentPath === '/about'} on:click={closeMenus}>Contatto</a>
+        <a href="#/about" class:selected={$currentPath === '/about'} on:click={closeMenus}>Contatti</a>
     </div>
 </nav>
 
