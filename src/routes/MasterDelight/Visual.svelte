@@ -42,6 +42,14 @@
             {src : "/carrousel-master-line/4.webp"}
     ];
 
+    const imagesGalery = [
+        {src : "/gallery/master/visual/1.webp"},
+        {src : "/gallery/master/visual/2.webp"},
+        {src : "/gallery/master/visual/3.webp"},
+        {src : "/gallery/master/visual/4.webp"},
+        {src : "/gallery/master/visual/5.webp"},
+        {src : "/gallery/master/visual/6.webp"},
+    ];
     
     const spec_items = [
         {
@@ -136,6 +144,6 @@
 
 <CustomizedTools></CustomizedTools>
 
-<Gallery></Gallery>
+<Gallery images={imagesGalery}></Gallery>
 
 <Form complete={false}></Form>

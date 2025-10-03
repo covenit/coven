@@ -33,14 +33,23 @@
 
 
     const images = [
+            {src : "../public/carrousel-master-line/6.webp"},
+            {src : "../public/carrousel-master-line/8.webp"},
             {src : "../public/carrousel-master-line/5.webp"},
             {src : "../public/carrousel-master-line/7.webp"},
             {src : "../public/carrousel-master-line/6.webp"},
             {src : "../public/carrousel-master-line/8.webp"},
             {src : "../public/carrousel-master-line/5.webp"},
             {src : "../public/carrousel-master-line/7.webp"},
-            {src : "../public/carrousel-master-line/6.webp"},
-            {src : "../public/carrousel-master-line/8.webp"}
+    ];
+
+    const imagesGalery = [
+        {src : "/gallery/master/mech/1.webp"},
+        {src : "/gallery/master/mech/2.webp"},
+        {src : "/gallery/master/mech/3.webp"},
+        {src : "/gallery/master/mech/4.webp"},
+        {src : "/gallery/master/mech/5.webp"},
+        {src : "/gallery/master/mech/6.webp"},
     ];
 
         const spec_items = [
@@ -105,7 +114,7 @@
     </ContainerCharacteristics>
 </section>
 
-<ContainerGrey ifTitle={"Semplicità in ogni cottura"} text={"Master Delight Mech offre una soluzione semplice ma affidabile per panetterie e pasticcerie. Perfetto per chi ha bisogno di funzionalità diretta, Master Delight Mech garantisce prestazioni affidabili senza la complessità delle funzionalità avanzate. Ideale per i professionisti che danno priorità alla praticità e alla qualità, è lo strumento perfetto per ottenere risultati eccellenti nella panificazione e nella pasticceria ogni volta. Scopri come Master Delight Mech può trasformare la tua panetteria."}>
+<ContainerGrey ifTitle={"Semplicità e risultati impeccabili per ogni cottura"} text={"Master Delight Mech offre una soluzione semplice ma affidabile per panetterie e pasticcerie. Perfetto per chi ha bisogno di funzionalità diretta, Master Delight Mech garantisce prestazioni affidabili senza la complessità delle funzionalità avanzate. Ideale per i professionisti che danno priorità alla praticità e alla qualità, è lo strumento perfetto per ottenere risultati eccellenti in pasticceria. Scopri come Master Delight Mech può trasformare la tua attivita’."}>
     
 </ContainerGrey>
 
@@ -123,6 +132,6 @@
 
 <CustomizedTools></CustomizedTools>
 
-<Gallery></Gallery>
+<Gallery images={imagesGalery}></Gallery>
 
 <Form complete={false}></Form>
