@@ -13,7 +13,7 @@
     import SectionModels from "../../components/SectionModels.svelte";
     import {models} from "../../data/models-mech-master";
     
-    const image = "../public/line/master-mech.webp";
+    const image = "/line/master-mech.webp";
 
     const texts = [
         {t: "La serie con termoregolazione digitale con encoder e comandi manuali."},
@@ -33,14 +33,14 @@
 
 
     const images = [
-            {src : "../public/carrousel-master-line/6.webp"},
-            {src : "../public/carrousel-master-line/8.webp"},
-            {src : "../public/carrousel-master-line/5.webp"},
-            {src : "../public/carrousel-master-line/7.webp"},
-            {src : "../public/carrousel-master-line/6.webp"},
-            {src : "../public/carrousel-master-line/8.webp"},
-            {src : "../public/carrousel-master-line/5.webp"},
-            {src : "../public/carrousel-master-line/7.webp"},
+            {src : "/carrousel-master-line/6.webp"},
+            {src : "/carrousel-master-line/8.webp"},
+            {src : "/carrousel-master-line/5.webp"},
+            {src : "/carrousel-master-line/7.webp"},
+            {src : "/carrousel-master-line/6.webp"},
+            {src : "/carrousel-master-line/8.webp"},
+            {src : "/carrousel-master-line/5.webp"},
+            {src : "/carrousel-master-line/7.webp"},
     ];
 
     const imagesGalery = [
@@ -56,43 +56,43 @@
         {
             title: "acciaio inox",
             text: "tutta la struttura è realizzata con acciaio inox.", 
-            src : "../public/spec-images/acciaioinox.png"
+            src : "/spec-images/acciaioinox.png"
         },
         {
             title: "umidificatore",
             text: "automatico e manuale.", 
-            src : "../public/spec-images/umidificatore.png"
+            src : "/spec-images/umidificatore.png"
         },
         {
             title: "porta a libro",
             text: "doppio vetro ispezionabile di grande spessore per abbattere in modo efficace la trasmissione del calore all’esterno.", 
-            src : "../public/spec-images/portaalibro.png"
+            src : "/spec-images/portaalibro.png"
         },
         {
             title: "termoregolatore",
             text: "digitale con encoder.", 
-            src : "../public/spec-images/termoregolatore.png"
+            src : "/spec-images/termoregolatore.png"
         },
         {
             title: "dual tank for cliq collection",
             text: "The oven door features a drip tank with an automatic liquid collection system that drains directly.", 
-            src : "../public/spec-images/doppiavascaraccoltaliquidi.png"
+            src : "/spec-images/doppiavascaraccoltaliquidi.png"
         },
         {
             title: "evacuazione rapida umidità",
             text: "sistema automatico per valvola di sfiato.", 
-            src : "../public/spec-images/evacuazionerapidaumidita.png"
+            src : "/spec-images/evacuazionerapidaumidita.png"
         },
         {
             title: "maniglia bistadio",
             text: "massima sicurezza e chiusura ermetica a tenuta perfetta. I forni di grande dimensione sono dotati di maniglie con sistema di chiusura in 2 punti", 
-            src : "../public/spec-images/manigliabistadio.png"
+            src : "/spec-images/manigliabistadio.png"
         }
     ];
 
 
     /*Images of details*/
-    const imageDetails = "../public/details/masterdelight/merch.webp";
+    const imageDetails = "/details/masterdelight/merch.webp";
 
     const details = [
         { id: 1, title: "apertura/chiusura", text: "valvola evacuazione rapida"},
