@@ -118,7 +118,7 @@
     </ContainerCharacteristics>
 </section>
 
-<ContainerGrey ifTitle={"L'arte della panificazione, perfezionata"} text={"Nella panificazione e nella pasticceria, la consistenza è la chiave della perfezione. Master Delight Visual è progettato per elevare ogni creazione, garantendo una cottura uniforme, texture precise e risultati ottimali ogni volta. Quando la tecnologia incontra l'artigianato, l'arte della panificazione raggiunge nuove vette. Scopri come Master Delight Visual può trasformare la tua panetteria."}>
+<ContainerGrey ifTitle={"L'arte della pasticceria, perfezionata"} text={"Nell’arte della pasticceria e nella panificazione,  la consistenza è la chiave della perfezione. Master Delight Visual è progettato per elevare ogni creazione, garantendo una cottura sempre uniforme, texture precise e risultati ottimali ogni volta. Quando la tecnologia incontra l'artigianato, l'arte della pasticceria raggiunge un nuovo livello. Scopri come Master Delight Visual può trasformare la tua attivita’."}>
     
 </ContainerGrey>
 
