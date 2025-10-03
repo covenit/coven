@@ -13,7 +13,7 @@
     import SectionModels from "../../components/SectionModels.svelte";
     import {models} from "../../data/models-mech-master";
     
-    const image = "../public/line/master-merch.webp";
+    const image = "../public/line/master-mech.webp";
 
     const texts = [
         {t: "La serie con termoregolazione digitale con encoder e comandi manuali."},

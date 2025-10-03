@@ -14,7 +14,7 @@
     import { models } from "../../data/models-merch-steadycook";
 
     const backgroundImage = '/hero-line-steady.cook.webp';
-    const image = "/line/merch.webp";
+    const image = "/line/mech.webp";
 
     const texts = [
         {t: "La serie con termoregolazione digitale con encoder e comandi manuali."},
