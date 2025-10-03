@@ -136,7 +136,7 @@ Grazie alla connettività cloud, è possibile accedere da remoto in tempo reale 
     </main>
 </section>
 
-<SectionModels models={models}></SectionModels>
+<SectionModels models={models} isStilema=true></SectionModels>
 
 <CustomizedTools></CustomizedTools>
 
