@@ -29,6 +29,7 @@
     '/master-delight': MasterDelight,
     '/master-delight-visual': VisualMasterDelight,
     '/master-delight-mech': MerchMasterDelight,
+    '/styleme': Styleme,
     '/accessories': Accessories,
     '/about': About,
   };
