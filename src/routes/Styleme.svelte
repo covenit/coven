@@ -13,7 +13,8 @@
     const SCB = "/carrousel-stilema-line/gassystem.webp";
     const SCC = "/carrousel-stilema-line/airflow.webp";
     const SCD = "/carrousel-stilema-line/d.webp";
-    const SCE = "/carrousel-stilema-line/e.webp";
+    const SCE = "/carrousel-stilema-line/washing.webp";
+    const SCF = "/carrousel-stilema-line/e.webp";
 
 
     const backgroundImage = '/hero-stilema.webp';
@@ -44,6 +45,15 @@
         {src : "/carrousel-stilema-line/2.webp"},
         {src : "/carrousel-stilema-line/3.webp"},
         {src : "/carrousel-stilema-line/4.webp"},
+    ];
+
+    const imagesGalery = [
+        {src : "/gallery/stilema/1.webp"},
+        {src : "/gallery/stilema/2.webp"},
+        {src : "/gallery/stilema/3.webp"},
+        {src : "/gallery/stilema/4.webp"},
+        {src : "/gallery/stilema/5.webp"},
+        {src : "/gallery/stilema/6.webp"},
     ];
 </script>
 
@@ -85,13 +95,13 @@ La scelta di utilizzare componentistica made in Italy di alta qualità, progetta
 DUO STEAM SYSTEM permette di realizzare cotture rapide ad alta temperatura per esaltare la croccantezza degli alimenti e preparazioni lente a bassa temperatura per preservare le proprietà organolettiche. STILEMA permette di cuocere alimenti sottovuoto, con minori perdite di peso e una maggiore esaltazione dei sapori ed è dotata di un inverter che permette di controllare le ventole a 9 differenti velocità.">
         </CardMainStilema>
 
-        <CardMainStilema urlImg={SCA} title="PROFESSIONAL WASHING SYSTEM" subtitle="L’efficienza del futuro è anche sostenibile" 
+        <CardMainStilema urlImg={SCE} title="PROFESSIONAL WASHING SYSTEM" subtitle="L’efficienza del futuro è anche sostenibile" 
             text="L’innovativo sistema di Lavaggio Automatico Professionale, si prende cura di Stilema mantenendo una pulizia sempre accurata ed efficace e garantendo elevati livelli di igiene per l’ambiente professionale.
 Sono disponibili 4 differenti programmi di lavaggio per adattarsi sempre di più ad ogni necessità: solo risciacquo, lavaggio delicato, medio e intenso. 
 Il riutilizzo dell’acqua calda garantisce un fattivo risparmio idrico ed energetico così come l’utilizzo di detergenti biologici e di brillantanti naturali garantiscono la giusta attenzione alla sostenibilità.">
         </CardMainStilema>
 
-        <CardMainStilema urlImg={SCE} title="SEMPRE CONNESSO" subtitle="La cucina del futuro, a portata di click" 
+        <CardMainStilema urlImg={SCF} title="SEMPRE CONNESSO" subtitle="La cucina del futuro, a portata di click" 
             text="L’interfaccia Wi-Fi consente a STILEMA di connettersi facilmente a internet per segnalare guasti, programmare interventi di manutenzione e scaricare i dati HACCP in modo immediato.
 Grazie alla connettività cloud, è possibile accedere da remoto in tempo reale tramite PC, monitorare tutti i parametri funzionali e aggiornare i programmi di cottura, ottimizzando la gestione del lavoro in cucina. Inoltre, la porta USB permette di salvare dati e aggiornare il software in modo semplice e intuitivo.">
         </CardMainStilema>
@@ -130,7 +140,7 @@ Grazie alla connettività cloud, è possibile accedere da remoto in tempo reale 
 
 <CustomizedTools></CustomizedTools>
 
-<Gallery></Gallery>
+<Gallery images={imagesGalery}></Gallery>
 
 <Form complete={false}></Form>
 
