@@ -68,7 +68,7 @@
     
 </Hero>
 
-<ContainerGrey ifSubitutle={'Made in italy'} ifTitle={"Qualità, affidabilita' ed efficienza"} text={"Fondata negli anni '80 a Cremona, siamo stati pionieri nel mondo dei forni combinati a vapore. Nel 2019, il nostro viaggio si è evoluto con un nuovo capitolo a Torino, guidato dalla nostra passione per l'eccellenza tecnologica e la ricerca delle condizioni per la cottura perfetta. Ogni forno che costruiamo viene attentamente testato e collaudato dai nostri tecnici esperti durante il processo di assemblaggio, garantendo affidabilità e precisione. Il nostro impegno è creare forni che siano intuitivi, resilienti e che garantiscano prestazioni eccellenti."}>
+<ContainerGrey ifSubitutle={'Made in Italy'} ifTitle={"Qualità, affidabilita' ed efficienza"} text={"Fondata negli anni '80 a Cremona, siamo stati pionieri nel mondo dei forni combinati a vapore. Nel 2019, il nostro viaggio si è evoluto con un nuovo capitolo a Torino, guidato dalla nostra passione per l'eccellenza tecnologica e la ricerca delle condizioni per la cottura perfetta. Ogni forno che costruiamo viene attentamente testato e collaudato dai nostri tecnici esperti durante il processo di assemblaggio, garantendo affidabilità e precisione. Il nostro impegno è creare forni che siano intuitivi, resilienti e che garantiscano prestazioni eccellenti."}>
 </ContainerGrey>
 
 
