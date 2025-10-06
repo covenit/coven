@@ -11,12 +11,12 @@
     event.preventDefault();
 
     emailjs.send(
-        "service_m8s6o0s",       // lo copias del dashboard
-        "template_39rmejt",      // lo copias del dashboard
+        "service_ko9yzea",       // lo copias del dashboard
+        "template_espvtpu",      // lo copias del dashboard
         {
             name: username,
+            email: email,
             subject: subject,
-            user_email: email,
             message: message
         },
         "bQtjWmCJtvVLnmpwW"        // lo copias del dashboard
@@ -24,8 +24,8 @@
         .then(() => {
             alert("✅ Mensaje enviado con éxito!");
                 username = "";
-                subject = "";
                 email = "";
+                subject = "";
                 message = "";
             })
         .catch((error) => {
