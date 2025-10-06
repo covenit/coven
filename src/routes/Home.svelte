@@ -184,14 +184,6 @@
         margin-bottom: 2vh;
     }
 
-    h1 p{
-        color: #E20C18;
-        font-size: 54px;
-        line-height: 65px;
-        letter-spacing: -2%;
-        vertical-align: middle;
-    }
-
     main {
         display: flex;
         justify-content: space-between;
