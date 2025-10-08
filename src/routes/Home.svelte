@@ -156,7 +156,7 @@
             <div></div>
             <div class="stadistics">
                 <Statistics n={20} text={'Presenza nei paesi'} />
-                <Statistics n={60000} text={'Vendite di forni'} />
+                <Statistics n={80000} text={'Vendite di forni'} />
             </div>
         </main>
         {/if}
