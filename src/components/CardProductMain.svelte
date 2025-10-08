@@ -38,6 +38,7 @@
         font-family: 'sf-ui-display-regular';
         font-size: 14px;
         line-height: 20px;
+        width: 80%;
         letter-spacing: 2%;
     }
 
@@ -45,6 +46,9 @@
         article {
             width: 100%;
             margin-bottom: 2vh;
+        }
+        .product-text {
+            width: 100%;
         }
     }
 </style>

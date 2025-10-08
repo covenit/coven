@@ -8,7 +8,7 @@
     import { fade } from 'svelte/transition';
     import Form from '../components/Form.svelte';
 
-    const imageRightSection1 = '/home1.png';
+    const imageRightSection1 = '/home1.webp';
 
     const imageCard1 = '/cards-category/restaurant-hotel.webp';
     const imageCard2 = '/cards-category/bakery-patisserie.webp';
@@ -114,7 +114,7 @@
                 <button id="btnPrimary-outline">Scopri di più</button>
             </a>
         </CardProductMain>
-        <CardProductMain image={cardProduct6} title={'Stilema'} text={"La nuova generazione di forni a ventilazione laterale. Alta tecnologia - grande intuitivita’. Dall’inizio dell’anno 2025 e’ in fase di testing presso i nostri clienti prime. In distribuzione dal gennaio 2026."}>
+        <CardProductMain image={cardProduct6} title={'Stilema'} text={"Nuova generazione di forni a ventilazione laterale: alta tecnologia e grande intuitività. Test in corso nel 2025, distribuzione da gennaio 2026."}>
             <a href="#/styleme">
                 <button id="btnPrimary-outline">Scopri di più</button>
             </a>
