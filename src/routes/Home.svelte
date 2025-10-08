@@ -21,7 +21,7 @@
     const cardProduct3 = '/cards-main-products/SteadyCookVisual.webp';
     const cardProduct4 = '/cards-main-products/MasterDelightVisual.webp';
     const cardProduct5 = '/cards-main-products/MasterDelightMech.webp';
-    const cardProduct6 = '/cards-main-products/Accessori.webp';
+    const cardProduct6 = '/cards-main-products/stilema.webp';
 
     /*Images of why choose us*/
 
@@ -68,7 +68,7 @@
     
 </Hero>
 
-<ContainerGrey ifSubitutle={'Made in Italy'} ifTitle={"Qualità, affidabilita' ed efficienza"} text={"Fondata negli anni '80 a Cremona, siamo stati pionieri nel mondo dei forni combinati a vapore. Nel 2019, il nostro viaggio si è evoluto con un nuovo capitolo a Torino, guidato dalla nostra passione per l'eccellenza tecnologica e la ricerca delle condizioni per la cottura perfetta. Ogni forno che costruiamo viene attentamente testato e collaudato dai nostri tecnici esperti durante il processo di assemblaggio, garantendo affidabilità e precisione. Il nostro impegno è creare forni che siano intuitivi, resilienti e che garantiscano prestazioni eccellenti."}>
+<ContainerGrey ifSubitutle={'Made in Italy'} ifTitle={"Qualità, affidabilita' ed efficienza"} text={"Fondata negli anni '80 a Cremona, siamo stati pionieri nel mondo dei forni combinati a vapore. Nel 2019, il nostro viaggio si è evoluto con un nuovo capitolo a Torino, guidato dalla nostra passione per l'eccellenza tecnologica e la ricerca delle condizioni per la cottura perfetta. Ogni forno che costruiamo viene attentamente testato e collaudato dai nostri tecnici esperti durante il processo di assemblaggio, garantendo affidabilità e precisione. Il nostro impegno è creare forni che siano intuitivi, resistenti e che garantiscano prestazioni eccellenti."}>
 </ContainerGrey>
 
 
@@ -96,11 +96,11 @@
 
 
 <section class="padding-lr padding-bt">
-    <h2 class="text-start">I nostri prodotti principali</h2>
+    <h2 class="text-start">La nostra gamma di forni professionali</h2>
     <br><br>
     <main>
-        <CardProductMain image={cardProduct2} title={'Steady Cook Touch'} text={"Forni professionali per la ristorazione. Tecnologia programmabile con display touch screen."}>
-            <a href="#/steady-cook-touch">
+        <CardProductMain image={cardProduct1} title={'Steady Cook Mech'} text={"Forni professionali per la ristorazione con termoregolazione digitale e comandi manuali."}>
+            <a href="#/steady-cook-mech">
                 <button id="btnPrimary-outline">Scopri di più</button>
             </a>
         </CardProductMain>
@@ -109,8 +109,13 @@
                 <button id="btnPrimary-outline">Scopri di più</button>
             </a>
         </CardProductMain>
-        <CardProductMain image={cardProduct1} title={'Steady Cook Mech'} text={"Forni professionali per la ristorazione con termoregolazione digitale e comandi manuali."}>
-            <a href="#/steady-cook-mech">
+        <CardProductMain image={cardProduct2} title={'Steady Cook Touch'} text={"Forni professionali per la ristorazione. Tecnologia programmabile con display touch screen."}>
+            <a href="#/steady-cook-touch">
+                <button id="btnPrimary-outline">Scopri di più</button>
+            </a>
+        </CardProductMain>
+        <CardProductMain image={cardProduct6} title={'Stilema'} text={"La nuova generazione di forni a ventilazione laterale. Alta tecnologia - grande intuitivita’. Dall’inizio dell’anno 2025 e’ in fase di testing presso i nostri clienti prime. In distribuzione dal gennaio 2026."}>
+            <a href="#/styleme">
                 <button id="btnPrimary-outline">Scopri di più</button>
             </a>
         </CardProductMain>
@@ -121,11 +126,6 @@
         </CardProductMain>
         <CardProductMain image={cardProduct5} title={'Master Delight Mech'} text={"Forni professionali per l'industria della pasticceria e della panificazione. Termoregolazione digitale con comandi manuali."}>
             <a href="#/master-delight-mech">
-                <button id="btnPrimary-outline">Scopri di più</button>
-            </a>
-        </CardProductMain>
-        <CardProductMain image={cardProduct6} title={'Accessori'} text={"I migliori accessori sul mercato per la tua cucina."}>
-            <a href="#/accessories">
                 <button id="btnPrimary-outline">Scopri di più</button>
             </a>
         </CardProductMain>
@@ -187,7 +187,7 @@
     main {
         display: flex;
         justify-content: space-between;
-        align-items: center;
+        align-items: start;
         flex-wrap: wrap;
         gap: 1vw;
     }

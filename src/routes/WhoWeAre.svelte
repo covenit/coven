@@ -23,7 +23,7 @@
     <h1>When Heat Matters</h1>
     <br>
     <div class="hero-text">
-        <p>La ricerca della cottura perfetta guida costantemente il nostro lavoro in coven. l’attenzione ai dettagli, la garanzia dei componenti di alta qualità e i test di laboratorio ci permettono di offrire un prodotto unico nella sua totalita’.</p>
+        <p>La ricerca della cottura perfetta guida costantemente il nostro lavoro in Coven. l’attenzione ai dettagli, la garanzia dei componenti di alta qualità e i test di laboratorio ci permettono di offrire un prodotto unico nella sua totalita’.</p>
     </div>
 </HeroMain>
 
