@@ -101,6 +101,7 @@
         }
         article .text {
            margin-top: 4vh;
+           line-height: 24px;
            width: 100%;
         }
         article .main-info span {
