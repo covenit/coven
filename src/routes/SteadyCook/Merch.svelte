@@ -128,7 +128,7 @@
 
 <SectionComponent spec_items={spec_items}></SectionComponent>
 
-<SectionModels models={models}></SectionModels>
+<SectionModels models={models} isStilema=false></SectionModels>
 
 <CookingTechnologySection></CookingTechnologySection>
 

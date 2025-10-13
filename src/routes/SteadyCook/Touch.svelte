@@ -189,7 +189,7 @@
 
 <CookingTechnologySection></CookingTechnologySection>
 
-<SectionModels models={models}></SectionModels>
+<SectionModels models={models} isStilema=false></SectionModels>
 
 <CustomizedTools></CustomizedTools>
 
