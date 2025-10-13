@@ -101,7 +101,7 @@ export const models = [
         typeGas: "Gas",
         urlImg: "/models/steady-cook/merch/N06ESCMD20.webp",
         dimesterne: "1.008 x 1.169 x 1.238 mm",
-        diminterne: "710 x 732 x 80 mm",
+        diminterne: "710 x 732 x 780 mm",
         numeroteglie: "10 - 2/1 GN 20 - 1/1 GN",
         distanzateglie: "70 mm",
         numeropasti: "max 300",
