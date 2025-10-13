@@ -16,7 +16,7 @@
     const imageCard4 = '/cards-category/catering-rent.webp';
     
     /*Image of products main*/
-    const cardProduct1 = '/cards-main-products/SteadyCookMech.png';
+    const cardProduct1 = '/cards-main-products/SteadyCookMech.webp';
     const cardProduct2 = '/cards-main-products/SteadyCookTouch.webp';
     const cardProduct3 = '/cards-main-products/SteadyCookVisual.webp';
     const cardProduct4 = '/cards-main-products/MasterDelightVisual.webp';
@@ -115,9 +115,7 @@
             </a>
         </CardProductMain>
         <CardProductMain image={cardProduct6} title={'Stilema'} text={"Nuova generazione di forni a ventilazione laterale: alta tecnologia e grande intuitività. Test in corso nel 2025, distribuzione da gennaio 2026."}>
-            <a href="#/styleme">
-                <button id="btnPrimary-outline">Scopri di più</button>
-            </a>
+            
         </CardProductMain>
         <CardProductMain image={cardProduct4} title={'Master Delight Visual'} text={"Forni professionali per la pasticceria e la panificazione. Tecnologia programmabile con comandi capacitivi."}>
             <a href="#/master-delight-visual">

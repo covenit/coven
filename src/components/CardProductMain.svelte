@@ -22,6 +22,8 @@
         width: 100%;
         height: auto;
         margin-bottom: 5px;
+        border: 1px solid #f4f4f4;
+        border-radius: 15px;
     }
 
     .product-title {

@@ -41,7 +41,7 @@
         <ul>
             <li><a href="#/steady-cook">Linea Steady Cook</a></li>
             <li><a href="#/master-delight">Linea Master Delight</a></li>
-            <li><a href="#/styleme">Stilema</a></li>
+            <!--li><a href="#/styleme">Stilema</a></li-->
         </ul>
     </div>
     <div>
