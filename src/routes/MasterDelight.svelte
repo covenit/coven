@@ -28,7 +28,7 @@
 <HeroProducts backgroundImage={backgroundImage} category="Pasticceria e Panificazione" title="Master Delight">
 </HeroProducts>
 
-<ContainerGrey ifTitle={"Un forno che trasforma la pasticceria in una forma d'arte"} text={"Il nuovo concetto Coven applicato alla pasticceria e panificazione disponibile in due versioni: Mech e Visual. Il termostato digitale e l'inversione della rotazione della ventola garantiscono un'alta precisione di cottura. La raccolta della condensa è garantita da un sistema a doppio serbatoio. Master Delight è il forno da pasticceria e panificazione di alta gamma di Coven, una meraviglia di perfezione e semplicità."}>
+<ContainerGrey ifTitle={"Semplicità e risultati impeccabili in pasticceria"} text={"Master Delight Mech è la soluzione semplice ed affidabile pensata per i laboratori delle pasticcerie più evolute. Perfetto per chi cerca una funzionalità diretta, garantisce prestazioni precise senza il supporto dei programmi avanzati. Ideale per i professionisti della pasticceria che privilegiano praticità e semplicità, è lo strumento perfetto per ottenere dolci impeccabili. Scopri come Master Delight Mech può trasformare la tua attività di pasticceria, rendendo ogni cottura un successo. "}>
 </ContainerGrey>
 
 <section class="padding-lr padding-bt section-lines">
