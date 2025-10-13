@@ -1,5 +1,5 @@
 <script>
-    import CardTextImage from "./CardTextImage.svelte";
+    import CardTextSpec from "./CardTextSpec.svelte";
     export let spec_items;
     
 </script>
@@ -7,8 +7,8 @@
 <section class="padding-bt padding-lr container-cards-text-image">
         {#each spec_items as item}
             <div>
-                <CardTextImage src={item.src} title={item.title} text={item.text}>
-                </CardTextImage>
+                <CardTextSpec src={item.src} title={item.title} text={item.text}>
+                </CardTextSpec>
             </div>
         {/each}
 </section>
@@ -18,17 +18,24 @@
         display: flex;
         justify-content: start;
         flex-wrap: wrap;
-        gap: 12px;
+        gap: 10px;
     }
     .container-cards-text-image > * {
         margin-bottom: 2vh;
-        width: 20vw;
+        width: 18vw;
     }
 
-    @media (max-width: 1800px) {
+    @media (max-width: 1770px) {
         .container-cards-text-image > * {
             margin-bottom: 2vh;
             width: 17vw;
+        }
+    }
+
+    @media (max-width: 1600px) {
+        .container-cards-text-image > * {
+            margin-bottom: 2vh;
+            width: 16vw;
         }
     }
 

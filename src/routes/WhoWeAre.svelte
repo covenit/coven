@@ -7,10 +7,79 @@
     import Form from '../components/Form.svelte';
     import HeroMain from '../components/HeroMain.svelte';
 
-    /*Cards Image*/
-    const image1 = '/cards-our-mision/1.webp';
-    const image2 = '/cards-our-mision/2.webp';
-    const image3 = '/cards-our-mision/3.webp';
+    //Cards La nostra missione 
+
+    const cards = [
+        {
+            src: '/cards-our-mision/1.webp',
+            title: 'Innovazione senza limiti',
+            texts: [
+                {
+                    1: 
+                    [
+                        'La nostra ricerca è costante, volta a migliorare ogni dettaglio dei nostri prodotti.',
+                        'Sviluppiamo tecnologie esclusive per garantire prestazioni eccellenti in ogni cucina.'
+                    ]
+                },
+                {
+                    2: 
+                    [
+                        'Ogni forno Coven è progettato per unire efficienza e semplicità d’uso. ',
+                        'Il nostro impegno è trasformare la tecnologia in strumenti intuitivi e affidabili.',
+                        'Sperimentiamo continuamente per anticipare le esigenze del settore.',
+                        'Con Coven, l’innovazione diventa esperienza concreta in cucina.',
+                        'Scegliere Coven significa portare eccellenza e tecnologia nella tua attività.'
+                    ]
+                },
+            ]
+        },
+        {
+            src: '/cards-our-mision/2.webp',
+            title: 'Qualità artigianale italiana',
+            texts: [
+                {
+                    1: 
+                    [
+                        'Produciamo forni completamente Made in Italy con i più elevati standard di qualità. ',
+                        'Ogni prodotto nasce da un’attenta progettazione e dalla passione dei nostri esperti.',
+                    ]
+                },
+                {
+                    2: 
+                    [
+                        'Ogni forno Coven viene rigorosamente collaudato dal nostro team di tecnici specializzati. ',
+                        'Controlli accurati garantiscono affidabilità, sicurezza e durata nel tempo. ',
+                        'La qualità è al centro di ogni fase, dalla produzione alla consegna. ',
+                        'Scegliere Coven significa affidarsi a precisione, esperienza ed eccellenza italiana.',
+                        'Con Coven, ogni forno racconta la passione e la competenza del Made in Italy.'
+                    ]
+                },
+            ]
+        },
+        {
+            src: '/cards-our-mision/3.webp',
+            title: 'Esperienza e semplicità',
+            texts: [
+                {
+                    1: 
+                    [
+                        'Creiamo prodotti intuitivi ed accessibili per i professionisti della cucina.',
+                'Le nostre soluzioni sono progettate per essere pratiche e facili da usare.',
+                    ]
+                },
+                {
+                    2: 
+                    [
+                        'Ogni forno Coven unisce affidabilità e prestazioni elevate.',
+                'Garantiamo un eccellente rapporto qualità-prezzo, senza compromessi.',
+                'L’esperienza accumulata ci permette di anticipare le necessità dei professionisti.',
+                'Con Coven, ogni soluzione è progettata per rendere il lavoro più efficiente.',
+                'Scegliere Coven significa affidarsi a esperienza, praticità e innovazione.'
+                    ]
+                },
+            ]
+        }
+    ];
 
     /*src section Passione*/
     const passione = '/passione.webp';
@@ -29,15 +98,11 @@
 
 <ContainerGrey ifSubitutle={'La nostra missione'} ifTitle={'La ricerca del calore perfetto'}>
     <div class="cards-container">
-        <CardTextImage src={image1} title={"Innovazione senza limiti"} 
-            text={"Guidiamo il mercato dei forni professionali attraverso una ricerca costante e lo sviluppo di tecnologie esclusive che garantiscono le migliori prestazioni in ogni cucina."}>
-        </CardTextImage>
-        <CardTextImage src={image2} title={"Qualità artigianale italiana"} 
-            text={"Produciamo forni made in italy con elevati standard di qualità, combinando tradizione e tecnologia avanzata, garantendo che ogni prodotto sia rigorosamente testato dal nostro team di tecnici specializzati."}>
-        </CardTextImage>
-        <CardTextImage src={image3} title={"Esperienza e semplicità"} 
-            text={"Creiamo prodotti intuitivi e accessibili per i professionisti della cucina, offrendo soluzioni pratiche e affidabili con un eccellente rapporto qualità-prezzo, su misura per le reali esigenze del mercato."}>
-        </CardTextImage>
+        {#each cards as item}
+            <CardTextImage src={item.src} title={item.title} 
+            texts={item.texts}>
+            </CardTextImage>
+        {/each}
     </div>
 </ContainerGrey>
 

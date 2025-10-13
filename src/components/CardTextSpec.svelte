@@ -1,13 +1,7 @@
 <script>
     export let src;
     export let title;
-    export let texts;
-
-    let isOpen = false;
-
-    function open() {
-        isOpen = !isOpen;
-    }
+    export let text;
 </script>
 
 <article class="card-text-image">
@@ -15,22 +9,7 @@
     </header>
     <main class="text-content">
         <h3>{title}</h3>
-        {#each texts as item}
-            {#each item[1] as x}
-                <p>{x}</p>
-            {/each}
-        {/each}
-        {#if !isOpen}
-            <br>
-            <button type="button" class="scopri-btn" on:click={open}>Scopri di più</button>
-        {/if}
-        {#if isOpen}
-            {#each texts as item}
-                {#each item[2] as x}
-                    <p>{x}</p>
-                {/each}
-            {/each}
-        {/if}
+        <p>{text}</p>
     </main>
 </article>
 
@@ -60,17 +39,6 @@
         letter-spacing: 0%;
         vertical-align: middle;
         color: #5B5B5B;
-    }
-    .scopri-btn {
-        font-family: 'sf-ui-display-heavy';
-        font-size: 14px;
-        line-height: 24px;
-        color: #E20C18;
-        background: none;
-        border: none;
-        cursor: pointer;
-        padding: 0;
-        margin: 0;
     }
     main {
         padding: 24px 32px;
