@@ -20,7 +20,7 @@ export const models = [
         url_pdf: N06ESGSCMD
     },
     {
-        model: "N06ESCMD - 6 TEGLIE",
+        model: "N06GSCMD - 6 TEGLIE",
         text: "Forno combinato a vapore ad alta efficienza",
         line: "Steady Cook MECH",
         isElec: false,
@@ -81,7 +81,7 @@ export const models = [
         typeElec: "Elettrico",
         isGas: false,
         typeGas: "Gas",
-        urlImg: "/models/steady-cook/merch/N06ESCMD10.webp",
+        urlImg: "/models/steady-cook/merch/N06ESCMD20.webp",
         dimesterne: "1.008x 1.169 x 1.238 mm",
         diminterne: "710 x 732 x 780 mm",
         numeroteglie: "10 - 2/1 GN 20 - 1/1 GN",
@@ -99,7 +99,7 @@ export const models = [
         typeElec: "Elettrico",
         isGas: true,
         typeGas: "Gas",
-        urlImg: "/models/steady-cook/merch/N06ESCMD10.webp",
+        urlImg: "/models/steady-cook/merch/N06ESCMD20.webp",
         dimesterne: "1.008 x 1.169 x 1.238 mm",
         diminterne: "710 x 732 x 80 mm",
         numeroteglie: "10 - 2/1 GN 20 - 1/1 GN",
