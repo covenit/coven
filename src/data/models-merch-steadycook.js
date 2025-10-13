@@ -56,7 +56,7 @@ export const models = [
         potenza: "15,4 kW"
     },
     {
-        model: "N06ESCMD - 10 TEGLIE",
+        model: "N10GSCMD - 10 TEGLIE",
         text: "Forno combinato a vapore ad alta efficienza",
         line: "Steady Cook MECH",
         isElec: false,
@@ -92,7 +92,7 @@ export const models = [
         potenza: "20,4 kW"
     },
     {
-        model: "N06ESCMD - 20 TEGLIE",
+        model: "N20GSCMD - 20 TEGLIE",
         text: "Forno combinato a vapore ad alta efficienza",
         line: "Steady Cook MECH",
         isElec: false,

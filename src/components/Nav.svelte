@@ -13,8 +13,8 @@
     let mobileMenuOpen = false;
     let submenuProductsOpen = false;
     let submenuCatalogsOpen = false;
-    let submenuSteadyCookOpen = false;
-    let submenuMasterOpen = false;
+    let submenuSteadyCookOpen = true;
+    let submenuMasterOpen = true;
 
     // Toggle menú móvil
     function toggleMobileMenu() {
