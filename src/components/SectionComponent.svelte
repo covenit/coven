@@ -22,7 +22,14 @@
     }
     .container-cards-text-image > * {
         margin-bottom: 2vh;
-        width: 19vw;
+        width: 20vw;
+    }
+
+    @media (max-width: 1800px) {
+        .container-cards-text-image > * {
+            margin-bottom: 2vh;
+            width: 17vw;
+        }
     }
 
     @media (max-width: 767px) {
