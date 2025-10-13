@@ -20,7 +20,7 @@
     p {
         font-family: 'sf-ui-display-regular';
         font-size: 18px;
-        line-height: 38px;
+        line-height: 32px;
         letter-spacing: 0%;
         color: #5B5B5B;
         width: auto;

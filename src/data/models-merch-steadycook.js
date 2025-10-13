@@ -1,3 +1,4 @@
+import N06ESGSCMD from "../assets/pdf/N06ES-GS-CMD.pdf";
 export const models = [
     {
         model: "N06ESCMD - 6 TEGLIE",
@@ -15,7 +16,8 @@ export const models = [
         numeropasti: "max 70",
         peso: "91 Kg",
         tensione: "415 ~ 3N",
-        potenza: "7,8 kW"
+        potenza: "7,8 kW",
+        url_pdf: N06ESGSCMD
     },
     {
         model: "N06ESCMD - 6 TEGLIE",

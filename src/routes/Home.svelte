@@ -122,7 +122,7 @@
                 <button id="btnPrimary-outline">Scopri di più</button>
             </a>
         </CardProductMain>
-        <CardProductMain image={cardProduct5} title={'Master Delight Mech'} text={"Forni professionali per l'industria della pasticceria e della panificazione. Termoregolazione digitale con comandi manuali."}>
+        <CardProductMain image={cardProduct5} title={'Master Delight Mech'} text={"Forni professionali per la pasticceria e la panificazione. Termoregolazione digitale con comandi manuali."}>
             <a href="#/master-delight-mech">
                 <button id="btnPrimary-outline">Scopri di più</button>
             </a>
