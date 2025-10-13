@@ -68,12 +68,12 @@
     
 </Hero>
 
-<ContainerGrey ifSubitutle={'Made in Italy'} ifTitle={"Qualità, affidabilita' ed efficienza"} text={"Fondata negli anni '80 a Cremona, siamo stati pionieri nel mondo dei forni combinati a vapore. Nel 2019, il nostro viaggio si è evoluto con un nuovo capitolo a Torino, guidato dalla nostra passione per l'eccellenza tecnologica e la ricerca delle condizioni per la cottura perfetta. Ogni forno che costruiamo viene attentamente testato e collaudato dai nostri tecnici esperti durante il processo di assemblaggio, garantendo affidabilità e precisione. Il nostro impegno è creare forni che siano intuitivi, resistenti e che garantiscano prestazioni eccellenti."}>
+<ContainerGrey ifSubitutle={'Made in Italy'} ifTitle={"Qualità, affidabilita' ed efficienza"} text={"Fondata negli anni ’80 a Cremona, Coven è stata pioniera nel mondo dei forni combinati a vapore. Nel 2019, il nostro percorso si è evoluto con un nuovo capitolo a Torino. La passione per l’eccellenza tecnologica guida ogni nostra scelta. La ricerca costante mira a creare le condizioni ideali per raggiungere la cottura perfetta. Ogni forno è attentamente testato e collaudato dai nostri tecnici esperti. Garantiamo così affidabilità, precisione e durata nel tempo. I nostri prodotti uniscono tecnologia avanzata e semplicità d’uso. Realizziamo forni intuitivi, resistenti e progettati per un uso intensivo quotidiano. L’obiettivo è offrire prestazioni eccellenti in ogni cucina professionale. Scegliere Coven significa affidarsi a qualità, innovazione ed a una competenza consolidata nel tempo. "}>
 </ContainerGrey>
 
 
 <section class="padding-lr padding-bt">
-    <ImageRightSection image={imageRightSection1} title={'Tradizione che ispira innovazione'} text={'Da oltre 40 anni perfezioniamo i nostri forni con una particolare attenzione ai sistemi di combustione, del controllo del vapore e alla camera di cottura. con passione tutta italiana, uniamo tradizione e innovazione per offrire soluzioni uniche ai professionisti della cucina.'}>
+    <ImageRightSection image={imageRightSection1} title={'Tradizione che ispira innovazione'} text={'Da oltre 40 anni perfezioniamo i nostri forni con dedizione e cura. Poniamo particolare attenzione ai sistemi di combustione, al controllo del vapore ed alla ventilazione della camera di cottura. La nostra esperienza ci permette di combinare tradizione e tecnologia avanzata. Ogni forno Coven nasce per offrire prestazioni eccellenti e costanti nel tempo. La passione tutta italiana guida ogni fase della progettazione e della produzione. L’innovazione si integra con la nostra maestria artigianale, creando soluzioni uniche. I nostri prodotti sono pensati per i professionisti della cucina più esigenti. Precisione, affidabilità e facilità d’uso sono il cuore di ogni forno. Ogni dettaglio è progettato per migliorare l’esperienza di cottura. Scegliere Coven significa portare nella tua cucina tradizione, innovazione ed eccellenza.'}>
         <br>
         <a href="#/who-we-are">
             <button id="btnPrimary-black">Scopri di più</button>
@@ -83,8 +83,8 @@
 
 
 <section class="padding-lr padding-bt">
-    <h2>La qualita’ che cerchi in un forno professionale in grado di adattarsi perfettamente alle esigenze del tuo business</h2>
-    <p class="p-sub">Ogni settore ha il suo forno professionale Coven. Trova la soluzione perfetta per le tue esigenze!</p>
+    <h2>La qualità che cerchi</h2>
+    <p class="p-sub">Ogni tua esigenza è soddisfatta da un forno professionale Coven. Scopri la soluzione perfetta per le esigenze del tuo business!</p>
     <br>
     <main>
         <ImageCardWithLabel image={imageCard1} title={'restaurant - hotel'} />
@@ -154,7 +154,7 @@
             <div></div>
             <div class="stadistics">
                 <Statistics n={20} text={'Presenza nei paesi'} />
-                <Statistics n={80000} text={'Vendite di forni'} />
+                <Statistics n={80000} text={'Forni in utilizzo wordlwide'} />
             </div>
         </main>
         {/if}

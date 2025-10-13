@@ -22,7 +22,7 @@
         width: 100%;
         height: auto;
         margin-bottom: 5px;
-        border: 1px solid #f4f4f4;
+        border: 1px solid #f9f9f9;
         border-radius: 15px;
     }
 

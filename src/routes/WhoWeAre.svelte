@@ -23,7 +23,7 @@
     <h1>When Heat Matters</h1>
     <br>
     <div class="hero-text">
-        <p>La ricerca della cottura perfetta guida costantemente il nostro lavoro in Coven. l’attenzione ai dettagli, la garanzia dei componenti di alta qualità e i test di laboratorio ci permettono di offrire un prodotto unico nella sua totalita’.</p>
+        <p>La perfezione in cucina nasce dalla passione per il dettaglio, dalla qualità dei componenti e dalla precisione dei test. In Coven, ogni forno è pensato per trasformare il calore in risultati straordinari.</p>
     </div>
 </HeroMain>
 
@@ -42,12 +42,12 @@
 </ContainerGrey>
 
 <section class="padding-lr padding-bt">
-    <ImageRightSection aling={false} image={passione} title={'Passione'} text={'Sosteniamo con orgoglio i cuochi che utilizzano i nostri forni, stimolando la loro creatività con semplici gesti. Made in Italy, i forni professionali a convezione Coven sono interamente realizzati e testati rigorosamente per un uso intensivo. Offriamo informazioni essenziali pre-vendita e assistenza continua.'}>
+    <ImageRightSection aling={false} image={passione} title={'Passione'} text={'Sosteniamo con orgoglio i cuochi che scelgono i forni Coven. Attraverso gesti semplici ed efficaci li aiutiamo a stimolare la loro creatività. I nostri forni professionali a convezione sono esclusivi e totalmente Made in Italy. Ogni componente è realizzato con cura e testato per un uso intensivo. La qualità dei materiali e della lavorazione garantisce resistenza e durata nel tempo. Offriamo informazioni chiare e dettagliate prima dell’acquisto. Il nostro supporto non si ferma alla vendita: siamo sempre a disposizione. Assistenza continua e consigli pratici consentono di sfruttare al meglio ogni forno. Con Coven, la passione per la cucina si trasforma nella realizzazione di grandi piatti. Affidarsi a un Coven significa scegliere l’esperienza , la qualità e la professionalità. '}>
     </ImageRightSection>
 </section>
 
 <section class="padding-lr padding-bt">
-    <ImageRightSection image={consegnaVeloceImage} title={'Consegna rapida garantita'} text={'Il sistema di produzione di coven si distingue per la sua capacità di garantire tempi di consegna rapidi e sicuri. Grazie ad un servizio di logistica efficiente e affidabile arriviamo ovunque nel mondo.'}>
+    <ImageRightSection image={consegnaVeloceImage} title={'Consegna rapida garantita'} text={'Con Coven la puntualità torna ad essere centrale. ll nostro flusso produttivo è stato pensato per garantire tempi rapidi e certi di consegna. Ogni ordine viene gestito con attenzione e precisione, senza margini di errore. La logistica efficiente ci permette di raggiungere ogni angolo del mondo. Velocità e affidabilità sono parte del nostro standard operativo. Seguiamo ogni fase della produzione con cura meticolosa. Il nostro team è sempre pronto a monitorare e ottimizzare le consegne. Grazie alla nostra organizzazione, anche le urgenze vengono gestite con efficienza. Con Coven, non devi mai preoccuparti dei tempi: arriviamo sempre puntuali. Scegliere Coven significa dire addio ad attese non programmate. '}>
     </ImageRightSection>
 </section>
 
