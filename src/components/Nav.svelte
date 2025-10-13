@@ -144,8 +144,8 @@
             </button>
             <div class="submenu" class:open={submenuCatalogsOpen}>
                 <ul>
-                    <li><a href="/CATALOGONEWLINEITA0525.pdf" on:click={closeMenus} target="_blank">New Line (Ita)</a></li>
-                    <li><a href="/CATALOGONEWLINEENG.pdf" on:click={closeMenus} target="_blank">New Line (Eng)</a></li>
+                    <li><a href="/CATALOGONEWLINEITA0525.pdf" on:click={closeMenus} target="_blank">Steady Cook e Master Delight (ITA)</a></li>
+                    <li><a href="/CATALOGONEWLINEENG.pdf" on:click={closeMenus} target="_blank">Steady Cook and Master Delight (ENG)</a></li>
                 </ul>
             </div>
         </div>
