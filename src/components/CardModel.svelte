@@ -400,6 +400,9 @@
             width: 100%;
             margin-bottom: 2vh;
         }
+        article header {
+            height: auto;
+        }
         article header img {
             margin-top: 3vh;
             width: 60%;
@@ -416,5 +419,21 @@
         article header p {
             margin-bottom: 2vh;
         }
+        article main .ul-max {
+            width: 100%;
+        }
+        article main ul {
+            width: 100%;
+        }
+         .modal-content {
+            width: 75vw;
+        }
+        .modal-content main div {
+            display: block;
+        }
+        .modal-content main div button {
+            margin-bottom: 2vh;
+        }
+
     }
 </style>
