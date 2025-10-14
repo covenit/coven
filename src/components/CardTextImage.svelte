@@ -22,7 +22,7 @@
         {/each}
         {#if !isOpen}
             <br>
-            <button type="button" class="scopri-btn" on:click={open}>Scopri di più</button>
+            <button type="button" class="scopri-btn" on:click={open}>Mostra di più</button>
         {/if}
         {#if isOpen}
             {#each texts as item}
@@ -30,6 +30,8 @@
                     <p>{x}</p>
                 {/each}
             {/each}
+            <br>
+            <button type="button" class="scopri-btn" on:click={open}>Scopri di meno</button>
         {/if}
     </main>
 </article>
