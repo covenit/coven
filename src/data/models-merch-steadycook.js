@@ -47,7 +47,7 @@ export const models = [
         url_pdf_eng: N06ENG
     },
     {
-        model: "N06ESCMD - 10 TEGLIE",
+        model: "N10ESCMD - 10 TEGLIE",
         text: "Forno combinato a vapore ad alta efficienza",
         line: "Steady Cook MECH",
         isElec: true,
@@ -62,7 +62,9 @@ export const models = [
         numeropasti: "max 100",
         peso: "145 Kg",
         tensione: "415 ~ 3N",
-        potenza: "15,4 kW"
+        potenza: "15,4 kW",
+        url_pdf: N10,
+        url_pdf_eng: N10ENG
     },
     {
         model: "N10GSCMD - 10 TEGLIE",
@@ -80,10 +82,12 @@ export const models = [
         numeropasti: "max 100",
         peso: "168 Kg",
         tensione: "230 ~ 1N",
-        potenza: "17 kW"
+        potenza: "17 kW",
+        url_pdf: N10,
+        url_pdf_eng: N10ENG
     },
     {
-        model: "N06ESCMD - 20 TEGLIE",
+        model: "N20ESCMD - 20 TEGLIE",
         text: "Forno combinato a vapore ad alta efficienza",
         line: "Steady Cook MECH",
         isElec: true,
