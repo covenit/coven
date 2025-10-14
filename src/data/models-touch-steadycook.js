@@ -1,3 +1,10 @@
+import N06 from "../assets/pdf/SC/touch/N06/N06ES-GS-CTD_2V.pdf";
+import N06ENG from "../assets/pdf/SC/touch/N06/N06ES-GS-CTD_2V-ENG.pdf";
+import N10 from "../assets/pdf/SC/touch/N10/N10ES-GS-CTD.pdf";
+import N10ENG from "../assets/pdf/SC/touch/N10/N10ES-GS-CTD-ENG.pdf";
+import N20 from "../assets/pdf/SC/touch/N20/N20ES-GS-CTD.pdf";
+import N20ENG from "../assets/pdf/SC/touch/N20/N20ES-GS-CTD-ENG.pdf";
+
 export const models = [
     {
         model: "N06ESCTD - 6 TEGLIE",
@@ -15,7 +22,9 @@ export const models = [
         numeropasti: "max 70",
         peso: "91 Kg",
         tensione: "400 ~ 3N",
-        potenza: "7,8 kW"
+        potenza: "7,8 kW",
+        url_pdf: N06,
+        url_pdf_eng: N06ENG
     },
     {
         model: "N06ESCTX - 6 TEGLIE",
@@ -33,7 +42,9 @@ export const models = [
         numeropasti: "max 70",
         peso: "95 Kg",
         tensione: "400 ~ 3N",
-        potenza: "10,8 kW"
+        potenza: "10,8 kW",
+        url_pdf: N06,
+        url_pdf_eng: N06ENG
     },
     {
         model: "N06GSCTD - 6 TEGLIE",
@@ -51,7 +62,9 @@ export const models = [
         numeropasti: "max 70",
         peso: "103 Kg",
         tensione: "230 ~ 1N",
-        potenza: "8,5 kW"
+        potenza: "8,5 kW",
+        url_pdf: N06,
+        url_pdf_eng: N06ENG
     },
     {
         model: "N06GSCTX - 6 TEGLIE",
@@ -69,7 +82,9 @@ export const models = [
         numeropasti: "max 70",
         peso: "107 Kg",
         tensione: "400 ~ 3N",
-        potenza: "11,5 kW"
+        potenza: "11,5 kW",
+        url_pdf: N06,
+        url_pdf_eng: N06ENG
     },
     {
         model: "N10ESCTD - 10 TEGLIE",
