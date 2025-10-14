@@ -31,7 +31,7 @@
                 {/each}
             {/each}
             <br>
-            <button type="button" class="scopri-btn" on:click={open}>Scopri di meno</button>
+            <button type="button" class="scopri-btn" on:click={open}>Mostra di meno</button>
         {/if}
     </main>
 </article>
