@@ -1,9 +1,9 @@
-import N05 from "../assets/pdf/MD/N05/NO5EM-GM-DMH_2V.pdf";
-import N05ENG from "../assets/pdf/MD/N05/NO5EM-GM-DMH_2V-ENG.pdf";
-import N08 from "../assets/pdf/MD/N08/NO8EM-GM-DMH.pdf";
-import N08ENG from "../assets/pdf/MD/N08/NO8EM-GM-DMH-ENG.pdf";
-import N10 from "../assets/pdf/MD/N10/N10EM-GM-DMH.pdf";
-import N10ENG from "../assets/pdf/MD/N10/N10EM-GM-DMH-ENG.pdf";
+import N05 from "../assets/pdf/MD/mech/N05/NO5EM-GM-DMH_2V.pdf";
+import N05ENG from "../assets/pdf/MD/mech/N05/NO5EM-GM-DMH_2V-ENG.pdf";
+import N08 from "../assets/pdf/MD/mech/N08/NO8EM-GM-DMH.pdf";
+import N08ENG from "../assets/pdf/MD/mech/N08/NO8EM-GM-DMH-ENG.pdf";
+import N10 from "../assets/pdf/MD/mech/N10/N10EM-GM-DMH.pdf";
+import N10ENG from "../assets/pdf/MD/mech/N10/N10EM-GM-DMH-ENG.pdf";
 
 export const models = [
     {
