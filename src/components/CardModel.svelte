@@ -179,7 +179,7 @@
         </main>
     {:else}
         <main>
-            <ul>
+            <ul class="ul-max">
                 <li><p>dim esterne: <span>{model.dimesterne}</span></p></li>
                 <li><p>dim interne: <span>{model.diminterne}</span></p></li>
                 <li><p>numero teglie: <span>{model.numeroteglie}</span></p></li>
@@ -245,6 +245,10 @@
         padding: 5vh;
     }
 
+    article header {
+        height: 25vh;
+    }
+
     .p-elect,
     .p-gas {
         font-family: "sf-ui-display-medium";
@@ -295,14 +299,21 @@
         color: #2f2f2f;
     }
 
-    article header div,
+    article header div{
+        width: 60%;
+    }
+
+    article main .ul-max {
+        width: 60%;
+    }
     article main ul {
-        width: 51%;
+        width: 40%;
     }
 
     article header img {
-        height: auto;
-        width: 40%;
+        height: 80%;
+        object-fit: cover;   
+        object-position: end;
     }
 
     main ul {
