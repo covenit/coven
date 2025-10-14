@@ -1,3 +1,10 @@
+import N05 from "../assets/pdf/MD/N05/NO5EM-GM-DMH_2V.pdf";
+import N05ENG from "../assets/pdf/MD/N05/NO5EM-GM-DMH_2V-ENG.pdf";
+import N08 from "../assets/pdf/MD/N08/NO8EM-GM-DMH.pdf";
+import N08ENG from "../assets/pdf/MD/N08/NO8EM-GM-DMH-ENG.pdf";
+import N10 from "../assets/pdf/MD/N10/N10EM-GM-DMH.pdf";
+import N10ENG from "../assets/pdf/MD/N10/N10EM-GM-DMH-ENG.pdf";
+
 export const models = [
     {
         model: "N05EMDMH - 5 TEGLIE",
@@ -15,7 +22,9 @@ export const models = [
         numeropasti: "",
         peso: "104 Kg",
         tensione: "400 ~ 3N",
-        potenza: "7,8 kW"
+        potenza: "7,8 kW",
+        url_pdf: N05,
+        url_pdf_eng: N05ENG
     },
     {
         model: "N05GMDMH - 5 grids",
@@ -33,7 +42,9 @@ export const models = [
         numeropasti: "",
         peso: "115 Kg",
         tensione: "230 ~ 1N",
-        potenza: "8,5/11 kW"
+        potenza: "8,5/11 kW",
+        url_pdf: N05,
+        url_pdf_eng: N05ENG
     },
     {
         model: "N08EMDMH - 8 TEGLIE",
@@ -51,10 +62,12 @@ export const models = [
         numeropasti: "",
         peso: "152 Kg",
         tensione: "400 ~ 3N",
-        potenza: "15,4 kW"
+        potenza: "15,4 kW",
+        url_pdf: N08,
+        url_pdf_eng: N08ENG
     },
     {
-        model: "N08EMDMH - 8 TEGLIE",
+        model: "N08GMDMH - 8 TEGLIE",
         text: "Forno combinato a vapore ad alta efficienza",
         line: "MASTER DELIGHT MECH",
         isElec: false,
@@ -69,7 +82,9 @@ export const models = [
         numeropasti: "",
         peso: "178 Kg",
         tensione: "230 ~ 1N",
-        potenza: "17 kW"
+        potenza: "17 kW",
+        url_pdf: N08,
+        url_pdf_eng: N08ENG
     },
 
     {
@@ -88,7 +103,9 @@ export const models = [
         numeropasti: "",
         peso: "177 Kg",
         tensione: "400 ~ 3N",
-        potenza: "20,4 kW"
+        potenza: "20,4 kW",
+        url_pdf: N10,
+        url_pdf_eng: N10ENG
     },
 
     {
@@ -107,6 +124,8 @@ export const models = [
         numeropasti: "",
         peso: "199 Kg",
         tensione: "230 ~ 1N",
-        potenza: "26 kW"
+        potenza: "26 kW",
+        url_pdf: N10,
+        url_pdf_eng: N10ENG
     },
 ];
