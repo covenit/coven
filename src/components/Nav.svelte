@@ -55,7 +55,9 @@
 
 <nav class="padding-lr">
     <div class="nav-brand">
-        <img src={logo} alt="Logo"/>
+        <a href="/">
+            <img src={logo} alt="Logo"/>
+        </a>
     </div>
 
     <!-- Botón hamburguesa para móvil -->
