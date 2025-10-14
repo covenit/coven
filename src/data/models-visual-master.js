@@ -1,3 +1,10 @@
+import N06 from "../assets/pdf/MD/visual/N05/NO5EM-GM-DVH.pdf";
+import N06ENG from "../assets/pdf/MD/visual/N05/NO5EM-GM-DVH-ENG.pdf";
+import N08 from "../assets/pdf/MD/visual/N08/NO8EM-GM-DVH-ENG.pdf";
+import N08ENG from "../assets/pdf/MD/visual/N08/NO8EM-GM-DVH-ENG.pdf";
+import N10 from "../assets/pdf/MD/visual/N10/N10EM-GM-DVH.pdf";
+import N10ENG from "../assets/pdf/MD/visual/N10/N10EM-GM-DVH-ENG.pdf";
+
 export const models = [
     {
         model: "N05EMDVH - 5 teglie",
@@ -15,7 +22,9 @@ export const models = [
         numeropasti: "",
         peso: "104 Kg",
         tensione: "400 ~ 3N",
-        potenza: "7,8 kW"
+        potenza: "7,8 kW",
+        url_pdf: N06,
+        url_pdf_eng: N06ENG
     },
 
     {
@@ -34,7 +43,9 @@ export const models = [
         numeropasti: "",
         peso: "115 Kg",
         tensione: "400 ~ 3N",
-        potenza: "7,8 kW"
+        potenza: "7,8 kW",
+        url_pdf: N06,
+        url_pdf_eng: N06ENG
     },
 
     {
@@ -53,7 +64,9 @@ export const models = [
         numeropasti: "",
         peso: "152 Kg",
         tensione: "400 ~ 3N",
-        potenza: "15,4 kW"
+        potenza: "15,4 kW",
+        url_pdf: N08,
+        url_pdf_eng: N08ENG
     },
 
     {
@@ -72,7 +85,9 @@ export const models = [
         numeropasti: "",
         peso: "178 Kg",
         tensione: "230 ~ 1N",
-        potenza: "17 kW"
+        potenza: "17 kW",
+        url_pdf: N08,
+        url_pdf_eng: N08ENG
     },
 
     {
@@ -91,10 +106,12 @@ export const models = [
         numeropasti: "",
         peso: "177 Kg",
         tensione: "400 ~ 3N",
-        potenza: "20,4 kW"
+        potenza: "20,4 kW",
+        url_pdf: N10,
+        url_pdf_eng: N10ENG
     },
     {
-        model: "N10EMDVH - 10 teglie",
+        model: "N10GMDVH - 10 teglie",
         text: "Forno combinato a vapore ad alta efficienza",
         line: "MASTER DELIGHT VISUAL",
         isElec: false,
@@ -109,6 +126,8 @@ export const models = [
         numeropasti: "",
         peso: "199 Kg",
         tensione: "230 ~ 1N",
-        potenza: "26 kW"
+        potenza: "26 kW",
+        url_pdf: N10,
+        url_pdf_eng: N10ENG
     }
 ];
