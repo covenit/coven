@@ -25,27 +25,30 @@
         <div id="models">
             <h2>Modelli</h2>
             <br><br>
-             <!-- svelte-ignore a11y_click_events_have_key_events -->
-            <div class="filters">
+            <div class="filter-section">
+                <p>Filtra per tipo di forno</p>
                 <!-- svelte-ignore a11y_click_events_have_key_events -->
-                <!-- svelte-ignore a11y_no_static_element_interactions -->
-                <span class="p-elect"
-                    class:selected={filter === 'Elettrico'} 
-                    on:click={() => setFilter('Elettrico')}>
-                    Elettrico
-                </span>
-                <!-- svelte-ignore a11y_no_static_element_interactions -->
-                <span class="p-gas"
-                    class:selected={filter === 'Gas'} 
-                    on:click={() => setFilter('Gas')}>
-                    Gas
-                </span>
-                <!-- svelte-ignore a11y_no_static_element_interactions -->
-                <span class="p-tutti"
-                    class:selected={filter === 'Tutti'} 
-                    on:click={() => setFilter('Tutti')}>
-                    Tutti
-                </span>
+                <div class="filters">
+                    <!-- svelte-ignore a11y_click_events_have_key_events -->
+                    <!-- svelte-ignore a11y_no_static_element_interactions -->
+                    <span class="p-tutti"
+                        class:selected={filter === 'Tutti'} 
+                        on:click={() => setFilter('Tutti')}>
+                        Tutti
+                    </span>
+                    <!-- svelte-ignore a11y_no_static_element_interactions -->
+                    <span class="p-elect"
+                        class:selected={filter === 'Elettrico'} 
+                        on:click={() => setFilter('Elettrico')}>
+                        Elettrico
+                    </span>
+                    <!-- svelte-ignore a11y_no_static_element_interactions -->
+                    <span class="p-gas"
+                        class:selected={filter === 'Gas'} 
+                        on:click={() => setFilter('Gas')}>
+                        Gas
+                    </span>
+                </div>
             </div>
         </div>
         <br><br>
@@ -64,37 +67,48 @@
         gap: 15px;
 
     }
-    .p-elect, .p-gas, .p-tutti {
-        font-family: 'sf-ui-display-medium';
-        border-radius: 40px;
-        background: #E20C181A;
-        border: 1px solid #E20C18;
-        font-size: 14px;
-        line-height: 20px;
-        letter-spacing: 0%;
-        text-align: start;
-        color: #E20C18;
-        padding: 4px 10px;
-        margin: 0;
-    }
-    .p-gas {
-        background: #0C49E21A;
-        border: 1px solid #0C49E2;
-        color: #0C49E2;
-    }
-
-    .filters {
+    .filter-section {
         display: flex;
-        justify-content: center;
-        align-items: center;
         gap: 20px;
     }
-
-    .p-tutti {
-        border: 1px solid #2F2F2F;
-        color: #2F2F2F;
-        background-color: #2f2f2f18;
+    
+    .filters {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        gap: 10px;
     }
+
+    .filters span {
+        padding: 6px 20px;
+        border-radius: 40px;
+        background-color: #4949491A;
+        border: 1px solid #494949;
+        color: #494949;
+        font-size: 16px;
+        line-height: 28px;
+        letter-spacing: 0%;
+        vertical-align: middle;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        text-align: center;
+    }
+
+    .filter-section .filters span.selected {
+        border: 1px solid #E20C18;
+        outline-offset: 2px;
+        color: #E20C18;
+        background: #E20C181A;
+    }
+    
+    .filter-section p {
+        font-family: 'sf-ui-display-bold';
+        font-size: 20px;
+        line-height: 52px;
+        letter-spacing: -2%;
+        color: #2F2F2F;
+    }
+
     @media (max-width: 767px) {
         .cards {
             display: block;

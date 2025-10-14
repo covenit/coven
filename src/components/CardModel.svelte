@@ -395,6 +395,10 @@
         color: #e20c18;
         text-decoration: underline;
     }
+
+    #btn-scheda-tecn:hover {
+        cursor: pointer;
+    }
     @media (max-width: 767px) {
         article {
             width: 100%;

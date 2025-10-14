@@ -1,3 +1,10 @@
+import N06 from "../assets/pdf/SC/visual/N06/N06ES-GS-CVD.pdf";
+import N06ENG from "../assets/pdf/SC/visual/N06/N06ES-GS-CVD-ENG.pdf";
+import N10 from "../assets/pdf/SC/visual/N10/N10ES-GS-CVD.pdf";
+import N10ENG from "../assets/pdf/SC/visual/N10/N10ES-GS-CVD-ENG.pdf";
+import N20 from "../assets/pdf/SC/visual/N20/N20ES-GS-CVD.pdf";
+import N20ENG from "../assets/pdf/SC/visual/N20/N20ES-GS-CVD-ENG.pdf";
+
 export const models = [
     {
         model: "N06ESCVD - 6 TEGLIE",
@@ -15,7 +22,9 @@ export const models = [
         numeropasti: "max 70",
         peso: "91 Kg",
         tensione: "400 ~ 3N",
-        potenza: "7,8 kW"
+        potenza: "7,8 kW",
+        url_pdf: N06,
+        url_pdf_eng: N06ENG
     },
     {
         model: "N06ESCVX - 6 TEGLIE",
@@ -33,7 +42,9 @@ export const models = [
         numeropasti: "max 70",
         peso: "95 Kg",
         tensione: "400 ~ 3N",
-        potenza: "10,8 kW"
+        potenza: "10,8 kW",
+        url_pdf: N06,
+        url_pdf_eng: N06ENG
     },
     {
         model: "N06GSCVD - 6 TEGLIE",
@@ -51,7 +62,9 @@ export const models = [
         numeropasti: "max 70",
         peso: "103 Kg",
         tensione: "230 ~ 1N",
-        potenza: "8,5 kW"
+        potenza: "8,5 kW",
+        url_pdf: N06,
+        url_pdf_eng: N06ENG
     },
     {
         model: "N06GSCVX - 6 TEGLIE",
@@ -69,7 +82,9 @@ export const models = [
         numeropasti: "max 70",
         peso: "107 Kg",
         tensione: "400 ~ 3N",
-        potenza: "11,5 kW"
+        potenza: "11,5 kW",
+        url_pdf: N06,
+        url_pdf_eng: N06ENG
     },
     {
         model: "N10ESCVD - 10 TEGLIE",
@@ -87,7 +102,9 @@ export const models = [
         numeropasti: "max 100",
         peso: "145 Kg",
         tensione: "400 ~ 3N",
-        potenza: "15,4 kW"
+        potenza: "15,4 kW",
+        url_pdf: N10,
+        url_pdf_eng: N10ENG
     },
     {
         model: "N10ESCVX - 10 TEGLIE",
@@ -105,7 +122,9 @@ export const models = [
         numeropasti: "max 100",
         peso: "149 Kg",
         tensione: "400 ~ 3N",
-        potenza: "21,4 kW"
+        potenza: "21,4 kW",
+        url_pdf: N10,
+        url_pdf_eng: N10ENG
     },
     {
         model: "N10GSCVD - 10 TEGLIE",
@@ -123,7 +142,9 @@ export const models = [
         numeropasti: "max 100",
         peso: "168 Kg",
         tensione: "230 ~ 1N",
-        potenza: "17 kW"
+        potenza: "17 kW",
+        url_pdf: N10,
+        url_pdf_eng: N10ENG
     },
     {
         model: "N10GSCVX - 10 TEGLIE",
@@ -141,7 +162,9 @@ export const models = [
         numeropasti: "max 100",
         peso: "172 Kg",
         tensione: "400 ~ 3N",
-        potenza: "23 kW"
+        potenza: "23 kW",
+        url_pdf: N10,
+        url_pdf_eng: N10ENG
     },
     {
         model: "N20ESCVD - 20 TEGLIE",
@@ -159,7 +182,9 @@ export const models = [
         numeropasti: "max 300",
         peso: "215 Kg",
         tensione: "400 ~ 3N",
-        potenza: "20,4 kW"
+        potenza: "20,4 kW",
+        url_pdf: N20,
+        url_pdf_eng: N20ENG
     },
     {
         model: "N20GSCVD - 20 TEGLIE",
@@ -177,6 +202,8 @@ export const models = [
         numeropasti: "max 300",
         peso: "237 Kg",
         tensione: "400 ~ 3N",
-        potenza: "26 kW"
+        potenza: "26 kW",
+        url_pdf: N20,
+        url_pdf_eng: N20ENG
     }
 ];
