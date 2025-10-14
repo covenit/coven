@@ -227,7 +227,9 @@
                 <a href="{model.url_pdf}" target="_blank">    
                     <button id="btnPrimary-black">Italiano</button>
                 </a>
-                <button id="btnPrimary-black">Inglese</button>
+                <a href="{model.url_pdf_eng}" target="_blank">
+                    <button id="btnPrimary-black">Inglese</button>
+                </a>
             </div>
         </main>
     </div>

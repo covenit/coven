@@ -1,4 +1,10 @@
-import N06ESGSCMD from "../assets/pdf/N06ES-GS-CMD.pdf";
+import N06 from "../assets/pdf/SC/mech/N06/N06ES-GS-CMD.pdf";
+import N06ENG from "../assets/pdf/SC/mech/N06/N06ES-GS-CMD-ENG.pdf";
+import N10 from "../assets/pdf/SC/mech/N10/N10ES-GS-CMD.pdf";
+import N10ENG from "../assets/pdf/SC/mech/N10/N10ES-GS-CMD-ENG.pdf";
+import N20 from "../assets/pdf/SC/mech/N20/N20ES-GS-CMD.pdf";
+import N20ENG from "../assets/pdf/SC/mech/N20/N20ES-GS-CMD-ENG.pdf";
+
 export const models = [
     {
         model: "N06ESCMD - 6 TEGLIE",
@@ -17,7 +23,8 @@ export const models = [
         peso: "91 Kg",
         tensione: "415 ~ 3N",
         potenza: "7,8 kW",
-        url_pdf: N06ESGSCMD
+        url_pdf: N06,
+        url_pdf_eng: N06ENG
     },
     {
         model: "N06GSCMD - 6 TEGLIE",
@@ -35,7 +42,9 @@ export const models = [
         numeropasti: "max 70",
         peso: "103 Kg",
         tensione: "230 ~ 1N",
-        potenza: "8,5 kW"
+        potenza: "8,5 kW",
+        url_pdf: N06,
+        url_pdf_eng: N06ENG
     },
     {
         model: "N06ESCMD - 10 TEGLIE",
