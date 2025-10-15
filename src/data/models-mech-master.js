@@ -21,7 +21,7 @@ export const models = [
         distanzateglie: "80 mm",
         numeropasti: "",
         peso: "104 Kg",
-        tensione: "400 ~ 3N",
+        tensione: "415 ~ 3N",
         potenza: "7,8 kW",
         url_pdf: N05,
         url_pdf_eng: N05ENG
@@ -42,7 +42,7 @@ export const models = [
         numeropasti: "",
         peso: "115 Kg",
         tensione: "230 ~ 1N",
-        potenza: "8,5/11 kW",
+        potenza: "8,5 kW",
         url_pdf: N05,
         url_pdf_eng: N05ENG
     },
@@ -61,7 +61,7 @@ export const models = [
         distanzateglie: "80 mm",
         numeropasti: "",
         peso: "152 Kg",
-        tensione: "400 ~ 3N",
+        tensione: "415 ~ 3N",
         potenza: "15,4 kW",
         url_pdf: N08,
         url_pdf_eng: N08ENG
@@ -102,8 +102,8 @@ export const models = [
         distanzateglie: "80 mm",
         numeropasti: "",
         peso: "177 Kg",
-        tensione: "400 ~ 3N",
-        potenza: "20,4 kW",
+        tensione: "415 ~ 3N",
+        potenza: "20,8 kW",
         url_pdf: N10,
         url_pdf_eng: N10ENG
     },
