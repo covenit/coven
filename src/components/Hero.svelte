@@ -148,10 +148,9 @@ h1 p {
     background: white;
   }
   50%, 100% {
-    background-image: url("./../../public/hero1mb.webp");
+    background-image: url("./../../public/home.png");
     background-size: cover;
-    background-position-y: 10vh;
-    background-size: 180%;
+    background-position: center;
     background-color: rgba(0, 0, 0, 0.4);
     background-blend-mode: darken;
   }
