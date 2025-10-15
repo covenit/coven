@@ -2,7 +2,7 @@
     import HeroProducts from "../../components/HeroProducts.svelte";
     import ContainerCharacteristics from "../../components/Container-characteristics.svelte";
     import ContainerGrey from "../../components/container-grey.svelte";
-    const backgroundImage = '/hero-line-steady.cook.webp';
+    const backgroundImage = '/hero-line-master.webp';
     import Gallery from "../../components/Gallery.svelte";
     import CustomizedTools from "../../components/CustomizedTools.svelte";
     import CookingTechnologySection from "../../components/CookingTechnologySection.svelte";

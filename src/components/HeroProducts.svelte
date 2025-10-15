@@ -21,7 +21,7 @@
     height: 70vh;
     background-size: cover;
     background-position: center center;
-    background-color: rgba(0, 0, 0, 0.6); /* negro semitransparente arriba */
+    /* background-color: rgba(0, 0, 0, 0.6); negro semitransparente arriba */
     background-blend-mode: darken; /* o multiply, overlay, etc. */
     display: flex;
     justify-content: center;
