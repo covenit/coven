@@ -101,8 +101,8 @@ export const models = [
         distanzateglie: "70 mm",
         numeropasti: "max 300",
         peso: "215 Kg",
-        tensione: "400 ~ 3N",
-        potenza: "20,4 kW",
+        tensione: "415 ~ 3N",
+        potenza: "20,8 kW",
         url_pdf: N20,
         url_pdf_eng: N20ENG
     },
@@ -121,7 +121,7 @@ export const models = [
         distanzateglie: "70 mm",
         numeropasti: "max 300",
         peso: "237 Kg",
-        tensione: "400 ~ 3N",
+        tensione: "415 ~ 3N",
         potenza: "26 kW",
         url_pdf: N20,
         url_pdf_eng: N20ENG
