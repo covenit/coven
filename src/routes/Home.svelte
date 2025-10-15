@@ -7,6 +7,7 @@
     import Statistics from '../components/Statistics.svelte';
     import { fade } from 'svelte/transition';
     import Form from '../components/Form.svelte';
+    import SectionVideos from '../components/SectionVideos.svelte';
 
     const imageRightSection1 = '/home1.webp';
 
@@ -160,6 +161,7 @@
         {/if}
 </section>
 
+<SectionVideos></SectionVideos>
 
 <Form complete={false}></Form>
 
