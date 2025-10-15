@@ -142,5 +142,19 @@ h1 p {
     0%, 40%   { opacity: 1; z-index: 2; }
     45%, 100% { opacity: 0; z-index: 0; }
   }
+
+  @keyframes bgChange {
+  0%, 45% {
+    background: white;
+  }
+  50%, 100% {
+    background-image: url("./../../public/hero1mb.webp");
+    background-size: cover;
+    background-position-y: 10vh;
+    background-size: 180%;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: darken;
+  }
+}
 }
 </style>
