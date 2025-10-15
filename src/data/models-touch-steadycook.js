@@ -156,7 +156,7 @@ export const models = [
         numeropasti: "max 100",
         peso: "172 Kg",
         tensione: "415 ~ 3N",
-        potenza: "23 kW"
+        potenza: "17 kW"
     },
     {
         model: "N20ESCTD - 20 TEGLIE",
