@@ -1,6 +1,6 @@
 import N06 from "../assets/pdf/MD/visual/N05/NO5EM-GM-DVH.pdf";
 import N06ENG from "../assets/pdf/MD/visual/N05/NO5EM-GM-DVH-ENG.pdf";
-import N08 from "../assets/pdf/MD/visual/N08/NO8EM-GM-DVH-ENG.pdf";
+import N08 from "../assets/pdf/MD/visual/N08/NO8EM-GM-DVH.pdf";
 import N08ENG from "../assets/pdf/MD/visual/N08/NO8EM-GM-DVH-ENG.pdf";
 import N10 from "../assets/pdf/MD/visual/N10/N10EM-GM-DVH.pdf";
 import N10ENG from "../assets/pdf/MD/visual/N10/N10EM-GM-DVH-ENG.pdf";
@@ -21,7 +21,7 @@ export const models = [
         distanzateglie: "80 mm",
         numeropasti: "",
         peso: "104 Kg",
-        tensione: "400 ~ 3N",
+        tensione: "415 ~ 3N",
         potenza: "7,8 kW",
         url_pdf: N06,
         url_pdf_eng: N06ENG
@@ -42,8 +42,8 @@ export const models = [
         distanzateglie: "80 mm",
         numeropasti: "",
         peso: "115 Kg",
-        tensione: "400 ~ 3N",
-        potenza: "7,8 kW",
+        tensione: "230 ~ 1N",
+        potenza: "8,5 kW",
         url_pdf: N06,
         url_pdf_eng: N06ENG
     },
@@ -63,7 +63,7 @@ export const models = [
         distanzateglie: "80 mm",
         numeropasti: "",
         peso: "152 Kg",
-        tensione: "400 ~ 3N",
+        tensione: "415 ~ 3N",
         potenza: "15,4 kW",
         url_pdf: N08,
         url_pdf_eng: N08ENG
@@ -105,8 +105,8 @@ export const models = [
         distanzateglie: "80 mm",
         numeropasti: "",
         peso: "177 Kg",
-        tensione: "400 ~ 3N",
-        potenza: "20,4 kW",
+        tensione: "415 ~ 3N",
+        potenza: "20,8 kW",
         url_pdf: N10,
         url_pdf_eng: N10ENG
     },
