@@ -322,6 +322,10 @@
             display: flex;
         }
 
+        nav {
+            height: 10vh;
+        }
+
         .links {
             position: fixed;
             top: 0;
