@@ -27,7 +27,7 @@ export const models = [
         url_pdf_eng: N05ENG
     },
     {
-        model: "N05GMDMH - 5 grids",
+        model: "N05GMDMH - 5 TEGLIE",
         text: "Forno combinato a vapore ad alta efficienza",
         line: "MASTER DELIGHT MECH",
         isElec: false,
