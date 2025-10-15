@@ -113,5 +113,13 @@
         .cards {
             display: block;
         }
+        .filter-section {
+            display: block;
+            gap: 20px;
+        }
+
+        .filters {
+            display: block;
+        }
     }
 </style>

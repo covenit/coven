@@ -65,7 +65,10 @@
         display: flex;
         justify-content: start;
         align-items: end;
-        background-position: start center;
+        background-position-y: 10vh;
+        background-size: 180%;
+        background-repeat: no-repeat;
+        background-position: none;
       }
       .hero .content {
         text-align: start;
