@@ -73,6 +73,14 @@
         </ul>
     </div>
 </footer>
+<div class="footer-extra">
+    <p style="width: 50%;">Copyright 2025 COVEN S.r.l. Tutti i diritti riservati. Reg. Imp. Torino n° 11999740019 - R.E.A. Torino 1257059 - Cap. Soc. 15.000,00 € i.v - P.IVA / C.F. 11999740019</p>
+</div>
+<div class="footer-extra">
+    <a href=""> 
+        <p style="font-size: 12px;">Website created by @pehuen.agency 🌲</p>
+    </a>
+</div>
 
 
 <style>
@@ -84,6 +92,25 @@
         background: #2F2F2F;
     }
 
+    .footer-extra {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #2F2F2F;
+        color: #fff;
+        padding-bottom: 6vh;
+    }
+    
+    .footer-extra p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .footer-extra a {
+        text-decoration: none;
+        color: #fff;
+    }
+    
     footer div {
         width: 170px;
     }

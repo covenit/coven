@@ -135,7 +135,7 @@
     <br>
     <main>
         <ImageCardWithLabel image={why1} title={'Assistenza 24/7, perché'} titleaux={'la tua cucina non dorme mai.'}/>
-        <ImageCardWithLabel image={why2} title={'Affidabilità garantita,'} titleaux={'garanzia di 2 anni.'} />
+        <ImageCardWithLabel image={why2} title={'Affidabilità garantita.'} titleaux={''} />
         <ImageCardWithLabel image={why3} title={'Il tuo partner di'} titleaux={'fiducia in cucina.'}/>
         <ImageCardWithLabel image={why4} title={'Tecnologia intelligente,'} titleaux={'esecuzione impeccabile.'} />
     </main>

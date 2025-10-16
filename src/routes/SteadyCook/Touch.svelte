@@ -107,8 +107,8 @@
             src : "/spec-images/multicook.png"
         },
         {
-            title: "maniglia bistadio",
-            text: "massima sicurezza e chiusura ermetica a tenuta perfetta. I forni di grande dimensione sono dotati di maniglie con sistema di chiusura in 2 punti", 
+            title: "maniglia bistadio - chiusura 2 punti",
+            text: "massima sicurezza e chiusura a tenuta perfetta, i forni di grandi dimensioni sono dotati di maniglie con sistema di chiusura in 2 punti.", 
             src : "/spec-images/manigliabistadio.png"
         },
     ];
@@ -140,7 +140,7 @@
     <div class="card-detail-container">
         <article class="flex">
            <div class="number">1</div>
-            <p><span>display grafico touch screen ad alta visibilità</span></p>
+            <p><span>display grafico TFT Touch Screen 7”</span></p>
         </article>
         <article>
             <p>Librerie memorizzate e programmabili. Cicli di cottura: mantenimento, delta-T, rigenerazione, bassa temperatura e sottovuoto. programmi di lavaggio automatici, autodiagnosi e aggiornamento in remoto.</p>

@@ -85,14 +85,14 @@
             src : "/spec-images/evacuazionerapidaumidita.png"
         },
         {
-            title: "maniglia bistadio",
-            text: "massima sicurezza e chiusura ermetica a tenuta perfetta. I forni di grande dimensione sono dotati di maniglie con sistema di chiusura in 2 punti", 
+            title: "maniglia bistadio - chiusura 2 punti",
+            text: "massima sicurezza e chiusura a tenuta perfetta, i forni di grandi dimensioni sono dotati di maniglie con sistema di chiusura in 2 punti.", 
             src : "/spec-images/manigliabistadio.png"
         },
     ];
 
     /*Images of details*/
-    const imageDetails = "/details/steadycook/merch.webp";
+    const imageDetails = "/details/steadycook/mech.png";
     const details = [
         { id: 1, title: "apertura/chiusura", text: "valvola evacuazione rapida"},
         { id: 2, title: "display", text: "termoregolatore digitale"},

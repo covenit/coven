@@ -39,8 +39,8 @@ export const accessories = [
   },
   {
     id: 2,
-    name: "ABBATTITORE DI VAPORE",
-    text:"Dispositivo professionale per ridurre rapidamente la temperatura di cibi cotti, preservandone freschezza, sapore e consistenza. Efficiente e sicuro.",
+    name: "ABBATTITORE VAPORI",
+    text: "Sistema progettato per il trattamento dei vapori di scarico, che ne consente il raffreddamento e la condensazione prima che vengano convogliati nel sistema di drenaggio.",
     code: "ABVAP06 - ABVAP10-20",
     serie: "Series 6, 10, 20",
     category: ["Steady cook", "Specifiche"],
@@ -67,7 +67,7 @@ export const accessories = [
   {
     id: 5,
     name: "PORTA CONTRARIA",
-    text:"Porta reversibile per forno, progettata per aprirsi in entrambe le direzioni e adattarsi a qualsiasi spazio di lavoro. Robusta e sicura.",
+    text:"Porta contraria con apertura da sinistra verso destra.",
     code: "NS061723C - NS01021C - CL20022C - MD05014C - MD08022C - MC12022C",
     serie: "TUTTI MODELLI",
     category: ["Tutti", "Specifiche"],
@@ -76,7 +76,7 @@ export const accessories = [
   {
     id: 7,
     name: "SUPPORTO INOX SMONTABILE",
-    text:"Supporto in acciaio inox resistente e modulare, facile da montare e smontare. Perfetto per organizzare al meglio teglie e bacinelle nel forno.",
+    text:"Supporto in acciaio inox resistente, facile da montare e smontare. Perfetto per organizzare al meglio teglie e bacinelle nel forno.",
     code: "SUPSC06 - SUPSC10 -SUPSC20 - SUPMD05 - SUPMD08 -SUPMD10",
     serie: "TUTTI MODELLI",
     category: ["Tutti", "Specifiche"],
@@ -148,7 +148,7 @@ export const accessories = [
   {
     id: 17,
     name: "BACINELLE INOX",
-    text:"Bacinelle in acciaio inox resistenti e versatili, ideali per conservare, mescolare o cuocere ingredienti. Facili da pulire e durature.",
+    text:"Bacinelle in acciaio inox resistenti e versatili, ideali per conservare, mescolare o cuocere alimenti. Facili da pulire e durature.",
     code: "ABIG2011- ABI04011 - ABI06511- ABI02021 - ABIO4021 - ABIO6521",
     serie: "GN 1/1 H 20 mm, GN 1/1 H 40 mm, GN 1/1 H 65 mm, GN 2/1 H 20 mm, GN 2/1 H 40 mm, GN 2/1 H 65 mm",
     category: ["Steady Cook", "Multigrill"],
@@ -165,8 +165,8 @@ export const accessories = [
   },
   {
     id: 19,
-    name: "BACINELLE ANTIADERENTI",
-    text: "Bacinelle resistenti con rivestimento antiaderente, ideali per preparazioni alimentari senza attaccarsi. Facili da pulire e riutilizzabili.",
+    name: "BACINELLA ANTIADERENTI",
+    text: "Bacinella resistente e facile da pulire, con rivestimento antiaderente per una cottura uniforme senza che gli alimenti si attacchino. Ideale per ogni tipo di preparazione.",
     code: "ABIV1120 - ABIV1140",
     serie: "GN 1/1 H 20 mm, GN 1/1 H 40 mm",
     category: ["Steady Cook", "Multigrill"],
@@ -232,7 +232,7 @@ export const accessories = [
     text: "Detergente specifico per forni professionali, efficace contro grassi e residui ostinati. Formato tanica da 6 kg per un uso pratico e duraturo.",
     code: "DETLAVUSL",
     serie: "All Visual and Touch Models",
-    category: ["Tutti", "Multigrill"],
+    category: ["Tutti", "Specifiche"],
     image: DETLAVUSL
   }
 ];

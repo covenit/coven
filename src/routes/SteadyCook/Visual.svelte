@@ -99,8 +99,8 @@
             src : "/spec-images/evacuazionerapidaumidita.png"
         },
         {
-            title: "maniglia bistadio",
-            text: "massima sicurezza e chiusura ermetica a tenuta perfetta. I forni di grande dimensione sono dotati di maniglie con sistema di chiusura in 2 punti", 
+            title: "maniglia bistadio - chiusura 2 punti",
+            text: "massima sicurezza e chiusura a tenuta perfetta, i forni di grandi dimensioni sono dotati di maniglie con sistema di chiusura in 2 punti.", 
             src : "/spec-images/manigliabistadio.png"
         },
     ];
@@ -119,11 +119,11 @@
         { id: 8, title: "doppio display", text: "visualizzazione percentuale umidità, programmi, fasi"},
         { id: 9, title: "programmi /", text: "valvola automatica di sfiato"},
         { id: 10, title: "fasi", text: ""},
-        { id: 11, title: "percentual", text: "umidità"},
+        { id: 11, title: "percentuale", text: "umidità"},
         { id: 12, title: "luce", text: "camera"},
         { id: 13, title: "start", text: "stop"},
         { id: 14, title: "velocità", text: "ventola controllata da inverter"},
-        { id: 15, title: "encoder", text: "push / set / up and down / stand-by"},
+        { id: 15, title: "encoder", text: "push to set / up and down / stand-by"},
         { id: 16, title: "porta usb", text: ""},
     ]
 
