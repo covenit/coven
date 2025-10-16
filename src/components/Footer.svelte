@@ -150,5 +150,9 @@
         .social {
             margin-bottom: 2vh;
         }
+
+        .footer-extra {
+            padding: 5vh;
+        }
     }
 </style>
