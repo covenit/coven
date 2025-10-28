@@ -122,6 +122,15 @@ p a {
 
   .slide2 {
     background-image: url("./../../public/home2mb.jpg");
+    background-position: center;
+  }
+  
+  .hero, .slide {
+    height: 50vh;
+  }
+
+  .slide1 {
+    background-position-y: 5vh;
   }
 }
 </style>
