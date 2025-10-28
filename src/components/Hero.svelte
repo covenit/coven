@@ -66,7 +66,12 @@
 }
 
 .slide2 {
-  background-image: url("./../../public/home2.webp");
+  background:
+    linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
+    url("./../../public/home2.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 /* Texto */
@@ -101,9 +106,22 @@ p a {
     font-size: 24px; 
     text-align: start; 
   }
-  .hero {
+  .slide {
     align-items: end;
-    margin-bottom: 2vh;
+    justify-content: start;
+    margin-bottom: 3vh;
+  }
+
+  p a {
+    font-size: 22px;
+  }
+
+  .slide2 h1 {
+    width: 60%;
+  }
+
+  .slide2 {
+    background-image: url("./../../public/home2mb.jpg");
   }
 }
 </style>
