@@ -148,6 +148,7 @@
                 <ul>
                     <li><a href="/CATALOGONEWLINEITA0525.pdf" on:click={closeMenus} target="_blank">Steady Cook e Master Delight (ITA)</a></li>
                     <li><a href="/CATALOGONEWLINEENG.pdf" on:click={closeMenus} target="_blank">Steady Cook and Master Delight (ENG)</a></li>
+                    <li><a href="/CATALOGONEWLINEFRANC.pdf" on:click={closeMenus} target="_blank">Steady Cook et Master Delight (FRA)</a></li>
                 </ul>
             </div>
         </div>
