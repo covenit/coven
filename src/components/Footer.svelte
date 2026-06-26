@@ -78,7 +78,7 @@
 </div>
 <div class="footer-extra">
     <a href=""> 
-        <p style="font-size: 12px;">Website created by @pehuen.agency 🌲</p>
+        <p style="font-size: 12px;">Website created by <a href="https://instagram.com/otestudio_mkt">@otestudio_mkt</a></p>
     </a>
 </div>
 
