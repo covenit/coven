@@ -77,9 +77,7 @@
     <p style="width: 50%;">Copyright 2025 COVEN S.r.l. Tutti i diritti riservati. Reg. Imp. Torino n° 11999740019 - R.E.A. Torino 1257059 - Cap. Soc. 15.000,00 € i.v - P.IVA / C.F. 11999740019</p>
 </div>
 <div class="footer-extra">
-    <a href=""> 
-        <p style="font-size: 12px;">Website created by <a href="https://instagram.com/otestudio_mkt">@otestudio_mkt</a></p>
-    </a>
+    <p style="font-size: 12px;">Website created by <a href="https://instagram.com/otestudio_mkt" target="_blank">@otestudio_mkt</a></p>
 </div>
 
 
